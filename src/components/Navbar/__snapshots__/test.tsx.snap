@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> should render the explore planel button 1`] = `
+.c0 {
+  width: 100%;
+  height: 64px;
+  background: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 {
+  width: 80px;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.c2 {
+  heigth: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    data-testid="navbar-menu"
+  >
+    <img
+      alt="menu"
+      data-nimg="1"
+      data-testid="menu-button"
+      decoding="async"
+      height="20"
+      loading="lazy"
+      src="img/menu.svg"
+      style="color: transparent;"
+      width="32"
+    />
+  </div>
+  <div
+    class=""
+  >
+    <div>
+      mocked icon
+    </div>
+  </div>
+  <div
+    class="c2"
+  >
+    <img
+      alt="explore-panel"
+      data-nimg="1"
+      data-testid="explore-panel-button"
+      decoding="async"
+      height="24"
+      loading="lazy"
+      src="img/explore-panel.svg"
+      style="color: transparent;"
+      width="149"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Navbar /> should render the menu button 1`] = `
+.c0 {
+  width: 100%;
+  height: 64px;
+  background: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 {
+  width: 80px;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.c2 {
+  heigth: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    data-testid="navbar-menu"
+  >
+    <img
+      alt="menu"
+      data-nimg="1"
+      data-testid="menu-button"
+      decoding="async"
+      height="20"
+      loading="lazy"
+      src="img/menu.svg"
+      style="color: transparent;"
+      width="32"
+    />
+  </div>
+  <div
+    class=""
+  >
+    <div>
+      mocked icon
+    </div>
+  </div>
+  <div
+    class="c2"
+  >
+    <img
+      alt="explore-panel"
+      data-nimg="1"
+      data-testid="explore-panel-button"
+      decoding="async"
+      height="24"
+      loading="lazy"
+      src="img/explore-panel.svg"
+      style="color: transparent;"
+      width="149"
+    />
+  </div>
+</div>
+`;

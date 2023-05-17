@@ -1,0 +1,553 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Incentives /> should render - without status 1`] = `
+.c0 {
+  color: #111111;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    Incentives
+  </h1>
+  <br />
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Incentive
+          </th>
+          <th>
+            Description
+          </th>
+          <th>
+            Tax Filing
+          </th>
+          <th>
+            Amount
+          </th>
+          <th>
+            Date
+          </th>
+          <th>
+            Action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Item
+          </td>
+          <td>
+            Program
+          </td>
+          <td>
+            -
+          </td>
+          <td>
+            30%
+          </td>
+          <td>
+            20210503
+          </td>
+          <td>
+            <button>
+              <a
+                href="http://www.link.com"
+              >
+                View
+              </a>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`<Incentives /> should render amount type dollar 1`] = `
+.c0 {
+  color: #111111;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    Incentives
+  </h1>
+  <br />
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Incentive
+          </th>
+          <th>
+            Description
+          </th>
+          <th>
+            Tax Filing
+          </th>
+          <th>
+            Amount
+          </th>
+          <th>
+            Date
+          </th>
+          <th>
+            Action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Item
+          </td>
+          <td>
+            Program
+          </td>
+          <td>
+            -
+          </td>
+          <td>
+            $30
+          </td>
+          <td>
+            20210503
+          </td>
+          <td>
+            <button>
+              <a
+                href="http://www.link.com"
+              >
+                View
+              </a>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`<Incentives /> should render amount type percent 1`] = `
+.c0 {
+  color: #111111;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    Incentives
+  </h1>
+  <br />
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Incentive
+          </th>
+          <th>
+            Description
+          </th>
+          <th>
+            Tax Filing
+          </th>
+          <th>
+            Amount
+          </th>
+          <th>
+            Date
+          </th>
+          <th>
+            Action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Item
+          </td>
+          <td>
+            Program
+          </td>
+          <td>
+            -
+          </td>
+          <td>
+            30%
+          </td>
+          <td>
+            20210503
+          </td>
+          <td>
+            <button>
+              <a
+                href="http://www.link.com"
+              >
+                View
+              </a>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`<Incentives /> should render item 1`] = `
+.c0 {
+  color: #111111;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    Incentives
+  </h1>
+  <br />
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Incentive
+          </th>
+          <th>
+            Description
+          </th>
+          <th>
+            Tax Filing
+          </th>
+          <th>
+            Amount
+          </th>
+          <th>
+            Date
+          </th>
+          <th>
+            Action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Item
+          </td>
+          <td>
+            Program
+          </td>
+          <td>
+            Single
+          </td>
+          <td>
+            30%
+          </td>
+          <td>
+            20210503
+          </td>
+          <td>
+            <button>
+              <a
+                href="http://www.link.com"
+              >
+                View
+              </a>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`<Incentives /> should render joint status enum 1`] = `
+.c0 {
+  color: #111111;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    Incentives
+  </h1>
+  <br />
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Incentive
+          </th>
+          <th>
+            Description
+          </th>
+          <th>
+            Tax Filing
+          </th>
+          <th>
+            Amount
+          </th>
+          <th>
+            Date
+          </th>
+          <th>
+            Action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Item
+          </td>
+          <td>
+            Program
+          </td>
+          <td>
+            Joint
+          </td>
+          <td>
+            30%
+          </td>
+          <td>
+            20210503
+          </td>
+          <td>
+            <button>
+              <a
+                href="http://www.link.com"
+              >
+                View
+              </a>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`<Incentives /> should render joint status enum 2`] = `
+.c0 {
+  color: #111111;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    Incentives
+  </h1>
+  <br />
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Incentive
+          </th>
+          <th>
+            Description
+          </th>
+          <th>
+            Tax Filing
+          </th>
+          <th>
+            Amount
+          </th>
+          <th>
+            Date
+          </th>
+          <th>
+            Action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Item
+          </td>
+          <td>
+            Program
+          </td>
+          <td>
+            Head of Household
+          </td>
+          <td>
+            30%
+          </td>
+          <td>
+            20210503
+          </td>
+          <td>
+            <button>
+              <a
+                href="http://www.link.com"
+              >
+                View
+              </a>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`<Incentives /> should render program 1`] = `
+.c0 {
+  color: #111111;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    Incentives
+  </h1>
+  <br />
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Incentive
+          </th>
+          <th>
+            Description
+          </th>
+          <th>
+            Tax Filing
+          </th>
+          <th>
+            Amount
+          </th>
+          <th>
+            Date
+          </th>
+          <th>
+            Action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Item
+          </td>
+          <td>
+            Program
+          </td>
+          <td>
+            Single
+          </td>
+          <td>
+            30%
+          </td>
+          <td>
+            20210503
+          </td>
+          <td>
+            <button>
+              <a
+                href="http://www.link.com"
+              >
+                View
+              </a>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`<Incentives /> should render single status enum 1`] = `
+.c0 {
+  color: #111111;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    Incentives
+  </h1>
+  <br />
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Incentive
+          </th>
+          <th>
+            Description
+          </th>
+          <th>
+            Tax Filing
+          </th>
+          <th>
+            Amount
+          </th>
+          <th>
+            Date
+          </th>
+          <th>
+            Action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Item
+          </td>
+          <td>
+            Program
+          </td>
+          <td>
+            Single
+          </td>
+          <td>
+            30%
+          </td>
+          <td>
+            20210503
+          </td>
+          <td>
+            <button>
+              <a
+                href="http://www.link.com"
+              >
+                View
+              </a>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

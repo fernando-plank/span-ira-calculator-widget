@@ -1,0 +1,3834 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should have link to Mission & Careers 1`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;
+
+exports[`<Footer /> should have link to app 1`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;
+
+exports[`<Footer /> should have link to drive 1`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;
+
+exports[`<Footer /> should have link to home 1`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;
+
+exports[`<Footer /> should have link to legal 1`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;
+
+exports[`<Footer /> should have link to news 1`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;
+
+exports[`<Footer /> should have link to panel 1`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;
+
+exports[`<Footer /> should have link to partners 1`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;
+
+exports[`<Footer /> should have link to privacy policy 1`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;
+
+exports[`<Footer /> should have link to social media 1`] = `
+[
+  "https://www.instagram.com/get_span/?hl=en",
+  "https://www.linkedin.com/company/spanio/mycompany/",
+  "https://twitter.com/span_io?lang=en",
+  "https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA",
+  "https://www.facebook.com/get.SPAN/",
+  "https://www.tiktok.com/@span.io?lang=en",
+]
+`;
+
+exports[`<Footer /> should have link to social media 2`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;
+
+exports[`<Footer /> should have link to support 1`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;
+
+exports[`<Footer /> should have link to tech portal 1`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;
+
+exports[`<Footer /> should have link to terms of service 1`] = `
+.c6 {
+  margin-bottom: 15px;
+}
+
+.c0 {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 54px 24px;
+  text-align: left;
+}
+
+.c0 svg > path {
+  fill: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4 {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c7 {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 53px;
+}
+
+@media (min-width:320px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    width: 40%;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 50%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    mocked icon
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/"
+          target="_blank"
+        >
+          Home
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/panel"
+          target="_blank"
+        >
+          Panel
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/drive"
+          target="_blank"
+        >
+          Drive
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/app"
+          target="_blank"
+        >
+          App
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/partners"
+          target="_blank"
+        >
+          Installers & Partners
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/mission-careers"
+          target="_blank"
+        >
+          Mission & Careers
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/news"
+          target="_blank"
+        >
+          News
+        </a>
+      </div>
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="https://www.span.io/tech-portal"
+          target="_blank"
+        >
+          Tech Portal
+        </a>
+        <a
+          class="c4"
+          href="https://support.span.io/hc/en-us/"
+          target="_blank"
+        >
+          Support
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/terms-of-service"
+          target="_blank"
+        >
+          Terms of Service
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/privacy"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="c4"
+          href="https://www.span.io/legal"
+          target="_blank"
+        >
+          Legal
+        </a>
+      </div>
+    </div>
+    <div
+      class="c5"
+    >
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.instagram.com/get_span/?hl=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.linkedin.com/company/spanio/mycompany/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://twitter.com/span_io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.youtube.com/channel/UClLe-YG5QZKFJAlJhwdYPGA"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.facebook.com/get.SPAN/"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+      <a
+        class="c6"
+        data-testid="social-media-link"
+        href="https://www.tiktok.com/@span.io?lang=en"
+        target="_blank"
+      >
+        <div>
+          mocked icon
+        </div>
+      </a>
+    </div>
+  </div>
+  <p
+    class="c7"
+  >
+    ©2023 SPAN.io, Inc. All rights reserved.
+  </p>
+</div>
+`;

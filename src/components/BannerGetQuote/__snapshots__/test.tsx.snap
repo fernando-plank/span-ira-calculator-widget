@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BannerGetQuote /> should render explore panel button 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  text-align: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  font-weight: 600;
+}
+
+.c6 {
+  border-radius: 20px;
+  margin-right: 14px;
+  height: 42px;
+  width: 50%;
+}
+
+.c7 {
+  color: #1F1F1F;
+  margin-left: 14px;
+  height: 42px;
+  width: 50%;
+  background: none;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width:320px) {
+  .c0 {
+    background: url(img/banner-get-quote-mobile.png) no-repeat;
+    color: #1F1F1F;
+    background-size: 100%;
+    height: auto;
+    padding-top: 40px;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    background: url(img/banner-get-quote-desktop.png) no-repeat center;
+    color: #FAFAFA;
+    background-size: 100%;
+    height: 730px;
+    padding-top: 0px;
+  }
+}
+
+@media (min-width:320px) {
+  .c1 {
+    padding: 41px 22px;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 278px;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding: 60px 55px;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    padding-top: 245px;
+    height: 640px;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 {
+    width: 70%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    font-size: 136px;
+    line-height: 136px;
+  }
+}
+
+@media (min-width:320px) {
+  .c4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 51px;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    width: 50%;
+    margin-top: 63px;
+  }
+}
+
+@media (min-width:320px) {
+  .c6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #1F1F1F;
+    border: 2px solid #1F1F1F;
+    color: #FAFAFA;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FAFAFA;
+    border: 2px solid #FAFAFA;
+    color: #1F1F1F;
+  }
+}
+
+@media (min-width:320px) {
+  .c7 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: 2px solid #1F1F1F;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: 2px solid #FAFAFA;
+    color: #FAFAFA;
+  }
+}
+
+@media (min-width:320px) {
+  .c5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    width: 30%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h1
+        class="c3"
+      >
+        Ready
+      </h1>
+      <h1
+        class="c3"
+      >
+        for SPAN?
+      </h1>
+      <p
+        class="c4"
+      >
+        Complete our easy form and one of our Home Advisors will be in touch to discuss your project scope, and the savings available.
+      </p>
+    </div>
+    <div
+      class="c5"
+    >
+      <button
+        class="c6"
+      >
+        Get quote
+      </button>
+      <button
+        class="c7"
+      >
+        Explore panel
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BannerGetQuote /> should render get quote button 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  text-align: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  font-weight: 600;
+}
+
+.c6 {
+  border-radius: 20px;
+  margin-right: 14px;
+  height: 42px;
+  width: 50%;
+}
+
+.c7 {
+  color: #1F1F1F;
+  margin-left: 14px;
+  height: 42px;
+  width: 50%;
+  background: none;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width:320px) {
+  .c0 {
+    background: url(img/banner-get-quote-mobile.png) no-repeat;
+    color: #1F1F1F;
+    background-size: 100%;
+    height: auto;
+    padding-top: 40px;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    background: url(img/banner-get-quote-desktop.png) no-repeat center;
+    color: #FAFAFA;
+    background-size: 100%;
+    height: 730px;
+    padding-top: 0px;
+  }
+}
+
+@media (min-width:320px) {
+  .c1 {
+    padding: 41px 22px;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 278px;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding: 60px 55px;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    padding-top: 245px;
+    height: 640px;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 {
+    width: 70%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    font-size: 136px;
+    line-height: 136px;
+  }
+}
+
+@media (min-width:320px) {
+  .c4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 51px;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    width: 50%;
+    margin-top: 63px;
+  }
+}
+
+@media (min-width:320px) {
+  .c6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #1F1F1F;
+    border: 2px solid #1F1F1F;
+    color: #FAFAFA;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FAFAFA;
+    border: 2px solid #FAFAFA;
+    color: #1F1F1F;
+  }
+}
+
+@media (min-width:320px) {
+  .c7 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: 2px solid #1F1F1F;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: 2px solid #FAFAFA;
+    color: #FAFAFA;
+  }
+}
+
+@media (min-width:320px) {
+  .c5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    width: 30%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h1
+        class="c3"
+      >
+        Ready
+      </h1>
+      <h1
+        class="c3"
+      >
+        for SPAN?
+      </h1>
+      <p
+        class="c4"
+      >
+        Complete our easy form and one of our Home Advisors will be in touch to discuss your project scope, and the savings available.
+      </p>
+    </div>
+    <div
+      class="c5"
+    >
+      <button
+        class="c6"
+      >
+        Get quote
+      </button>
+      <button
+        class="c7"
+      >
+        Explore panel
+      </button>
+    </div>
+  </div>
+</div>
+`;

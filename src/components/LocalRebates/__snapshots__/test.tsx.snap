@@ -1,0 +1,358 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LocalRebates /> should render the title 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  color: #1F1F1F;
+  background: #EFEFEF;
+  width: 100%;
+}
+
+.c1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 81px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.c9 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  width: 100%;
+}
+
+.c10 {
+  border: 2px solid #1F1F1F;
+  border-radius: 20px;
+  width: 50%;
+  height: 40px;
+  margin-left: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c11 {
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+align-items:baseline .c2 > svg {
+  cursor: pointer;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  opacity: 0;
+  max-height: 0;
+  pointer-events: none;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+  margin-bottom: 17px;
+}
+
+.c6.active {
+  max-height: -webkit-min-content;
+  max-height: -moz-min-content;
+  max-height: min-content;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.c4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  width: 80%;
+  margin-bottom: 17px;
+}
+
+.c5 {
+  height: 1px;
+  background: #B0B0B1;
+  border-radius: 2px;
+  margin-bottom: 17px;
+}
+
+@media (min-width:320px) {
+  .c0 {
+    padding: 56px 24px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    padding: 96px 64px;
+  }
+}
+
+@media (min-width:320px) {
+  .c7 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c7 {
+    width: 50%;
+  }
+}
+
+@media (min-width:320px) {
+  .c8 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c8 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c10 {
+    -webkit-align-self: end;
+    -ms-flex-item-align: end;
+    align-self: end;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c10 {
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    align-self: start;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width:320px) {
+  .c11 {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c11 {
+    width: 50%;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width:320px) {
+  .c6 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c6 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    <h1
+      class="c1"
+      data-testid="local-rebates-title"
+    >
+      Local utility electrification rebates
+    </h1>
+  </div>
+  <div>
+    <div
+      class="c2 c3"
+    >
+      <h2
+        class="c4"
+        data-testid="accordion-title"
+      >
+        California
+      </h2>
+      <div>
+        mocked icon
+      </div>
+    </div>
+    <div
+      class="c5"
+    />
+    <div
+      class="c6"
+      data-testid="accordion-body"
+    >
+      <div
+        class="c7"
+      />
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <p
+            class="c9"
+          >
+            <b>
+              Silicon Valley Power
+            </b>
+             customers can save up to $2,500 on SPAN as part of a larger home electrification project.
+          </p>
+          <button
+            class="c10"
+          >
+            Learn more
+          </button>
+        </div>
+        <div
+          class="c8"
+        >
+          <p
+            class="c9"
+          >
+            <b>
+              Sacramento Municipal Utility District
+            </b>
+             (SMUD) customers can save up to $2,500 as part of a larger home electrification project.
+          </p>
+          <button
+            class="c10"
+          >
+            Learn more
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c2 c3"
+    >
+      <h2
+        class="c4"
+        data-testid="accordion-title"
+      >
+        Hawai’i
+      </h2>
+      <div>
+        mocked icon
+      </div>
+    </div>
+    <div
+      class="c5"
+    />
+    <div
+      class="c6"
+      data-testid="accordion-body"
+    >
+      <div
+        class="c7"
+      />
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <p
+            class="c9"
+          >
+            <b>
+              Shifted Energy
+            </b>
+             customers can have the costs of SPAN Panel covered, plus up to $4,000 for install when they agree to share SPAN Panel data and control with Shifted Energy.
+          </p>
+          <button
+            class="c10"
+          >
+            Learn more
+          </button>
+        </div>
+        <div
+          class="c8"
+        >
+          <p
+            class="c9"
+          >
+            <b>
+              Hawaiian Electric
+            </b>
+             customers can save $500 on SPAN Panel product costs by becoming a HECO Utility rate payer.
+          </p>
+          <button
+            class="c10"
+          >
+            Learn more
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <p
+      class="c11"
+    >
+      We’re constantly updating this list, so check back to see if your utility provider provides localized incentives for getting SPAN.
+    </p>
+  </div>
+</div>
+`;

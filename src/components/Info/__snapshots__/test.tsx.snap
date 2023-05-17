@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Info /> should show tooltip when click on icon 1`] = `
+.c0 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: contents;
+}
+
+.c1 {
+  background-color: #FAFAFA;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  color: #1F1F1F;
+  max-width: 300px;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+<div
+  class="c0"
+  data-testid="tooltip"
+>
+  <h4
+    class="c1"
+    data-testid="tooltip-content"
+  >
+    Info Content
+  </h4>
+  <div>
+    mocked icon
+  </div>
+</div>
+`;
+
+exports[`<Info /> should show tooltip when click on icon 2`] = `
+.c0 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: contents;
+}
+
+<div
+  class="c0"
+  data-testid="tooltip"
+>
+  <div>
+    mocked icon
+  </div>
+</div>
+`;
