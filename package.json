@@ -1,8 +1,7 @@
 {
-  "name": "react-typescript-jest-boilerplate",
-  "version": "1.4.0",
-  "description": "Boilerplate for React app with Typescript and Jest lib",
-  "main": "index.js",
+  "name": "span-ira-calculator-widget",
+  "version": "0.0.1",
+  "description": "Project Created Using Typescript, React, and Styled Components!",
   "scripts": {
     "start": "webpack serve --mode development --open --hot --config ./config/webpack.dev.js",
     "build": "rm -rf dist && webpack --mode production --config ./config/webpack.prod.js",
@@ -25,22 +24,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rkoziol/react-typescript-jest-boilerplate.git"
+    "url": "git+https://github.com/fernando-plank/span-ira-calculator-widget.git"
   },
   "keywords": [
     "react",
     "typescript",
     "javascript",
-    "jest",
-    "boilerplate",
-    "rkoziol"
+    "jest"
   ],
-  "author": "rkoziol",
+  "author": "Fernando Rocha",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rkoziol/react-typescript-jest-boilerplate/issues"
-  },
-  "homepage": "https://github.com/rkoziol/react-typescript-jest-boilerplate#readme",
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --fix"
