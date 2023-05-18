@@ -2,7 +2,7 @@ import { fireEvent, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { render } from 'utils/test-utils'
 
-import Home from '../../pages'
+import Home from '@pages/Home'
 
 function setupUserEvent(jsx) {
   return {

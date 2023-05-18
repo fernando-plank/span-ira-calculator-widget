@@ -4,6 +4,9 @@ module.exports = {
     '\\.scss$': 'identity-obj-proxy',
     '^@components/(.*)$': '<rootDir>/src/components/$1',
   },
+  setupFilesAfterEnv: [
+    "@testing-library/jest-dom/extend-expect"
+  ],
   collectCoverageFrom: ['<rootDir>/**/*.{ts, tsx}'],
   roots: ['<rootDir>'],
   testRegex: '(/tests/jest/.*|(\\.|/)(test|spec))\\.(ts|tsx)$',
