@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    },
+    "import/resolver": {
+      "webpack": {
+        "config": "./config/webpack/webpack.common.js"
+      }
+    }
+  }
+}

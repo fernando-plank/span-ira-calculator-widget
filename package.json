@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Project Created Using Typescript, React, and Styled Components!",
   "scripts": {
-    "start": "webpack serve --mode development --open --hot --config webpack.dev.js",
-    "build": "rm -rf dist && webpack --mode production --config webpack.prod.js",
+    "start": "webpack serve --mode development --open --hot --config ./config/webpack.dev.js",
+    "build": "rm -rf dist && webpack --mode production --config ./config/webpack.prod.js",
     "lint": "npm run lint:code && npm run lint:style",
     "lint:fix": "npm run lint:code:fix && npm run lint:style:fix",
     "lint:code": "eslint src/**/*.{js,ts,tsx} --quiet",
