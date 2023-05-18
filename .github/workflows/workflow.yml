@@ -13,8 +13,8 @@ jobs:
       - name: Make envfile
         uses: SpicyPizza/create-envfile@v1.3
         with:
-          NEXT_PUBLIC_REWIRING_AMERICA_TOKEN: ${{ secrets.NEXT_PUBLIC_REWIRING_AMERICA_TOKEN }}
-          NEXT_PUBLIC_REWIRING_AMERICA_API: ${{ secrets.NEXT_PUBLIC_REWIRING_AMERICA_API }}
+          envkey_NEXT_PUBLIC_REWIRING_AMERICA_TOKEN: ${{ secrets.NEXT_PUBLIC_REWIRING_AMERICA_TOKEN }}
+          envkey_NEXT_PUBLIC_REWIRING_AMERICA_API: ${{ secrets.NEXT_PUBLIC_REWIRING_AMERICA_API }}
           directory: <directory_name>
           file_name: .env
           fail_on_empty: false
