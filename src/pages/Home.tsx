@@ -1,5 +1,4 @@
-
-import React, {useEffect, useMemo, useState} from 'react'
+import React, { useEffect, useMemo, useRef, useState } from 'react'
 
 import About from '@components/About'
 import BannerGetQuote from '@components/BannerGetQuote'
@@ -21,49 +20,55 @@ export type IncentivesProps = {
 }
 
 export const Home = () => {
-    const [incentives, setIncentives] = useState<any>();
-    const [taxCreditsInformation, setTaxCreditsInformation] =
-        useState<TaxCreditsTableData[]>([])
-    const [houseHoldingInformation, setHouseHoldingInformation] =
-        useState<IncentivesProps>()
+  const incentivesRef = useRef(null)
+  const [incentives, setIncentives] = useState<any>()
+  const [taxCreditsInformation, setTaxCreditsInformation] = useState<
+    TaxCreditsTableData[]
+  >([])
+  const [houseHoldingInformation, setHouseHoldingInformation] =
+    useState<IncentivesProps>()
+  const executeScroll = () => incentivesRef.current.scrollIntoView()
 
-    const fetchIncentives = async() => {
-        const { incentives } = await new IncentivesServices().getIncentives()
-        return incentives
-    }
+  const fetchIncentives = async () => {
+    const { incentives } = await new IncentivesServices().getIncentives()
+    console.log(incentives)
+    return incentives
+  }
 
-    useEffect(() => {
-        const items = incentives?.filter((item) => item.type === 'tax_credit');
-        setTaxCreditsInformation(
-            items
-        )
-    }, [incentives])
+  useEffect(() => {
+    const items = incentives?.filter((item) => item.type === 'tax_credit')
+    setTaxCreditsInformation(items)
+  }, [incentives])
 
-    useEffect(() => {
-        fetchIncentives().then(incentives => {
-            setIncentives(incentives);
-        })
-    }, [])
+  useEffect(() => {
+    fetchIncentives().then((incentives) => {
+      setIncentives(incentives)
+    })
+  }, [])
 
-    const onSubmitCallback = (data) => setHouseHoldingInformation(data)
+  const onSubmitCallback = (data) => setHouseHoldingInformation(data)
 
-    return (
-        <>
-            <Navbar/>
-            <BannerHeroSection/>
-            <HouseholdInformation
-                info={houseHoldingInformation}
-                onSubmitCallback={onSubmitCallback}
-            />
-            <PersonalizedIncentives householdInformation={houseHoldingInformation}/>
-            <TaxCredits tableData={taxCreditsInformation}/>
-            <LocalRebates/>
-            <Faq/>
-            <BannerGetQuote/>
-            <About/>
-            <Footer/>
-        </>
-    )
+  return (
+    <>
+      <Navbar />
+      <BannerHeroSection />
+      <HouseholdInformation
+        info={houseHoldingInformation}
+        onSubmitCallback={onSubmitCallback}
+        executeScroll={executeScroll}
+      />
+      <PersonalizedIncentives
+        incentivesRef={incentivesRef}
+        householdInformation={houseHoldingInformation}
+      />
+      <TaxCredits tableData={taxCreditsInformation} />
+      <LocalRebates />
+      <BannerGetQuote />
+      <Faq />
+      <About />
+      <Footer />
+    </>
+  )
 }
 
-export default Home;
+export default Home

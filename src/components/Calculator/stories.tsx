@@ -13,5 +13,10 @@ const functionFake = () => {
 }
 
 export const Default: Story = () => (
-  <Calculator onSubmitCallback={functionFake} />
+  <Calculator
+    onSubmitCallback={functionFake}
+    executeScroll={function (): void {
+      throw new Error('Function not implemented.')
+    }}
+  />
 )

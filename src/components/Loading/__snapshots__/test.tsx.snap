@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loading /> should not render the loading when isLoading is true 1`] = `null`;
+
+exports[`<Loading /> should render the loading when isLoading is true 1`] = `
+.c0 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.7;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.c1 {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+  position: fixed;
+}
+
+.c1:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  -webkit-animation: lds-dual-ring 1.2s linear infinite;
+  animation: lds-dual-ring 1.2s linear infinite;
+  -webkit-animation-name: Hqxfx;
+  animation-name: Hqxfx;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    data-testid="loading"
+  />
+</div>
+`;

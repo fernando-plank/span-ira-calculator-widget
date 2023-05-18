@@ -1,8 +1,7 @@
 import React from 'react'
 
-import Info from '@components/Info'
-
 import * as S from './styles'
+import Info from '@components/Info'
 
 export const FormSelect = ({ field, register, errors }) => {
   return (
@@ -12,7 +11,7 @@ export const FormSelect = ({ field, register, errors }) => {
         {field.required ? ' *' : ''}
         <Info text={field.tooltip} />
       </S.FormInputLabel>
-      <S.FormSelectWrapper>
+      <S.FormSelectWrapper className={errors[field.id] ? 'error' : ''}>
         <S.FormSelect {...register} data-testid={field.id}>
           <option value="" disabled hidden>
             {field.label}

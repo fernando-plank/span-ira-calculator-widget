@@ -1,8 +1,7 @@
 import React from 'react'
 
-import Info from '@components/Info'
-
 import * as S from './styles'
+import Info from '@components/Info'
 export const FormField = ({ field, register, errors }) => {
   return (
     <>
@@ -12,6 +11,7 @@ export const FormField = ({ field, register, errors }) => {
         <Info text={field.tooltip} />
       </S.FormInputLabel>
       <S.FormInput
+        className={errors[field.id] ? 'error' : ''}
         placeholder={field.label}
         data-testid={field.id}
         {...register}

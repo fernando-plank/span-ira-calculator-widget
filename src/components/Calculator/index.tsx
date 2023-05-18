@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { SubmitHandler } from 'react-hook-form'
 
 import Form from '@components/Form'
@@ -15,10 +15,19 @@ type Inputs = {
   household_size: string
 }
 
-const Calculator = ({ onSubmitCallback }) => {
+interface CalculatorProps {
+  onSubmitCallback: (response: any) => void
+  executeScroll: () => void
+}
+
+const Calculator = ({ onSubmitCallback, executeScroll }: CalculatorProps) => {
+  const [isLoading, setIsLoading] = useState(false)
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
+    setIsLoading(true)
     const response = await new CalculatorService().getCalculatorResponse(data)
     onSubmitCallback(response)
+    setIsLoading(false)
+    executeScroll()
   }
 
   const fields = new FormBuilder()
@@ -96,7 +105,7 @@ const Calculator = ({ onSubmitCallback }) => {
   return (
     <S.Wrapper>
       <S.Title>Enter your household information to find your savings</S.Title>
-      <Form fields={fields.fields} onSubmit={onSubmit} />
+      <Form fields={fields.fields} isLoading={isLoading} onSubmit={onSubmit} />
     </S.Wrapper>
   )
 }

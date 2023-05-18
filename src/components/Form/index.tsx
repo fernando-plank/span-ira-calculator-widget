@@ -1,4 +1,3 @@
-import React from 'react'
 import { useForm } from 'react-hook-form'
 
 import { FormProps } from '@components/Form/FormBuilder'
@@ -6,6 +5,7 @@ import FormField from '@components/Form/FormField'
 import FormSelect from '@components/Form/FormSelect'
 
 import * as S from './styles'
+import Loading from '@components/Loading'
 
 type Inputs = {
   zip: string
@@ -24,6 +24,7 @@ export const Form = (props: FormProps) => {
 
   return (
     <>
+      <Loading isLoading={props.isLoading} />
       <S.Form onSubmit={handleSubmit(onSubmit)} data-testid="form-element">
         {fields.map((field) => {
           if (field.type === 'select') {
