@@ -15,9 +15,6 @@ jobs:
         with:
           envkey_NEXT_PUBLIC_REWIRING_AMERICA_TOKEN: ${{ secrets.NEXT_PUBLIC_REWIRING_AMERICA_TOKEN }}
           envkey_NEXT_PUBLIC_REWIRING_AMERICA_API: ${{ secrets.NEXT_PUBLIC_REWIRING_AMERICA_API }}
-          directory: <directory_name>
-          file_name: .env
-          fail_on_empty: false
 
       - name: Install dependencies
         run: npm i
