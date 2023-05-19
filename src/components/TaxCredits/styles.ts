@@ -46,6 +46,16 @@ export const TaxBodyContent = styled.div`
   }
 `
 
+export const Table = styled.table`
+  width: 100%;
+  text-align: left;
+  margin-bottom: 35px;
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
+    margin-bottom: 135px;
+  }
+`
+
 export const TableTh = styled.th`
   font-style: normal;
   font-weight: 700;
@@ -67,5 +77,4 @@ export const TaxText = styled.p`
   font-size: 12px;
   line-height: 16px;
   text-align: left;
-  color: ${(props) => props.theme.colors.black};
 `
