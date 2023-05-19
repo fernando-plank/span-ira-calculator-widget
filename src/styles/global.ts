@@ -12,10 +12,6 @@ const GlobalStyles = createGlobalStyle`
     src: local('Graphik'), url(fonts/GraphikBold.woff) format('woff');
     font-weight: bold;
   }
-
-  .nice-select {
-    display: none !important;
-  }
   
   *{
     margin: 0;
