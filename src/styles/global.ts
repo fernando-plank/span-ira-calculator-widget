@@ -20,6 +20,10 @@ const GlobalStyles = createGlobalStyle`
   &.nice-select.w-select {
     display: flex !important;
   }
+
+  .accordion-body.active {
+    transition: 1s;
+  }
   
   *{
     margin: 0;
