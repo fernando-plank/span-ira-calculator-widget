@@ -29,10 +29,6 @@ const GlobalStyles = createGlobalStyle`
     }
   }
 
-  input:-webkit-autofill {
-    -webkit-box-shadow: none !important;
-  }
-
   select {
     // A reset of styles, including removing the default dropdown arrow
     /* styling */
@@ -84,6 +80,11 @@ const GlobalStyles = createGlobalStyle`
 
     body {
       font-family: ${theme.fonts.primary.family}, sans-serif;
+    }
+
+    input:-webkit-autofill {
+      -webkit-box-shadow: none !important;
+      -webkit-text-fill-color: ${theme.colors.black};
     }
   `}
 
