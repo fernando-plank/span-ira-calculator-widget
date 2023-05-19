@@ -17,7 +17,7 @@ const common = {
     output: {
         path: path.join(__dirname, '../dist'),
         publicPath: "auto",
-        filename: 'bundle.min.js',
+        filename: 'app.min.js',
     },
     module: {
         rules: [
