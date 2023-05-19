@@ -11,6 +11,10 @@ export const Wrapper = styled.div`
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     padding: 88px 64px 0 64px;
   }
+
+  &.nice-select {
+    display: none;
+  }
 `
 
 export const Form = styled.form`
@@ -166,6 +170,7 @@ export const FormSelect = styled.select`
   align-items: center;
   width: 100%;
   grid-area: select;
+  display: block !important;
 `
 
 export const FormFieldError = styled.span`
