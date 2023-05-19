@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
   width: fill-available;
   background-color: ${({ theme }) => theme.colors.primary};
   padding: 50px 24px;
+  margin-top: 50px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     margin: 0px 30px;
@@ -52,7 +53,7 @@ export const IncentivesBodyIcon = styled.div`
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}) {
     position: absolute;
     align-self: end;
-    margin-top: 100px;
+    margin-top: 150px;
   }
 `
 
@@ -90,7 +91,7 @@ export const Subtitle = styled.h6`
   text-align: left;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
-    max-width: 47vw;
+    max-width: 100vw;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {

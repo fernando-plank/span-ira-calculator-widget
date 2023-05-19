@@ -23,7 +23,7 @@ const PersonalizedIncentives = ({
         <Icon icon={'Lightning'} />
         <Icon icon={'Lightning'} />
       </S.IncentivesBodyIcon>
-      <div>
+      <div style={{ marginBottom: '60px' }}>
         <S.DescriptionWrapper>
           <S.DescriptionContainer>
             <S.Subtitle>Available</S.Subtitle>
@@ -40,12 +40,13 @@ const PersonalizedIncentives = ({
             </S.Price>
           </S.DescriptionContainer>
           <S.DescriptionContainer>
+            <S.Subtitle>Estimated energy</S.Subtitle>
             <S.Subtitle>
-              Estimated energy savings per year
+              savings per year
               <Info
                 text={`This estimate is based on energy costs in your state. 
-                It includes savings on both utility and gasoline bills if you switch to an 
-                electric vehicle and a heat pump for space and water heating.`}
+              It includes savings on both utility and gasoline bills if you switch to an 
+              electric vehicle and a heat pump for space and water heating.`}
               />
             </S.Subtitle>
             <S.Price data-testid="household_annual_savings">
