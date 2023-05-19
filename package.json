@@ -5,7 +5,7 @@
   "scripts": {
     "start": "webpack serve --mode development --open --hot --config ./config/webpack.dev.js",
     "build-webpack": "webpack --config ./config/webpack.prod.js",
-    "build": "rm -rf dist && webpack --mode development --config ./config/webpack.prod.js",
+    "build": "rm -rf dist && webpack --mode production --config ./config/webpack.prod.js",
     "lint": "npm run lint:code && npm run lint:style",
     "lint:fix": "npm run lint:code:fix && npm run lint:style:fix",
     "lint:code": "eslint src/**/*.{js,ts,tsx} --quiet",
