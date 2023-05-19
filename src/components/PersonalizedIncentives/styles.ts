@@ -119,6 +119,10 @@ export const Price = styled.h6`
 export const IncentivesFooter = styled.div`
   display: flex;
   margin-top: 40px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}) {
+    flex-direction: column;
+  }
 `
 
 export const IncentivesFooterContent = styled.p`
@@ -127,8 +131,11 @@ export const IncentivesFooterContent = styled.p`
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  padding-right: 59px;
   text-align: left;
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
+    padding-right: 59px;
+  }
 `
 
 export const Separator = styled.div`
