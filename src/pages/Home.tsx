@@ -49,8 +49,8 @@ export const Home = () => {
 
     return (
         <>
-            <Navbar/>
-            <BannerHeroSection/>
+            {/*<Navbar/>*/}
+            {/*<BannerHeroSection/>*/}
             <HouseholdInformation
                 info={houseHoldingInformation}
                 onSubmitCallback={onSubmitCallback}
@@ -58,10 +58,10 @@ export const Home = () => {
             <PersonalizedIncentives householdInformation={houseHoldingInformation}/>
             <TaxCredits tableData={taxCreditsInformation}/>
             <LocalRebates/>
-            <Faq/>
-            <BannerGetQuote/>
-            <About/>
-            <Footer/>
+            {/*<Faq/>*/}
+            {/*<BannerGetQuote/>*/}
+            {/*<About/>*/}
+            {/*<Footer/>*/}
         </>
     )
 }
