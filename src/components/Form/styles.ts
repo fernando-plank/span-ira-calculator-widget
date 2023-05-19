@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
   }
 
   &.nice-select {
-    display: none;
+    display: none !important;
   }
 `
 
