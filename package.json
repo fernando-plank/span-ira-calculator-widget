@@ -23,6 +23,7 @@
     "test:cypress:open": "cypress open",
     "prepare": "husky install"
   },
+  "homepage": "./",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fernando-plank/span-ira-calculator-widget.git"
