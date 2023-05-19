@@ -74,7 +74,7 @@ export const DescriptionContainer = styled.div`
   color: ${({ theme }) => theme.colors.white};
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    width: 50%;
+    margin-right: 20px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
@@ -89,14 +89,7 @@ export const Subtitle = styled.h6`
   line-height: 24px;
   text-transform: uppercase;
   text-align: left;
-
-  @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
-    max-width: 100vw;
-  }
-
-  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    max-width: 90%;
-  }
+  max-width: 100vw;
 
   svg {
     & > path {
