@@ -86,6 +86,10 @@ const GlobalStyles = createGlobalStyle`
       -webkit-box-shadow: none !important;
       -webkit-text-fill-color: ${theme.colors.black};
     }
+
+    input:-webkit-autofill:focus {
+      -webkit-text-fill-color: ${theme.colors.black};
+    }
   `}
 
 `
