@@ -18,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   &.nice-select.w-select {
-    display: block !important;
+    display: flex !important;
   }
   
   *{
