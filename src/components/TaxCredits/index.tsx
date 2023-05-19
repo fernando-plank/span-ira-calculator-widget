@@ -13,8 +13,6 @@ interface TaxCreditsProps {
 const TaxCredits = ({ tableData }: TaxCreditsProps) => {
   const theme = useTheme()
 
-  console.log(tableData)
-
   return (
     <S.Wrapper>
       <S.Title data-testid="tax-credits-title">Tax credits</S.Title>
@@ -41,34 +39,35 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
               </tr>
             </thead>
             <tbody>
-              {tableData.map((item, index) => (
-                <tr key={index}>
-                  <S.TableTd
-                    style={{
-                      color:
-                        index == tableData.length - 1 ||
-                        index == tableData.length - 2
-                          ? `#B0B0B1`
-                          : `${theme.colors.black}`
-                    }}
-                  >
-                    {item.item}
-                  </S.TableTd>
-                  <S.TableTd
-                    style={{
-                      color:
-                        index == tableData.length - 1 ||
-                        index == tableData.length - 2
-                          ? `#B0B0B1`
-                          : `${theme.colors.black}`
-                    }}
-                  >
-                    {isInt(item.amount)
-                      ? formatCurrency(item.amount)
-                      : formatPercent(item.amount)}
-                  </S.TableTd>
-                </tr>
-              ))}
+              {tableData &&
+                tableData.map((item, index) => (
+                  <tr key={index}>
+                    <S.TableTd
+                      style={{
+                        color:
+                          index == tableData.length - 1 ||
+                          index == tableData.length - 2
+                            ? `#B0B0B1`
+                            : `${theme.colors.black}`
+                      }}
+                    >
+                      {item.item}
+                    </S.TableTd>
+                    <S.TableTd
+                      style={{
+                        color:
+                          index == tableData.length - 1 ||
+                          index == tableData.length - 2
+                            ? `#B0B0B1`
+                            : `${theme.colors.black}`
+                      }}
+                    >
+                      {isInt(item.amount)
+                        ? formatCurrency(item.amount)
+                        : formatPercent(item.amount)}
+                    </S.TableTd>
+                  </tr>
+                ))}
             </tbody>
           </table>
         </S.TaxBodyContent>
