@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
     padding: 88px 64px 0 64px;
   }
 
-  .nice-select {
+  &.nice-select {
     display: none !important;
   }
 `
