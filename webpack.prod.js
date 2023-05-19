@@ -20,11 +20,6 @@ module.exports = {
       "@pages": path.resolve(__dirname, 'src/pages'),
     },
   },
-  output: {
-    path: path.join(__dirname, './dist'),
-    publicPath: "/",
-    filename: 'bundle.min.js',
-  },
   module: {
     rules: [
       {
