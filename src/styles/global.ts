@@ -30,8 +30,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   input:-webkit-autofill {
-    -webkit-box-shadow: non;
-    -webkit-text-fill-color: #fff;
+    -webkit-box-shadow: none !important;
   }
 
   select {
