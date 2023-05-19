@@ -133,6 +133,8 @@ export const IncentivesFooterContent = styled.p`
   line-height: 16px;
   text-align: left;
 
+  margin-bottom: 30px;
+
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     padding-right: 59px;
   }
