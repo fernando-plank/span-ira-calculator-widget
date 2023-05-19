@@ -15,8 +15,8 @@ const common = {
         alias
     },
     output: {
-        path: path.join(__dirname, './dist'),
-        publicPath: "/",
+        path: path.join(__dirname, '../dist'),
+        publicPath: "auto",
         filename: 'bundle.min.js',
     },
     module: {
