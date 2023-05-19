@@ -30,7 +30,7 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
         </S.TaxBodyContent>
         <S.TaxBodyContent>
           <table
-            style={{ width: '100%', textAlign: 'left', marginBottom: '60px' }}
+            style={{ width: '100%', textAlign: 'left', marginBottom: '130px' }}
           >
             <thead>
               <tr>
