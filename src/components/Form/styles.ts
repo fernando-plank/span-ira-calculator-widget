@@ -77,6 +77,10 @@ export const FormInputGroup = styled.div`
     margin-top: 55px;
     height: 138px;
   }
+
+  &.nice-select {
+    display: none !important;
+  }
 `
 
 export const FormButtonGroup = styled.div`
