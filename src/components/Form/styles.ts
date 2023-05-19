@@ -11,10 +11,6 @@ export const Wrapper = styled.div`
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     padding: 88px 64px 0 64px;
   }
-
-  &.nice-select {
-    display: none !important;
-  }
 `
 
 export const Form = styled.form`

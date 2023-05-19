@@ -1,6 +1,5 @@
 import { createGlobalStyle, css } from 'styled-components'
 
-
 const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'Graphik';
@@ -12,6 +11,10 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Graphik';
     src: local('Graphik'), url(fonts/GraphikBold.woff) format('woff');
     font-weight: bold;
+  }
+
+  .nice-select {
+    display: none !important;
   }
   
   *{
@@ -78,7 +81,6 @@ const GlobalStyles = createGlobalStyle`
     body {
       font-family: ${theme.fonts.primary.family}, sans-serif;
     }
-    
   `}
 
 `
