@@ -29,6 +29,11 @@ const GlobalStyles = createGlobalStyle`
     }
   }
 
+  input:-webkit-autofill {
+    -webkit-box-shadow: non;
+    -webkit-text-fill-color: #fff;
+  }
+
   select {
     // A reset of styles, including removing the default dropdown arrow
     /* styling */
