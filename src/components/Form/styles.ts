@@ -19,10 +19,6 @@ export const Form = styled.form`
   flex: 0 0 100%;
   flex-wrap: wrap;
   align-items: center;
-
-  &.nice-select {
-    display: none !important;
-  }
 `
 
 export const FormTitle = styled.h2`
@@ -76,10 +72,6 @@ export const FormInputGroup = styled.div`
     margin-right: 3%;
     margin-top: 55px;
     height: 138px;
-  }
-
-  &.nice-select {
-    display: none !important;
   }
 `
 
