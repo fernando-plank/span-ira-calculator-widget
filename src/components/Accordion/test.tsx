@@ -1,7 +1,8 @@
 import { fireEvent, screen } from '@testing-library/react'
-import { render } from '@utils/test-utils'
+import { render } from '../../utils/test-utils'
 
 import Accordion from '.'
+import React from 'react'
 
 jest.mock('../Icon', () => {
   return jest.fn(() => <div>mocked icon</div>)

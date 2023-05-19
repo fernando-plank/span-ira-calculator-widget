@@ -1,8 +1,9 @@
 import { fireEvent, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { render } from 'utils/test-utils'
+import React from 'react'
+import { render } from '../../utils/test-utils'
 
-import Home from '@pages/Home'
+import Home from '../../pages/Home'
 
 function setupUserEvent(jsx) {
   return {
@@ -16,7 +17,7 @@ jest.mock('../Icon', () => {
 })
 
 const setup = () => {
-  const { user } = setupUserEvent(<Home incentives={[]} />)
+  const { user } = setupUserEvent(<Home />)
   const zip: HTMLInputElement = screen.getByTestId('zip')
   const owner_status: HTMLSelectElement = screen.getByTestId('owner_status')
   const household_income: HTMLInputElement =

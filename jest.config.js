@@ -3,6 +3,7 @@ module.exports = {
   moduleNameMapper: {
     '\\.scss$': 'identity-obj-proxy',
     '^@components/(.*)$': '<rootDir>/src/components/$1',
+    '^@utils/(.*)$': '<rootDir>/src/utils/$1'
   },
   setupFilesAfterEnv: [
     "@testing-library/jest-dom/extend-expect"
@@ -14,4 +15,5 @@ module.exports = {
     '^.+\\.(ts|tsx)$': 'ts-jest',
     '^.+\\.svg$': '<rootDir>/utils/svgTransform.js',
   },
+  modulePaths: ['<rootDir>/src/', '<rootDir>/.jest'],
 };
