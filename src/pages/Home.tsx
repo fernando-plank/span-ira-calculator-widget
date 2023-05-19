@@ -1,14 +1,8 @@
 
 import React, {useEffect, useMemo, useState} from 'react'
-
-import About from '@components/About'
-import BannerGetQuote from '@components/BannerGetQuote'
-import { BannerHeroSection } from '@components/BannerHeroSection'
-import Faq from '@components/Faq'
-import Footer from '@components/Footer'
 import HouseholdInformation from '@components/HouseholdInformation'
 import LocalRebates from '@components/LocalRebates'
-import Navbar from '@components/Navbar'
+
 import PersonalizedIncentives from '@components/PersonalizedIncentives'
 import TaxCredits from '@components/TaxCredits'
 import IncentivesServices from '@services/incentives'
@@ -66,4 +60,4 @@ export const Home = () => {
     )
 }
 
-export default Home;
+export default Home

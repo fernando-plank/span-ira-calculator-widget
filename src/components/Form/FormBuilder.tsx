@@ -21,6 +21,7 @@ export interface FormFieldProps {
 export interface FormProps {
   fields: FormFieldProps[]
   onSubmit: (data) => void
+  isLoading?: boolean
 }
 
 class FormBuilder {

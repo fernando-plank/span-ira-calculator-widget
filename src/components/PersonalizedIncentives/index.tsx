@@ -1,19 +1,21 @@
-import React from 'react'
-import Icon from '@components/Icon'
-import Info from '@components/Info'
 import { formatCurrency } from '@utils/currency'
-import { IncentivesProps } from '@pages/Home'
 
 import * as S from './styles'
+import Info from '@components/Info'
+import Icon from '@components/Icon'
+import { IncentivesProps } from '../../pages/Home'
+import { MutableRefObject } from 'react'
 
 export interface PersonalizedIncentivesProps {
   householdInformation: IncentivesProps
+  incentivesRef: MutableRefObject<any>
 }
 
 const PersonalizedIncentives = ({
-  householdInformation
+  householdInformation,
+  incentivesRef
 }: PersonalizedIncentivesProps) => (
-  <S.Wrapper>
+  <S.Wrapper ref={incentivesRef}>
     <S.Title>Your personalized incentives</S.Title>
     <S.IncentivesBody>
       <S.IncentivesBodyIcon>
@@ -24,8 +26,9 @@ const PersonalizedIncentives = ({
       <div>
         <S.DescriptionWrapper>
           <S.DescriptionContainer>
+            <S.Subtitle>Available</S.Subtitle>
             <S.Subtitle>
-              Available tax credits
+              tax credits
               <Info
                 text={
                   'The geothermal tax credit is not included in this total.'
@@ -50,13 +53,6 @@ const PersonalizedIncentives = ({
             </S.Price>
           </S.DescriptionContainer>
         </S.DescriptionWrapper>
-        <S.Total>Total Incentives</S.Total>
-        <S.TotalPrice data-testid="household_total_savings">
-          {formatCurrency(
-            householdInformation?.tax_savings +
-              householdInformation?.pos_savings
-          )}
-        </S.TotalPrice>
       </div>
     </S.IncentivesBody>
     <S.Separator></S.Separator>

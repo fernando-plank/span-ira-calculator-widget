@@ -1,15 +1,14 @@
-import theme from '@styles/theme'
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   width: 100%;
-  background: ${theme.colors.white};
+  background: ${({ theme }) => theme.colors.white};
 
-  @media (min-width: ${theme.breakpoints.mobileS}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     padding: 24px;
   }
 
-  @media (min-width: ${theme.breakpoints.laptop}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     padding: 88px 64px 0 64px;
   }
 `
@@ -28,9 +27,9 @@ export const FormTitle = styled.h2`
   line-height: 56px;
   letter-spacing: 0em;
   text-align: left;
-  color: ${theme.colors.black};
+  color: ${({ theme }) => theme.colors.black};
 
-  @media (min-width: ${theme.breakpoints.laptop}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     width: 35vw;
   }
 `
@@ -52,11 +51,11 @@ export const FormContent = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media (min-width: ${theme.breakpoints.mobileS}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     flex-direction: column;
   }
 
-  @media (min-width: ${theme.breakpoints.laptop}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex-direction: row;
   }
 `
@@ -68,7 +67,7 @@ export const FormInputGroup = styled.div`
   flex-direction: column;
   justify-content: flex-start;
 
-  @media (min-width: ${theme.breakpoints.laptop}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex: 0 0 30%;
     margin-right: 3%;
     margin-top: 55px;
@@ -85,7 +84,7 @@ export const FormButtonGroup = styled.div`
   margin-top: 22px;
   height: 110px;
 
-  @media (min-width: ${theme.breakpoints.laptop}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex: 0 0 30%;
     margin-right: 3%;
     margin-top: 55px;
@@ -115,7 +114,7 @@ export const FormInputLabel = styled.label`
 
 export const FormInput = styled.input`
   box-sizing: border-box;
-  height: 72px;
+  height: 68px;
   border: 2px solid #b0b0b1;
   border-radius: 4px;
   font-size: 16px;
@@ -124,6 +123,10 @@ export const FormInput = styled.input`
   letter-spacing: 0;
   text-align: left;
   padding-left: 24px;
+
+  &.error {
+    border: 2px solid red;
+  }
 `
 
 export const FormSelectWrapper = styled.div`
@@ -146,10 +149,14 @@ export const FormSelectWrapper = styled.div`
     pointer-events: none;
     margin-right: 20px;
   }
+
+  &.error {
+    border: 2px solid red;
+  }
 `
 
 export const FormSelect = styled.select`
-  height: 68px;
+  height: 64px;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -169,6 +176,7 @@ export const FormFieldError = styled.span`
   color: red;
   padding: 8px 0;
   height: 32px;
+  text-align: left;
 `
 
 export const CalculateButton = styled.button`
@@ -185,7 +193,7 @@ export const CalculateButton = styled.button`
   cursor: pointer;
   margin-top: 64px;
 
-  @media (min-width: ${theme.breakpoints.laptop}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     margin-top: 40px;
   }
 `

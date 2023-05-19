@@ -1,15 +1,32 @@
-import React from 'react'
 import Calculator from '@components/Calculator'
 
 import * as S from './styles'
 
-const HouseholdInformation = ({ onSubmitCallback, info }) => {
+interface HouseholdInformationProps {
+  onSubmitCallback: (data) => void
+  info: any
+  executeScroll: () => void
+}
+
+const errorsMessage = {
+  'error-message': 'Translated error message',
+  default: 'An error occurred'
+}
+
+const HouseholdInformation = ({
+  onSubmitCallback,
+  info,
+  executeScroll
+}: HouseholdInformationProps) => {
   return (
     <>
-      <Calculator onSubmitCallback={onSubmitCallback} />
+      <Calculator
+        onSubmitCallback={onSubmitCallback}
+        executeScroll={executeScroll}
+      />
       {info?.message && (
         <S.HouseholdInformationMessage>
-          Error: {info.message}
+          {errorsMessage[info.message] || errorsMessage['default']}
         </S.HouseholdInformationMessage>
       )}
     </>

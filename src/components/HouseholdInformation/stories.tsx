@@ -12,5 +12,11 @@ const mockFunction = (data) => {
   return data
 }
 export const Default: Story = () => (
-  <HouseholdInformation onSubmitCallback={mockFunction} info={{}} />
+  <HouseholdInformation
+    onSubmitCallback={mockFunction}
+    info={{}}
+    executeScroll={function (): void {
+      throw new Error('Function not implemented.')
+    }}
+  />
 )
