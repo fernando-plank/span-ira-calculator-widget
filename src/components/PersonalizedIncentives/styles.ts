@@ -122,6 +122,7 @@ export const IncentivesFooter = styled.div`
 `
 
 export const IncentivesFooterContent = styled.p`
+  color: ${({ theme }) => theme.colors.white}
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
