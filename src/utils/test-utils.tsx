@@ -1,5 +1,5 @@
 /* eslint-disable import/export */
-import React, { ReactElement } from 'react'
+import { ReactElement } from 'react'
 import { RenderOptions, render } from '@testing-library/react'
 
 import theme from '@styles/theme'

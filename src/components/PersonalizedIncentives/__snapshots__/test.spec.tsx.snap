@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PersonalizedIncentives /> should render the household anual savings 1`] = `
+<div
+  class="sc-bgqQcB euEWXu"
+>
+  <h1
+    class="sc-gTRrQi hYARht"
+  >
+    Your personalized incentives
+  </h1>
+  <div
+    class="sc-ewnqHT dTqLoJ"
+  >
+    <div
+      class="sc-fFGjHI kNTDoP"
+    >
+      <div>
+        mocked icon
+      </div>
+      <div>
+        mocked icon
+      </div>
+      <div>
+        mocked icon
+      </div>
+    </div>
+    <div>
+      <div
+        class="sc-dicizt fYnvLj"
+      >
+        <div
+          class="sc-iVCKna gvAyhw"
+        >
+          <h6
+            class="sc-gxYJeL iYrDBA"
+          >
+            Available
+          </h6>
+          <h6
+            class="sc-gxYJeL iYrDBA"
+          >
+            tax credits
+            <div
+              class="sc-duSInm jBJhlp"
+              data-testid="tooltip"
+            >
+              <div>
+                mocked icon
+              </div>
+            </div>
+          </h6>
+          <h6
+            class="sc-kPTPQs eqoRyo"
+            data-testid="household_tax_savings"
+          >
+            $320
+          </h6>
+        </div>
+        <div
+          class="sc-iVCKna gvAyhw"
+        >
+          <h6
+            class="sc-gxYJeL iYrDBA"
+          >
+            Estimated energy savings per year
+            <div
+              class="sc-duSInm jBJhlp"
+              data-testid="tooltip"
+            >
+              <div>
+                mocked icon
+              </div>
+            </div>
+          </h6>
+          <h6
+            class="sc-kPTPQs eqoRyo"
+            data-testid="household_annual_savings"
+          >
+            $111
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-dcrmVg bobKEt"
+  />
+  <div
+    class="sc-ispOId jIIyfW"
+  >
+    <p
+      class="sc-kcuKUB kIvePu"
+    >
+      Disclaimer: These values are estimates. The rebates may be implemented differently in each state, so we cannot guarantee final amounts, eligibility, or timeline. And without additional appropriations from Congress, the rebate programs will end once their initial IRA funding is exhausted. Tax credits can only be used to offset your federal taxes owed, which we estimate but do not know.
+    </p>
+    <p
+      class="sc-kcuKUB kIvePu"
+    >
+      Your income is above the threshold for upfront discounts and/or EV tax credits, but your tax liability will likely qualify you for equipment tax credits. You do qualify for a performance-based efficiency rebate worth $4,000. However, we do not consider this an upfront discount. Check out this relevant case study!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
+<div
+  class="sc-bgqQcB euEWXu"
+>
+  <h1
+    class="sc-gTRrQi hYARht"
+  >
+    Your personalized incentives
+  </h1>
+  <div
+    class="sc-ewnqHT dTqLoJ"
+  >
+    <div
+      class="sc-fFGjHI kNTDoP"
+    >
+      <div>
+        mocked icon
+      </div>
+      <div>
+        mocked icon
+      </div>
+      <div>
+        mocked icon
+      </div>
+    </div>
+    <div>
+      <div
+        class="sc-dicizt fYnvLj"
+      >
+        <div
+          class="sc-iVCKna gvAyhw"
+        >
+          <h6
+            class="sc-gxYJeL iYrDBA"
+          >
+            Available
+          </h6>
+          <h6
+            class="sc-gxYJeL iYrDBA"
+          >
+            tax credits
+            <div
+              class="sc-duSInm jBJhlp"
+              data-testid="tooltip"
+            >
+              <div>
+                mocked icon
+              </div>
+            </div>
+          </h6>
+          <h6
+            class="sc-kPTPQs eqoRyo"
+            data-testid="household_tax_savings"
+          >
+            $320
+          </h6>
+        </div>
+        <div
+          class="sc-iVCKna gvAyhw"
+        >
+          <h6
+            class="sc-gxYJeL iYrDBA"
+          >
+            Estimated energy savings per year
+            <div
+              class="sc-duSInm jBJhlp"
+              data-testid="tooltip"
+            >
+              <div>
+                mocked icon
+              </div>
+            </div>
+          </h6>
+          <h6
+            class="sc-kPTPQs eqoRyo"
+            data-testid="household_annual_savings"
+          >
+            $111
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-dcrmVg bobKEt"
+  />
+  <div
+    class="sc-ispOId jIIyfW"
+  >
+    <p
+      class="sc-kcuKUB kIvePu"
+    >
+      Disclaimer: These values are estimates. The rebates may be implemented differently in each state, so we cannot guarantee final amounts, eligibility, or timeline. And without additional appropriations from Congress, the rebate programs will end once their initial IRA funding is exhausted. Tax credits can only be used to offset your federal taxes owed, which we estimate but do not know.
+    </p>
+    <p
+      class="sc-kcuKUB kIvePu"
+    >
+      Your income is above the threshold for upfront discounts and/or EV tax credits, but your tax liability will likely qualify you for equipment tax credits. You do qualify for a performance-based efficiency rebate worth $4,000. However, we do not consider this an upfront discount. Check out this relevant case study!
+    </p>
+  </div>
+</div>
+`;

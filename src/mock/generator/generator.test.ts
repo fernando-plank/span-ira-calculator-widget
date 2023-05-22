@@ -50,7 +50,7 @@ describe('MockGenerator', () => {
         example2: valueToBeChanged
       })
 
-      expect(results).toEqual(amount)
+      expect(results).toHaveLength(amount)
       results.forEach((result) => expect(result).toEqual(expectedValue))
     })
 

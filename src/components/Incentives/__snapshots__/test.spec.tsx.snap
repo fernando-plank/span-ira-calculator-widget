@@ -1,12 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Incentives /> should render - without status 1`] = `
-.c0 {
-  color: #111111;
-}
-
 <div
-  class="c0"
+  class="sc-bgqQcB cCZJli"
 >
   <h1>
     Incentives
@@ -70,12 +66,8 @@ exports[`<Incentives /> should render - without status 1`] = `
 `;
 
 exports[`<Incentives /> should render amount type dollar 1`] = `
-.c0 {
-  color: #111111;
-}
-
 <div
-  class="c0"
+  class="sc-bgqQcB cCZJli"
 >
   <h1>
     Incentives
@@ -139,12 +131,8 @@ exports[`<Incentives /> should render amount type dollar 1`] = `
 `;
 
 exports[`<Incentives /> should render amount type percent 1`] = `
-.c0 {
-  color: #111111;
-}
-
 <div
-  class="c0"
+  class="sc-bgqQcB cCZJli"
 >
   <h1>
     Incentives
@@ -208,12 +196,8 @@ exports[`<Incentives /> should render amount type percent 1`] = `
 `;
 
 exports[`<Incentives /> should render item 1`] = `
-.c0 {
-  color: #111111;
-}
-
 <div
-  class="c0"
+  class="sc-bgqQcB cCZJli"
 >
   <h1>
     Incentives
@@ -277,12 +261,8 @@ exports[`<Incentives /> should render item 1`] = `
 `;
 
 exports[`<Incentives /> should render joint status enum 1`] = `
-.c0 {
-  color: #111111;
-}
-
 <div
-  class="c0"
+  class="sc-bgqQcB cCZJli"
 >
   <h1>
     Incentives
@@ -346,12 +326,8 @@ exports[`<Incentives /> should render joint status enum 1`] = `
 `;
 
 exports[`<Incentives /> should render joint status enum 2`] = `
-.c0 {
-  color: #111111;
-}
-
 <div
-  class="c0"
+  class="sc-bgqQcB cCZJli"
 >
   <h1>
     Incentives
@@ -415,12 +391,8 @@ exports[`<Incentives /> should render joint status enum 2`] = `
 `;
 
 exports[`<Incentives /> should render program 1`] = `
-.c0 {
-  color: #111111;
-}
-
 <div
-  class="c0"
+  class="sc-bgqQcB cCZJli"
 >
   <h1>
     Incentives
@@ -484,12 +456,8 @@ exports[`<Incentives /> should render program 1`] = `
 `;
 
 exports[`<Incentives /> should render single status enum 1`] = `
-.c0 {
-  color: #111111;
-}
-
 <div
-  class="c0"
+  class="sc-bgqQcB cCZJli"
 >
   <h1>
     Incentives

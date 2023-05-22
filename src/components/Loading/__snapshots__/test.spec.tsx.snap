@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loading /> should not render the loading when isLoading is true 1`] = `null`;
+
+exports[`<Loading /> should render the loading when isLoading is true 1`] = `
+<div
+  class="sc-bgqQcB gbNdTP"
+>
+  <div
+    class="sc-gTRrQi cVgZxW"
+    data-testid="loading"
+  />
+</div>
+`;

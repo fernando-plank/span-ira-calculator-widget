@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion /> should add classname on click 1`] = `
+<div
+  class="sc-bgqQcB dqXqOe"
+>
+  <h2
+    class="sc-ewnqHT bAgQlG"
+    data-testid="accordion-title"
+  >
+    Title
+  </h2>
+  <div>
+    mocked icon
+  </div>
+</div>
+`;
+
+exports[`<Accordion /> should add title 1`] = `
+<div
+  class="sc-bgqQcB dqXqOe"
+>
+  <h2
+    class="sc-ewnqHT bAgQlG"
+    data-testid="accordion-title"
+    style="background-color: red;"
+  >
+    Title
+  </h2>
+  <div>
+    mocked icon
+  </div>
+</div>
+`;
+
+exports[`<Accordion /> should render accordion body 1`] = `
+<div
+  class="sc-bgqQcB dqXqOe"
+>
+  <h2
+    class="sc-ewnqHT bAgQlG"
+    data-testid="accordion-title"
+  >
+    Title
+  </h2>
+  <div>
+    mocked icon
+  </div>
+</div>
+`;

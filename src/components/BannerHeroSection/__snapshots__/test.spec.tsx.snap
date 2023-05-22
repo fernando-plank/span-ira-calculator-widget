@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BannerHeroSection /> should render the description 1`] = `
+<div
+  class="sc-bgqQcB czendY"
+>
+  <h1
+    class="sc-gTRrQi ibRJIg"
+  >
+    Calculate your SPAN savings
+  </h1>
+  <div
+    class="sc-fFGjHI jbeiyk"
+  >
+    <div>
+      mocked icon
+    </div>
+    <h1
+      class="sc-ewnqHT dRIvVH"
+      data-testid="description"
+    >
+      The Inflation Reduction Act provides savings for SPAN Panel and greater electrification projects around your home. Find out your personalized savings below.
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`<BannerHeroSection /> should render the heading 1`] = `
+<div
+  class="sc-bgqQcB czendY"
+>
+  <h1
+    class="sc-gTRrQi ibRJIg"
+  >
+    Calculate your SPAN savings
+  </h1>
+  <div
+    class="sc-fFGjHI jbeiyk"
+  >
+    <div>
+      mocked icon
+    </div>
+    <h1
+      class="sc-ewnqHT dRIvVH"
+      data-testid="description"
+    >
+      The Inflation Reduction Act provides savings for SPAN Panel and greater electrification projects around your home. Find out your personalized savings below.
+    </h1>
+  </div>
+</div>
+`;

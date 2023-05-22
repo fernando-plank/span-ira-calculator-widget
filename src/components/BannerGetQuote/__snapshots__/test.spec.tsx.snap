@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BannerGetQuote /> should render explore panel button 1`] = `
+<div
+  class="sc-bgqQcB kOiKDX"
+>
+  <div
+    class="sc-ewnqHT ecJhSW"
+  >
+    <div
+      class="sc-fFGjHI cQAWRu"
+    >
+      <h1
+        class="sc-dicizt bxdNUB"
+      >
+        Ready
+      </h1>
+      <h1
+        class="sc-dicizt bxdNUB"
+      >
+        for SPAN?
+      </h1>
+      <p
+        class="sc-iVCKna gTFYEs"
+      >
+        Complete our easy form and one of our Home Advisors will be in touch to discuss your project scope, and the savings available.
+      </p>
+    </div>
+    <div
+      class="sc-ispOId iBCoDe"
+    >
+      <button
+        class="sc-gxYJeL dPPtxZ"
+      >
+        Get quote
+      </button>
+      <button
+        class="sc-kPTPQs dbMuJB"
+      >
+        Explore panel
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<BannerGetQuote /> should render get quote button 1`] = `
+<div
+  class="sc-bgqQcB kOiKDX"
+>
+  <div
+    class="sc-ewnqHT ecJhSW"
+  >
+    <div
+      class="sc-fFGjHI cQAWRu"
+    >
+      <h1
+        class="sc-dicizt bxdNUB"
+      >
+        Ready
+      </h1>
+      <h1
+        class="sc-dicizt bxdNUB"
+      >
+        for SPAN?
+      </h1>
+      <p
+        class="sc-iVCKna gTFYEs"
+      >
+        Complete our easy form and one of our Home Advisors will be in touch to discuss your project scope, and the savings available.
+      </p>
+    </div>
+    <div
+      class="sc-ispOId iBCoDe"
+    >
+      <button
+        class="sc-gxYJeL dPPtxZ"
+      >
+        Get quote
+      </button>
+      <button
+        class="sc-kPTPQs dbMuJB"
+      >
+        Explore panel
+      </button>
+    </div>
+  </div>
+</div>
+`;

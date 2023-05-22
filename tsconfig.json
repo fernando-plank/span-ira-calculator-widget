@@ -31,6 +31,6 @@
     ]
   },
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "storybook-static", "**/test.tsx", "**/**.test.ts", "**/*.spec.ts", "cypress/**/*"],
+  "exclude": ["node_modules", "storybook-static", "**/test.tsx", "**/**.test.ts", "**/*.spec.ts", "cypress/**/*", "./cypress.config.ts"],
   "types": ["node", "jest", "@testing-library/jest-dom"]
 }

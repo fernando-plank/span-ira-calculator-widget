@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Info /> should show tooltip when click on icon 1`] = `
+<div
+  class="sc-bgqQcB hxTPvd"
+  data-testid="tooltip"
+>
+  <h4
+    class="sc-gTRrQi daYTAa"
+    data-testid="tooltip-content"
+  >
+    Info Content
+  </h4>
+  <div>
+    mocked icon
+  </div>
+</div>
+`;
+
+exports[`<Info /> should show tooltip when click on icon 2`] = `
+<div
+  class="sc-bgqQcB hxTPvd"
+  data-testid="tooltip"
+>
+  <div>
+    mocked icon
+  </div>
+</div>
+`;

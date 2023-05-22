@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LocalRebates /> should render the title 1`] = `
+<div
+  class="sc-dicizt bzfCzc"
+>
+  <div>
+    <h1
+      class="sc-gxYJeL jRvrbj"
+      data-testid="local-rebates-title"
+    >
+      Local utility electrification rebates
+    </h1>
+  </div>
+  <div>
+    <div
+      class="sc-bgqQcB dqXqOe"
+    >
+      <h2
+        class="sc-ewnqHT bAgQlG"
+        data-testid="accordion-title"
+      >
+        California
+      </h2>
+      <div>
+        mocked icon
+      </div>
+    </div>
+    <div
+      class="sc-fFGjHI iWFDDm"
+    />
+    <div
+      class="sc-gTRrQi klGOxv"
+      data-testid="accordion-body"
+    >
+      <div
+        class="sc-ispOId iBFxXR"
+      />
+      <div
+        class="sc-ispOId iBFxXR"
+      >
+        <div
+          class="sc-kcuKUB gKLQKJ"
+        >
+          <p
+            class="sc-dcrmVg gYVBMA"
+          >
+            <b>
+              Silicon Valley Power
+            </b>
+             customers can save up to $2,500 on SPAN as part of a larger home electrification project.
+          </p>
+          <button
+            class="sc-kuWgmH bZoRFK"
+          >
+            Learn more
+          </button>
+        </div>
+        <div
+          class="sc-kcuKUB gKLQKJ"
+        >
+          <p
+            class="sc-dcrmVg gYVBMA"
+          >
+            <b>
+              Sacramento Municipal Utility District
+            </b>
+             (SMUD) customers can save up to $2,500 as part of a larger home electrification project.
+          </p>
+          <button
+            class="sc-kuWgmH bZoRFK"
+          >
+            Learn more
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-bgqQcB dqXqOe"
+    >
+      <h2
+        class="sc-ewnqHT bAgQlG"
+        data-testid="accordion-title"
+      >
+        Hawai’i
+      </h2>
+      <div>
+        mocked icon
+      </div>
+    </div>
+    <div
+      class="sc-fFGjHI iWFDDm"
+    />
+    <div
+      class="sc-gTRrQi klGOxv"
+      data-testid="accordion-body"
+    >
+      <div
+        class="sc-ispOId iBFxXR"
+      />
+      <div
+        class="sc-ispOId iBFxXR"
+      >
+        <div
+          class="sc-kcuKUB gKLQKJ"
+        >
+          <p
+            class="sc-dcrmVg gYVBMA"
+          >
+            <b>
+              Shifted Energy
+            </b>
+             customers can have the costs of SPAN Panel covered, plus up to $4,000 for install when they agree to share SPAN Panel data and control with Shifted Energy.
+          </p>
+          <button
+            class="sc-kuWgmH bZoRFK"
+          >
+            Learn more
+          </button>
+        </div>
+        <div
+          class="sc-kcuKUB gKLQKJ"
+        >
+          <p
+            class="sc-dcrmVg gYVBMA"
+          >
+            <b>
+              Hawaiian Electric
+            </b>
+             customers can save $500 on SPAN Panel product costs by becoming a HECO Utility rate payer.
+          </p>
+          <button
+            class="sc-kuWgmH bZoRFK"
+          >
+            Learn more
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <p
+      class="sc-crozmw tnAXd"
+    >
+      We’re constantly updating this list, so check back to see if your utility provider provides localized incentives for getting SPAN.
+    </p>
+  </div>
+</div>
+`;

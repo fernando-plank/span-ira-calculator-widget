@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<About /> should render the title 1`] = `
+<div
+  class="sc-bgqQcB epLcUj"
+>
+  <h1
+    class="sc-gTRrQi jgubHv"
+    data-testid="about-title"
+  >
+    SPAN + IRA
+  </h1>
+  <div
+    class="sc-ewnqHT dXHgQi"
+  >
+    <p
+      class="sc-fFGjHI ibjHNu"
+    >
+      Get the most up-to-date facts and information about how the IRA affects you and your home by reading SPAN® & the Inflation Reduction Act, a new addition to our blog written by SPAN CEO and Founder Arch Rao.
+    </p>
+    <button
+      class="sc-dicizt iipDhC"
+    >
+      Read blog post
+    </button>
+  </div>
+</div>
+`;

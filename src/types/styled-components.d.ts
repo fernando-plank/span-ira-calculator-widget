@@ -17,12 +17,6 @@ declare module 'styled-components' {
       modal: number
       alwaysOnTop: number
     }
-    images: {
-      quote: {
-        mobile: string
-        desktop: string
-      }
-    }
     breakpoints: {
       mobileS: string
       mobileM: string
