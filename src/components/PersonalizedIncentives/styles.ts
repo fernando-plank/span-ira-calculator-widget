@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
   width: fill-available;
   background-color: ${({ theme }) => theme.colors.primary};
   padding: 50px 24px;
+  margin-top: 50px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     margin: 0px 30px;
@@ -52,7 +53,7 @@ export const IncentivesBodyIcon = styled.div`
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}) {
     position: absolute;
     align-self: end;
-    margin-top: 100px;
+    margin-top: 150px;
   }
 `
 
@@ -73,7 +74,7 @@ export const DescriptionContainer = styled.div`
   color: ${({ theme }) => theme.colors.white};
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    width: 50%;
+    margin-right: 20px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
@@ -88,14 +89,7 @@ export const Subtitle = styled.h6`
   line-height: 24px;
   text-transform: uppercase;
   text-align: left;
-
-  @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
-    max-width: 47vw;
-  }
-
-  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    max-width: 90%;
-  }
+  max-width: 100vw;
 
   svg {
     & > path {
@@ -119,15 +113,25 @@ export const Price = styled.h6`
 export const IncentivesFooter = styled.div`
   display: flex;
   margin-top: 40px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}) {
+    flex-direction: column;
+  }
 `
 
 export const IncentivesFooterContent = styled.p`
+  color: ${({ theme }) => theme.colors.white} !important;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  padding-right: 59px;
   text-align: left;
+
+  margin-bottom: 30px;
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
+    padding-right: 59px;
+  }
 `
 
 export const Separator = styled.div`

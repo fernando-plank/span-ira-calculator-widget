@@ -30,7 +30,7 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
         </S.TaxBodyContent>
         <S.TaxBodyContent>
           <table
-            style={{ width: '100%', textAlign: 'left', marginBottom: '60px' }}
+            style={{ width: '100%', textAlign: 'left', marginBottom: '130px' }}
           >
             <thead>
               <tr>
@@ -40,22 +40,26 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
             </thead>
             <tbody>
               {tableData &&
-                tableData?.map((item, index) => (
+                tableData.map((item, index) => (
                   <tr key={index}>
                     <S.TableTd
                       style={{
-                        color: item.lineColor
-                          ? `${item.lineColor}`
-                          : `${theme.colors.black}`
+                        color:
+                          index == tableData.length - 1 ||
+                          index == tableData.length - 2
+                            ? `#B0B0B1`
+                            : `${theme.colors.black}`
                       }}
                     >
                       {item.item}
                     </S.TableTd>
                     <S.TableTd
                       style={{
-                        color: item.lineColor
-                          ? `${item.lineColor}`
-                          : `${theme.colors.black}`
+                        color:
+                          index == tableData.length - 1 ||
+                          index == tableData.length - 2
+                            ? `#B0B0B1`
+                            : `${theme.colors.black}`
                       }}
                     >
                       {isInt(item.amount)
