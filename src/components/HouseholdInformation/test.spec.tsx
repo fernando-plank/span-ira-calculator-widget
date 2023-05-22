@@ -1,9 +1,9 @@
 import { act, fireEvent, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { render } from '../../utils/test-utils'
-import fetchMock from 'jest-fetch-mock'
 
 import Home from '../../pages/Home'
+import React from 'react'
 
 async function setupUserEvent(jsx) {
   return {
@@ -15,6 +15,9 @@ async function setupUserEvent(jsx) {
 jest.mock('../Icon', () => {
   return jest.fn(() => <div>mocked icon</div>)
 })
+
+let scrollIntoViewMock = jest.fn()
+window.HTMLElement.prototype.scrollIntoView = scrollIntoViewMock
 
 const setup = async () => {
   const { user } = await setupUserEvent(<Home />)

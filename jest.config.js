@@ -1,6 +1,6 @@
 module.exports = {
   setupFiles: ['<rootDir>/jestSetEnvVars.js'],
-  setupFilesAfterEnv: ['jest-styled-components', 'whatwg-fetch', '@testing-library/jest-dom/extend-expect'],
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'json'],
   moduleNameMapper: {
     '\\.scss$': 'identity-obj-proxy',
@@ -11,14 +11,16 @@ module.exports = {
     "^@assets/(.*)$": '<rootDir>/src/assets/$1',
     "^@common/(.*)$": '<rootDir>/src/common/$1',
     "^@services/(.*)$": '<rootDir>/src/services/$1',
+    "^@mock/(.*)$": '<rootDir>/src/mock/$1',
   },
   testEnvironment: 'jsdom',
-  collectCoverageFrom: ['<rootDir>/**/*.{ts, tsx}'],
+  collectCoverageFrom: ['<rootDir>/**/components/**/index.(ts|tsx)', '!<rootDir>/**/components/Icon/index.(ts|tsx)', '!<rootDir>/**/components/Navbar/index.(ts|tsx)'],
   roots: ['<rootDir>'],
   testRegex: '(/tests/jest/.*|(\\.|/)(test|spec))\\.(ts|tsx)$',
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
     '^.+\\.svg$': '<rootDir>/utils/svgTransform.js',
+    '^.+\\.jsx?$': 'babel-jest'
   },
   modulePaths: ['<rootDir>/src', '<rootDir>/.jest'],
 };
