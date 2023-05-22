@@ -1,11 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Accordion /> should add classname on click 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+align-items:baseline .c0 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  width: 80%;
+  margin-bottom: 17px;
+}
+
+@media (min-width:320px) {
+
+}
+
+@media (min-width:1024px) {
+
+}
+
 <div
-  class="sc-bgqQcB dqXqOe"
+  class="c0 c1"
 >
   <h2
-    class="sc-ewnqHT bAgQlG"
+    class="c2"
     data-testid="accordion-title"
   >
     Title
@@ -17,11 +49,43 @@ exports[`<Accordion /> should add classname on click 1`] = `
 `;
 
 exports[`<Accordion /> should add title 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+align-items:baseline .c0 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  width: 80%;
+  margin-bottom: 17px;
+}
+
+@media (min-width:320px) {
+
+}
+
+@media (min-width:1024px) {
+
+}
+
 <div
-  class="sc-bgqQcB dqXqOe"
+  class="c0 c1"
 >
   <h2
-    class="sc-ewnqHT bAgQlG"
+    class="c2"
     data-testid="accordion-title"
     style="background-color: red;"
   >
@@ -34,11 +98,43 @@ exports[`<Accordion /> should add title 1`] = `
 `;
 
 exports[`<Accordion /> should render accordion body 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+align-items:baseline .c0 > svg {
+  cursor: pointer;
+}
+
+.c2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  width: 80%;
+  margin-bottom: 17px;
+}
+
+@media (min-width:320px) {
+
+}
+
+@media (min-width:1024px) {
+
+}
+
 <div
-  class="sc-bgqQcB dqXqOe"
+  class="c0 c1"
 >
   <h2
-    class="sc-ewnqHT bAgQlG"
+    class="c2"
     data-testid="accordion-title"
   >
     Title

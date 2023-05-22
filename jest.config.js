@@ -1,4 +1,6 @@
 module.exports = {
+  setupFiles: ['<rootDir>/jestSetEnvVars.js'],
+  setupFilesAfterEnv: ['jest-styled-components', 'whatwg-fetch', '@testing-library/jest-dom/extend-expect'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'json'],
   moduleNameMapper: {
     '\\.scss$': 'identity-obj-proxy',
@@ -10,9 +12,6 @@ module.exports = {
     "^@common/(.*)$": '<rootDir>/src/common/$1',
     "^@services/(.*)$": '<rootDir>/src/services/$1',
   },
-  setupFilesAfterEnv: [
-    "@testing-library/jest-dom/extend-expect"
-  ],
   testEnvironment: 'jsdom',
   collectCoverageFrom: ['<rootDir>/**/*.{ts, tsx}'],
   roots: ['<rootDir>'],

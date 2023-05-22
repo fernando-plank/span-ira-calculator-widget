@@ -1,12 +1,219 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<LocalRebates /> should render the title 1`] = `
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+align-items:baseline .c2 > svg {
+  cursor: pointer;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  opacity: 0;
+  max-height: 0;
+  pointer-events: none;
+  margin-bottom: 17px;
+}
+
+.c6.active {
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.c4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  width: 80%;
+  margin-bottom: 17px;
+}
+
+.c5 {
+  height: 1px;
+  background: #b0b0b1;
+  border-radius: 2px;
+  margin-bottom: 17px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  color: #1F1F1F;
+  background: #EFEFEF;
+  width: 100%;
+}
+
+.c1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 81px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.c9 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  width: 100%;
+}
+
+.c10 {
+  border: 2px solid #1F1F1F;
+  border-radius: 20px;
+  width: 50%;
+  height: 40px;
+  margin-left: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c11 {
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+@media (min-width:320px) {
+  .c6 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c6 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c0 {
+    padding: 56px 24px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    padding: 96px 64px;
+  }
+}
+
+@media (min-width:320px) {
+  .c7 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c7 {
+    width: 50%;
+  }
+}
+
+@media (min-width:320px) {
+  .c8 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c8 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c10 {
+    -webkit-align-self: end;
+    -ms-flex-item-align: end;
+    align-self: end;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c10 {
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    align-self: start;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width:320px) {
+  .c11 {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c11 {
+    width: 50%;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
 <div
-  class="sc-dicizt bzfCzc"
+  class="c0"
 >
   <div>
     <h1
-      class="sc-gxYJeL jRvrbj"
+      class="c1"
       data-testid="local-rebates-title"
     >
       Local utility electrification rebates
@@ -14,10 +221,10 @@ exports[`<LocalRebates /> should render the title 1`] = `
   </div>
   <div>
     <div
-      class="sc-bgqQcB dqXqOe"
+      class="c2 c3"
     >
       <h2
-        class="sc-ewnqHT bAgQlG"
+        class="c4"
         data-testid="accordion-title"
       >
         California
@@ -27,23 +234,23 @@ exports[`<LocalRebates /> should render the title 1`] = `
       </div>
     </div>
     <div
-      class="sc-fFGjHI iWFDDm"
+      class="c5"
     />
     <div
-      class="sc-gTRrQi klGOxv"
+      class="c6 accordion-body"
       data-testid="accordion-body"
     >
       <div
-        class="sc-ispOId iBFxXR"
+        class="c7"
       />
       <div
-        class="sc-ispOId iBFxXR"
+        class="c7"
       >
         <div
-          class="sc-kcuKUB gKLQKJ"
+          class="c8"
         >
           <p
-            class="sc-dcrmVg gYVBMA"
+            class="c9"
           >
             <b>
               Silicon Valley Power
@@ -51,16 +258,16 @@ exports[`<LocalRebates /> should render the title 1`] = `
              customers can save up to $2,500 on SPAN as part of a larger home electrification project.
           </p>
           <button
-            class="sc-kuWgmH bZoRFK"
+            class="c10"
           >
             Learn more
           </button>
         </div>
         <div
-          class="sc-kcuKUB gKLQKJ"
+          class="c8"
         >
           <p
-            class="sc-dcrmVg gYVBMA"
+            class="c9"
           >
             <b>
               Sacramento Municipal Utility District
@@ -68,7 +275,7 @@ exports[`<LocalRebates /> should render the title 1`] = `
              (SMUD) customers can save up to $2,500 as part of a larger home electrification project.
           </p>
           <button
-            class="sc-kuWgmH bZoRFK"
+            class="c10"
           >
             Learn more
           </button>
@@ -76,10 +283,10 @@ exports[`<LocalRebates /> should render the title 1`] = `
       </div>
     </div>
     <div
-      class="sc-bgqQcB dqXqOe"
+      class="c2 c3"
     >
       <h2
-        class="sc-ewnqHT bAgQlG"
+        class="c4"
         data-testid="accordion-title"
       >
         Hawai’i
@@ -89,23 +296,23 @@ exports[`<LocalRebates /> should render the title 1`] = `
       </div>
     </div>
     <div
-      class="sc-fFGjHI iWFDDm"
+      class="c5"
     />
     <div
-      class="sc-gTRrQi klGOxv"
+      class="c6 accordion-body"
       data-testid="accordion-body"
     >
       <div
-        class="sc-ispOId iBFxXR"
+        class="c7"
       />
       <div
-        class="sc-ispOId iBFxXR"
+        class="c7"
       >
         <div
-          class="sc-kcuKUB gKLQKJ"
+          class="c8"
         >
           <p
-            class="sc-dcrmVg gYVBMA"
+            class="c9"
           >
             <b>
               Shifted Energy
@@ -113,16 +320,16 @@ exports[`<LocalRebates /> should render the title 1`] = `
              customers can have the costs of SPAN Panel covered, plus up to $4,000 for install when they agree to share SPAN Panel data and control with Shifted Energy.
           </p>
           <button
-            class="sc-kuWgmH bZoRFK"
+            class="c10"
           >
             Learn more
           </button>
         </div>
         <div
-          class="sc-kcuKUB gKLQKJ"
+          class="c8"
         >
           <p
-            class="sc-dcrmVg gYVBMA"
+            class="c9"
           >
             <b>
               Hawaiian Electric
@@ -130,7 +337,7 @@ exports[`<LocalRebates /> should render the title 1`] = `
              customers can save $500 on SPAN Panel product costs by becoming a HECO Utility rate payer.
           </p>
           <button
-            class="sc-kuWgmH bZoRFK"
+            class="c10"
           >
             Learn more
           </button>
@@ -140,7 +347,7 @@ exports[`<LocalRebates /> should render the title 1`] = `
   </div>
   <div>
     <p
-      class="sc-crozmw tnAXd"
+      class="c11"
     >
       We’re constantly updating this list, so check back to see if your utility provider provides localized incentives for getting SPAN.
     </p>

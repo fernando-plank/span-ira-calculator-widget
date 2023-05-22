@@ -1,25 +1,134 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<About /> should render the title 1`] = `
+.c0 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  font-weight: 600;
+  color: #FAFAFA;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  color: #FAFAFA;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c4 {
+  border: 2px solid #FAFAFA;
+  border-radius: 20px;
+  background: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FAFAFA;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 104px;
+  cursor: pointer;
+}
+
+@media (min-width:320px) {
+  .c0 {
+    background: url() no-repeat;
+    padding: 347px 30px 20% 30px;
+    text-align: left;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-size: 100%;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    background: url() no-repeat;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    padding: 267px 64px 20% 64px;
+    background-size: 100%;
+  }
+}
+
+@media (min-width:320px) {
+  .c1 {
+    width: 55%;
+    font-size: 70px;
+    line-height: 70px;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    width: 90%;
+    font-size: 136px;
+    line-height: 136px;
+  }
+}
+
+@media (min-width:320px) {
+  .c3 {
+    width: 100%;
+    margin-top: 24px;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    width: 50%;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width:320px) {
+  .c4 {
+    width: 50%;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    width: 30%;
+  }
+}
+
 <div
-  class="sc-bgqQcB epLcUj"
+  class="c0"
 >
   <h1
-    class="sc-gTRrQi jgubHv"
+    class="c1"
     data-testid="about-title"
   >
     SPAN + IRA
   </h1>
   <div
-    class="sc-ewnqHT dXHgQi"
+    class="c2"
   >
     <p
-      class="sc-fFGjHI ibjHNu"
+      class="c3"
     >
       Get the most up-to-date facts and information about how the IRA affects you and your home by reading SPAN® & the Inflation Reduction Act, a new addition to our blog written by SPAN CEO and Founder Arch Rao.
     </p>
     <button
-      class="sc-dicizt iipDhC"
+      class="c4"
     >
       Read blog post
     </button>

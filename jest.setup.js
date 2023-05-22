@@ -1,8 +1,4 @@
-import '@testing-library/jest-dom/extend-expect';
-import 'jest-styled-components'
-import 'whatwg-fetch'
-
-import { mockServer } from './src/mock/request'
+const { mockServer } = require('./src/mock/request')
 
 beforeAll(() => mockServer.listen({ onUnhandledRequest: 'warn' }))
 afterEach(() => mockServer.resetHandlers())

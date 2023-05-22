@@ -1,19 +1,118 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Faq /> should render the title 1`] = `
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+align-items:baseline .c2 > svg {
+  cursor: pointer;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  opacity: 0;
+  max-height: 0;
+  pointer-events: none;
+  margin-bottom: 17px;
+}
+
+.c6.active {
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.c4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  width: 80%;
+  margin-bottom: 17px;
+}
+
+.c5 {
+  height: 1px;
+  background: #b0b0b1;
+  border-radius: 2px;
+  margin-bottom: 17px;
+}
+
+.c0 {
+  padding: 30px 19px;
+  width: 100%;
+  color: #1F1F1F;
+  text-align: left;
+}
+
+.c7 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (min-width:320px) {
+  .c6 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c6 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:320px) {
+  .c1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 46px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 88px;
+  }
+}
+
 <div
-  class="sc-dicizt jSxUaO"
+  class="c0"
 >
   <h1
-    class="sc-iVCKna cYEIah"
+    class="c1"
   >
     Rebate FAQs
   </h1>
   <div
-    class="sc-bgqQcB dqXqOe"
+    class="c2 c3"
   >
     <h2
-      class="sc-ewnqHT bAgQlG"
+      class="c4"
       data-testid="accordion-title"
       style="font-size: 16px; line-height: normal;"
     >
@@ -24,23 +123,23 @@ exports[`<Faq /> should render the title 1`] = `
     </div>
   </div>
   <div
-    class="sc-fFGjHI iWFDDm"
+    class="c5"
   />
   <div
-    class="sc-gTRrQi klGOxv"
+    class="c6 accordion-body"
     data-testid="accordion-body"
   >
     <div
-      class="sc-gxYJeL bPYRCx"
+      class="c7"
     >
       All tax credits are available now. The rebates should start to become available by the end of 2023. We don\`‘\`t know exactly when the rebates marked “late 2023” will be available, because it will depend on how each state rolls out its incentive program.
     </div>
   </div>
   <div
-    class="sc-bgqQcB dqXqOe"
+    class="c2 c3"
   >
     <h2
-      class="sc-ewnqHT bAgQlG"
+      class="c4"
       data-testid="accordion-title"
       style="font-size: 16px; line-height: normal;"
     >
@@ -51,23 +150,23 @@ exports[`<Faq /> should render the title 1`] = `
     </div>
   </div>
   <div
-    class="sc-fFGjHI iWFDDm"
+    class="c5"
   />
   <div
-    class="sc-gTRrQi klGOxv"
+    class="c6 accordion-body"
     data-testid="accordion-body"
   >
     <div
-      class="sc-gxYJeL bPYRCx"
+      class="c7"
     >
       In many cases, no! The IRA’s incentives are designed to increase access to clean technology. For households with lower incomes, up to 100% of appliance and installation costs are discounted at purchase, meaning you could install efficient electric appliances at no cost, with no spending.Middle-income households do have to spend in order to access savings, but up to 50% of appliance and installation costs can be covered through upfront discounts, and you can use tax credits to cover some of the remaining gap. Highest-income households are not eligible for upfront discounts, so you will have to pay full price for appliances and installation — but tax credits on the back end could recoup up to 30% of your costs.
     </div>
   </div>
   <div
-    class="sc-bgqQcB dqXqOe"
+    class="c2 c3"
   >
     <h2
-      class="sc-ewnqHT bAgQlG"
+      class="c4"
       data-testid="accordion-title"
       style="font-size: 16px; line-height: normal;"
     >
@@ -78,14 +177,14 @@ exports[`<Faq /> should render the title 1`] = `
     </div>
   </div>
   <div
-    class="sc-fFGjHI iWFDDm"
+    class="c5"
   />
   <div
-    class="sc-gTRrQi klGOxv"
+    class="c6 accordion-body"
     data-testid="accordion-body"
   >
     <div
-      class="sc-gxYJeL bPYRCx"
+      class="c7"
     >
       <p>
         Yes! The IRA’s up-front electrification rebates and electrification tax credits can all be used by renters. Many of these upgrades — including window-unit heat pumps (which should qualify by 2024/2025), electric stoves/cooktops, and heat pump clothes dryers — are portable, so renters can bring them to their next homes and won’t have to leave any savings behind. Renters are also eligible for the used and new EV tax credits. And although they’re not exactly consumer-facing, renters will benefit from the IRA’s $1 billion investment in affordable housing energy upgrades and the new tax deduction for efficiency upgrades in commercial buildings (including apartment buildings). Renters can also subscribe to community solar — which will be cheaper because of the IRA’s supply-side renewable energy incentives.
@@ -93,10 +192,10 @@ exports[`<Faq /> should render the title 1`] = `
     </div>
   </div>
   <div
-    class="sc-bgqQcB dqXqOe"
+    class="c2 c3"
   >
     <h2
-      class="sc-ewnqHT bAgQlG"
+      class="c4"
       data-testid="accordion-title"
       style="font-size: 16px; line-height: normal;"
     >
@@ -107,14 +206,14 @@ exports[`<Faq /> should render the title 1`] = `
     </div>
   </div>
   <div
-    class="sc-fFGjHI iWFDDm"
+    class="c5"
   />
   <div
-    class="sc-gTRrQi klGOxv"
+    class="c6 accordion-body"
     data-testid="accordion-body"
   >
     <div
-      class="sc-gxYJeL bPYRCx"
+      class="c7"
     >
       All tax credits were available starting January 1, 2023, so save your receipts for filing season! If you installed rooftop solar in 2022, it is eligible for the new, 30% 25D tax credit. If you installed a heat pump in 2022, it is eligible for the old 25C tax credit: 10% of costs up to $300. The Electrification Rebates and Efficiency Rebates will likely not be retroactive.
     </div>

@@ -1,8 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SocialMedia /> should render social media link 1`] = `
+.c0 {
+  margin-bottom: 15px;
+}
+
 <a
-  class="sc-bgqQcB bGgObM"
+  class="c0"
   data-testid="social-media-link"
   href="http://facebook.com"
   target="_blank"

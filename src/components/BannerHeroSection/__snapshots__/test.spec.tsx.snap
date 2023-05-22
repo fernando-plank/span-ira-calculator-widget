@@ -1,22 +1,94 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BannerHeroSection /> should render the description 1`] = `
+.c0 {
+  width: 100%;
+  background-color: #00b0d3;
+}
+
+.c1 {
+  text-align: left;
+  margin-bottom: 113px;
+  font-weight: 600;
+  font-style: normal;
+  color: #FAFAFA;
+}
+
+.c3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 360px;
+  color: #FAFAFA;
+}
+
+.c2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  margin-bottom: 72px;
+}
+
+.c2 svg {
+  margin-bottom: 1.6rem;
+}
+
+@media (min-width:320px) {
+  .c0 {
+    padding: 24px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    padding: 64px;
+  }
+}
+
+@media (min-width:320px) {
+  .c1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    font-size: 136px;
+    line-height: 136px;
+  }
+}
+
 <div
-  class="sc-bgqQcB czendY"
+  class="c0"
 >
   <h1
-    class="sc-gTRrQi ibRJIg"
+    class="c1"
   >
     Calculate your SPAN savings
   </h1>
   <div
-    class="sc-fFGjHI jbeiyk"
+    class="c2"
   >
     <div>
       mocked icon
     </div>
     <h1
-      class="sc-ewnqHT dRIvVH"
+      class="c3"
       data-testid="description"
     >
       The Inflation Reduction Act provides savings for SPAN Panel and greater electrification projects around your home. Find out your personalized savings below.
@@ -26,22 +98,94 @@ exports[`<BannerHeroSection /> should render the description 1`] = `
 `;
 
 exports[`<BannerHeroSection /> should render the heading 1`] = `
+.c0 {
+  width: 100%;
+  background-color: #00b0d3;
+}
+
+.c1 {
+  text-align: left;
+  margin-bottom: 113px;
+  font-weight: 600;
+  font-style: normal;
+  color: #FAFAFA;
+}
+
+.c3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 360px;
+  color: #FAFAFA;
+}
+
+.c2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  margin-bottom: 72px;
+}
+
+.c2 svg {
+  margin-bottom: 1.6rem;
+}
+
+@media (min-width:320px) {
+  .c0 {
+    padding: 24px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    padding: 64px;
+  }
+}
+
+@media (min-width:320px) {
+  .c1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    font-size: 136px;
+    line-height: 136px;
+  }
+}
+
 <div
-  class="sc-bgqQcB czendY"
+  class="c0"
 >
   <h1
-    class="sc-gTRrQi ibRJIg"
+    class="c1"
   >
     Calculate your SPAN savings
   </h1>
   <div
-    class="sc-fFGjHI jbeiyk"
+    class="c2"
   >
     <div>
       mocked icon
     </div>
     <h1
-      class="sc-ewnqHT dRIvVH"
+      class="c3"
       data-testid="description"
     >
       The Inflation Reduction Act provides savings for SPAN Panel and greater electrification projects around your home. Find out your personalized savings below.

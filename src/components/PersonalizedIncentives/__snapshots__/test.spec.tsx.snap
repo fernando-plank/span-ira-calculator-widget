@@ -1,19 +1,218 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PersonalizedIncentives /> should render the household anual savings 1`] = `
+.c0 {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill-available;
+  background-color: #00b0d3;
+  padding: 50px 24px;
+  margin-top: 50px;
+}
+
+.c0 svg {
+  margin: 0px 10px;
+}
+
+.c1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 42px;
+  color: #FAFAFA;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.c3 {
+  width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+  padding-left: 40px;
+  height: 30vh;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  color: #FAFAFA;
+}
+
+.c6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: left;
+  max-width: 100vw;
+}
+
+.c6 svg > path {
+  fill: white;
+}
+
+.c6 svg > circle {
+  stroke: white;
+}
+
+.c8 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 40px;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.c11 {
+  color: #FAFAFA !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.c9 {
+  border: 2px solid #FAFAFA;
+}
+
+.c7 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: contents;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    margin: 0px 30px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    width: 30vw;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (max-width:425px) {
+  .c3 {
+    position: absolute;
+    -webkit-align-self: end;
+    -ms-flex-item-align: end;
+    align-self: end;
+    margin-top: 150px;
+  }
+}
+
+@media (min-width:320px) {
+  .c4 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c4 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c5 {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width:320px) {
+  .c5 {
+    margin-top: 28px;
+  }
+}
+
+@media (max-width:425px) {
+  .c10 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c11 {
+    padding-right: 59px;
+  }
+}
+
 <div
-  class="sc-bgqQcB euEWXu"
+  class="c0"
 >
   <h1
-    class="sc-gTRrQi hYARht"
+    class="c1"
   >
     Your personalized incentives
   </h1>
   <div
-    class="sc-ewnqHT dTqLoJ"
+    class="c2"
   >
     <div
-      class="sc-fFGjHI kNTDoP"
+      class="c3"
     >
       <div>
         mocked icon
@@ -25,24 +224,26 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
         mocked icon
       </div>
     </div>
-    <div>
+    <div
+      style="margin-bottom: 60px;"
+    >
       <div
-        class="sc-dicizt fYnvLj"
+        class="c4"
       >
         <div
-          class="sc-iVCKna gvAyhw"
+          class="c5"
         >
           <h6
-            class="sc-gxYJeL iYrDBA"
+            class="c6"
           >
             Available
           </h6>
           <h6
-            class="sc-gxYJeL iYrDBA"
+            class="c6"
           >
             tax credits
             <div
-              class="sc-duSInm jBJhlp"
+              class="c7"
               data-testid="tooltip"
             >
               <div>
@@ -51,21 +252,26 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
             </div>
           </h6>
           <h6
-            class="sc-kPTPQs eqoRyo"
+            class="c8"
             data-testid="household_tax_savings"
           >
             $320
           </h6>
         </div>
         <div
-          class="sc-iVCKna gvAyhw"
+          class="c5"
         >
           <h6
-            class="sc-gxYJeL iYrDBA"
+            class="c6"
           >
-            Estimated energy savings per year
+            Estimated energy
+          </h6>
+          <h6
+            class="c6"
+          >
+            savings per year
             <div
-              class="sc-duSInm jBJhlp"
+              class="c7"
               data-testid="tooltip"
             >
               <div>
@@ -74,7 +280,7 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
             </div>
           </h6>
           <h6
-            class="sc-kPTPQs eqoRyo"
+            class="c8"
             data-testid="household_annual_savings"
           >
             $111
@@ -84,18 +290,18 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
     </div>
   </div>
   <div
-    class="sc-dcrmVg bobKEt"
+    class="c9"
   />
   <div
-    class="sc-ispOId jIIyfW"
+    class="c10"
   >
     <p
-      class="sc-kcuKUB kIvePu"
+      class="c11"
     >
       Disclaimer: These values are estimates. The rebates may be implemented differently in each state, so we cannot guarantee final amounts, eligibility, or timeline. And without additional appropriations from Congress, the rebate programs will end once their initial IRA funding is exhausted. Tax credits can only be used to offset your federal taxes owed, which we estimate but do not know.
     </p>
     <p
-      class="sc-kcuKUB kIvePu"
+      class="c11"
     >
       Your income is above the threshold for upfront discounts and/or EV tax credits, but your tax liability will likely qualify you for equipment tax credits. You do qualify for a performance-based efficiency rebate worth $4,000. However, we do not consider this an upfront discount. Check out this relevant case study!
     </p>
@@ -104,19 +310,218 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
 `;
 
 exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
+.c0 {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill-available;
+  background-color: #00b0d3;
+  padding: 50px 24px;
+  margin-top: 50px;
+}
+
+.c0 svg {
+  margin: 0px 10px;
+}
+
+.c1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 42px;
+  color: #FAFAFA;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.c3 {
+  width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+  padding-left: 40px;
+  height: 30vh;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  color: #FAFAFA;
+}
+
+.c6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: left;
+  max-width: 100vw;
+}
+
+.c6 svg > path {
+  fill: white;
+}
+
+.c6 svg > circle {
+  stroke: white;
+}
+
+.c8 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 40px;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.c11 {
+  color: #FAFAFA !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.c9 {
+  border: 2px solid #FAFAFA;
+}
+
+.c7 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: contents;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    margin: 0px 30px;
+  }
+}
+
+@media (min-width:1024px) {
+  .c1 {
+    width: 30vw;
+  }
+}
+
+@media (min-width:320px) {
+  .c2 {
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (max-width:425px) {
+  .c3 {
+    position: absolute;
+    -webkit-align-self: end;
+    -ms-flex-item-align: end;
+    align-self: end;
+    margin-top: 150px;
+  }
+}
+
+@media (min-width:320px) {
+  .c4 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c4 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c5 {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width:320px) {
+  .c5 {
+    margin-top: 28px;
+  }
+}
+
+@media (max-width:425px) {
+  .c10 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:1024px) {
+  .c11 {
+    padding-right: 59px;
+  }
+}
+
 <div
-  class="sc-bgqQcB euEWXu"
+  class="c0"
 >
   <h1
-    class="sc-gTRrQi hYARht"
+    class="c1"
   >
     Your personalized incentives
   </h1>
   <div
-    class="sc-ewnqHT dTqLoJ"
+    class="c2"
   >
     <div
-      class="sc-fFGjHI kNTDoP"
+      class="c3"
     >
       <div>
         mocked icon
@@ -128,24 +533,26 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
         mocked icon
       </div>
     </div>
-    <div>
+    <div
+      style="margin-bottom: 60px;"
+    >
       <div
-        class="sc-dicizt fYnvLj"
+        class="c4"
       >
         <div
-          class="sc-iVCKna gvAyhw"
+          class="c5"
         >
           <h6
-            class="sc-gxYJeL iYrDBA"
+            class="c6"
           >
             Available
           </h6>
           <h6
-            class="sc-gxYJeL iYrDBA"
+            class="c6"
           >
             tax credits
             <div
-              class="sc-duSInm jBJhlp"
+              class="c7"
               data-testid="tooltip"
             >
               <div>
@@ -154,21 +561,26 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
             </div>
           </h6>
           <h6
-            class="sc-kPTPQs eqoRyo"
+            class="c8"
             data-testid="household_tax_savings"
           >
             $320
           </h6>
         </div>
         <div
-          class="sc-iVCKna gvAyhw"
+          class="c5"
         >
           <h6
-            class="sc-gxYJeL iYrDBA"
+            class="c6"
           >
-            Estimated energy savings per year
+            Estimated energy
+          </h6>
+          <h6
+            class="c6"
+          >
+            savings per year
             <div
-              class="sc-duSInm jBJhlp"
+              class="c7"
               data-testid="tooltip"
             >
               <div>
@@ -177,7 +589,7 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
             </div>
           </h6>
           <h6
-            class="sc-kPTPQs eqoRyo"
+            class="c8"
             data-testid="household_annual_savings"
           >
             $111
@@ -187,18 +599,18 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
     </div>
   </div>
   <div
-    class="sc-dcrmVg bobKEt"
+    class="c9"
   />
   <div
-    class="sc-ispOId jIIyfW"
+    class="c10"
   >
     <p
-      class="sc-kcuKUB kIvePu"
+      class="c11"
     >
       Disclaimer: These values are estimates. The rebates may be implemented differently in each state, so we cannot guarantee final amounts, eligibility, or timeline. And without additional appropriations from Congress, the rebate programs will end once their initial IRA funding is exhausted. Tax credits can only be used to offset your federal taxes owed, which we estimate but do not know.
     </p>
     <p
-      class="sc-kcuKUB kIvePu"
+      class="c11"
     >
       Your income is above the threshold for upfront discounts and/or EV tax credits, but your tax liability will likely qualify you for equipment tax credits. You do qualify for a performance-based efficiency rebate worth $4,000. However, we do not consider this an upfront discount. Check out this relevant case study!
     </p>
