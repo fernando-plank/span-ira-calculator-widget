@@ -64,6 +64,10 @@ export const IncentivesBodyIcon = styled.div`
     align-self: end;
     margin-top: 150px;
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    height: auto;
+  }
 `
 
 export const DescriptionWrapper = styled.div`
@@ -123,7 +127,7 @@ export const IncentivesFooter = styled.div`
   display: flex;
   margin-top: 40px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     flex-direction: column;
   }
 `
