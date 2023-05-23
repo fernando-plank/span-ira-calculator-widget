@@ -7,6 +7,8 @@ import TaxCredits from '@components/TaxCredits'
 import IncentivesServices from '@services/incentives'
 import { TaxCreditsTableData } from 'types/tax-credits'
 
+import * as S from './Home.styles';
+
 export type IncentivesProps = {
   pos_savings: number
   tax_savings: number
@@ -40,7 +42,7 @@ export const Home = () => {
   const onSubmitCallback = (data) => setHouseHoldingInformation(data)
 
   return (
-    <>
+    <S.Wrapper>
       {/*<Navbar/>*/}
       {/*<BannerHeroSection/>*/}
       <HouseholdInformation
@@ -55,7 +57,7 @@ export const Home = () => {
       {/*<BannerGetQuote/>*/}
       {/*<About/>*/}
       {/*<Footer/>*/}
-    </>
+    </S.Wrapper>
   )
 }
 
