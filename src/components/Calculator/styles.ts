@@ -5,11 +5,11 @@ export const Wrapper = styled.div`
   width: 100%;
 
   @media (min-width: ${(props) => props.theme.breakpoints.mobileS}) {
-    padding: 0px 24px;
+    padding: 30px 24px;
   }
 
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
-    padding: 0px 64px;
+    padding: 40px 64px;
   }
 `
 
