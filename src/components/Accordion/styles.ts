@@ -14,14 +14,7 @@ export const Body = styled.div`
   opacity: 0;
   max-height: 0;
   pointer-events: none;
-  transition: max-height 0.2s ease-out;
   margin-bottom: 17px;
-
-  &.active {
-    max-height: min-content;
-    opacity: 1;
-    pointer-events: auto;
-  }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     flex-direction: column;
@@ -29,6 +22,12 @@ export const Body = styled.div`
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex-direction: row;
+  }
+
+  &.active {
+    max-height: max-content;
+    opacity: 1;
+    pointer-events: auto;
   }
 `
 

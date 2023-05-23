@@ -19,6 +19,18 @@ const GlobalStyles = createGlobalStyle`
     src: local('Graphik'), url(fonts/GraphikSuper.woff) format('woff');
     font-weight: 700;
   }
+
+  &.nice-select {
+    display: none !important;
+  }
+
+  &.nice-select.w-select {
+    display: flex !important;
+  }
+
+  .accordion-body.active {
+    transition: 1s;
+  }
   
   *{
     margin: 0;
@@ -84,7 +96,15 @@ const GlobalStyles = createGlobalStyle`
     body {
       font-family: ${theme.fonts.primary.family}, sans-serif;
     }
-    
+
+    input:-webkit-autofill {
+      -webkit-box-shadow: none !important;
+      -webkit-text-fill-color: ${theme.colors.black};
+    }
+
+    input:-webkit-autofill:focus {
+      -webkit-text-fill-color: ${theme.colors.black};
+    }
   `}
 
 `

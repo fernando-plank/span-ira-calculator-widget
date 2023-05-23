@@ -29,7 +29,7 @@ const Accordion = (props: AccordionProps) => {
       <S.Separator></S.Separator>
       <S.Body
         data-testid="accordion-body"
-        className={classname({ active: showSection })}
+        className={classname({ active: showSection }, 'accordion-body')}
       >
         {props.children}
       </S.Body>

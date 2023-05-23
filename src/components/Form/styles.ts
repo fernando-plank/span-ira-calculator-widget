@@ -166,6 +166,7 @@ export const FormSelect = styled.select`
   align-items: center;
   width: 100%;
   grid-area: select;
+  display: block !important;
 `
 
 export const FormFieldError = styled.span`
