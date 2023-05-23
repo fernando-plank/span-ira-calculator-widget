@@ -2,24 +2,8 @@ import { createGlobalStyle, css } from 'styled-components'
 
 
 const GlobalStyles = createGlobalStyle`
-  @font-face {
-    font-family: 'Graphik';
-    src: local('Graphik'), url(fonts/GraphikRegular.woff) format('woff');
-    font-weight: normal;
-  }
-
-  @font-face {
-    font-family: 'Graphik';
-    src: local('Graphik'), url(fonts/GraphikBold.woff) format('woff');
-    font-weight: bold;
-  }
-
-  @font-face {
-    font-family: 'Graphik';
-    src: local('Graphik'), url(fonts/GraphikSuper.woff) format('woff');
-    font-weight: 700;
-  }
-
+  @import url('https://fonts.cdnfonts.com/css/graphik');
+  
   &.nice-select {
     display: none !important;
   }
