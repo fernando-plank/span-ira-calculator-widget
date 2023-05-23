@@ -6,9 +6,9 @@ export const Wrapper = styled.div`
   padding: 50px 24px;
   margin-top: 50px;
 
-  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    margin: 0px 30px;
-  }
+  // @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
+  //   margin: 0px 30px;
+  // }
 
   svg {
     margin: 0px 10px;

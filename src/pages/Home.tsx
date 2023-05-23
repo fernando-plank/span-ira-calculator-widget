@@ -43,20 +43,22 @@ export const Home = () => {
 
   return (
     <S.Wrapper>
-      {/*<Navbar/>*/}
-      {/*<BannerHeroSection/>*/}
-      <HouseholdInformation
-        executeScroll={executeScroll}
-        info={houseHoldingInformation}
-        onSubmitCallback={onSubmitCallback}
-      />
-      <PersonalizedIncentives incentivesRef={incentivesRef} householdInformation={houseHoldingInformation} />
-      <TaxCredits tableData={taxCreditsInformation} />
-      <LocalRebates />
-      {/*<Faq/>*/}
-      {/*<BannerGetQuote/>*/}
-      {/*<About/>*/}
-      {/*<Footer/>*/}
+      <S.Padding>
+        {/*<Navbar/>*/}
+        {/*<BannerHeroSection/>*/}
+        <HouseholdInformation
+            executeScroll={executeScroll}
+            info={houseHoldingInformation}
+            onSubmitCallback={onSubmitCallback}
+        />
+        <PersonalizedIncentives incentivesRef={incentivesRef} householdInformation={houseHoldingInformation} />
+        <TaxCredits tableData={taxCreditsInformation} />
+        <LocalRebates />
+        {/*<Faq/>*/}
+        {/*<BannerGetQuote/>*/}
+        {/*<About/>*/}
+        {/*<Footer/>*/}
+      </S.Padding>
     </S.Wrapper>
   )
 }

@@ -5,11 +5,11 @@ export const Wrapper = styled.div`
   color: ${({ theme }) => theme.colors.black};
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
-    padding: 56px 25px;
+    padding: 56px 0;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    padding: 56px 64px;
+    padding: 56px 0;
   }
 `
 
