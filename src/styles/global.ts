@@ -13,6 +13,12 @@ const GlobalStyles = createGlobalStyle`
     src: local('Graphik'), url(fonts/GraphikBold.woff) format('woff');
     font-weight: bold;
   }
+
+  @font-face {
+    font-family: 'Graphik';
+    src: local('Graphik'), url(fonts/GraphikSuper.woff) format('woff');
+    font-weight: 700;
+  }
   
   *{
     margin: 0;
