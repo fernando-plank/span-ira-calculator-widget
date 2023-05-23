@@ -3,10 +3,13 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   color: #111111;
   width: 100%;
-  padding: 66px 24px 0px 24px;
+
+  @media (min-width: ${(props) => props.theme.breakpoints.mobileS}) {
+    padding: 0px 24px;
+  }
 
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
-    padding: 66px 0 0;
+    padding: 0px 64px;
   }
 `
 

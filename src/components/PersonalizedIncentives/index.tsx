@@ -23,7 +23,7 @@ const PersonalizedIncentives = ({
         <Icon icon={'Lightning'} />
         <Icon icon={'Lightning'} />
       </S.IncentivesBodyIcon>
-      <div style={{ marginBottom: '60px' }}>
+      <div style={{ marginBottom: '60px', flex: '0 0 50%' }}>
         <S.DescriptionWrapper>
           <S.DescriptionContainer>
             <S.Subtitle>Available</S.Subtitle>

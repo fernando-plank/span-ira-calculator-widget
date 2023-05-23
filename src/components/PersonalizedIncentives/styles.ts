@@ -3,12 +3,17 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   width: fill-available;
   background-color: ${({ theme }) => theme.colors.primary};
-  padding: 50px 24px;
+
   margin-top: 50px;
 
-  // @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-  //   margin: 0px 30px;
-  // }
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
+    padding: 50px 24px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
+    margin: 0px 30px;
+    padding: 50px 34px;
+  }
 
   svg {
     margin: 0px 10px;
@@ -74,7 +79,7 @@ export const DescriptionContainer = styled.div`
   color: ${({ theme }) => theme.colors.white};
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    margin-right: 20px;
+    margin-right: 50px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
@@ -131,11 +136,12 @@ export const IncentivesFooterContent = styled.p`
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     padding-right: 59px;
+    flex: 0 0 50%;
   }
 `
 
 export const Separator = styled.div`
-  border: 2px solid ${({ theme }) => theme.colors.white};
+  border: 1px solid ${({ theme }) => theme.colors.white};
 `
 
 export const TotalWrapper = styled.div`
