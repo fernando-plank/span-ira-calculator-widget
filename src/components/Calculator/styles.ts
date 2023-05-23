@@ -8,6 +8,10 @@ export const Wrapper = styled.div`
     padding: 30px 24px;
   }
 
+  @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
+    padding: 30px 40px;
+  }
+
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
     padding: 40px 64px;
   }
@@ -30,6 +34,7 @@ export const FormWrapper = styled.form`
   display: flex;
   flex-direction: column;
 `
+
 export const FormGroup = styled.div`
   display: flex;
   justify-content: space-between;
