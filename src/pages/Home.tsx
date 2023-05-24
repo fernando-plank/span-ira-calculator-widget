@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import HouseholdInformation from '@components/HouseholdInformation'
 import LocalRebates from '@components/LocalRebates'
 
@@ -7,7 +7,7 @@ import TaxCredits from '@components/TaxCredits'
 import IncentivesServices from '@services/incentives'
 import { TaxCreditsTableData } from 'types/tax-credits'
 
-import * as S from './Home.styles';
+import * as S from './Home.styles'
 
 export type IncentivesProps = {
   pos_savings: number
@@ -23,7 +23,8 @@ export const Home = () => {
   const [houseHoldingInformation, setHouseHoldingInformation] =
     useState<IncentivesProps>()
   const incentivesRef = useRef(null)
-  const executeScroll = () => incentivesRef.current.scrollIntoView()
+  const executeScroll = () =>
+    incentivesRef.current.scrollIntoView({ behavior: 'smooth' })
   const fetchIncentives = async () => {
     const { incentives } = await new IncentivesServices().getIncentives()
     return incentives
@@ -47,11 +48,14 @@ export const Home = () => {
         {/*<Navbar/>*/}
         {/*<BannerHeroSection/>*/}
         <HouseholdInformation
-            executeScroll={executeScroll}
-            info={houseHoldingInformation}
-            onSubmitCallback={onSubmitCallback}
+          executeScroll={executeScroll}
+          info={houseHoldingInformation}
+          onSubmitCallback={onSubmitCallback}
         />
-        <PersonalizedIncentives incentivesRef={incentivesRef} householdInformation={houseHoldingInformation} />
+        <PersonalizedIncentives
+          incentivesRef={incentivesRef}
+          householdInformation={houseHoldingInformation}
+        />
         <TaxCredits tableData={taxCreditsInformation} />
         <LocalRebates />
         {/*<Faq/>*/}
