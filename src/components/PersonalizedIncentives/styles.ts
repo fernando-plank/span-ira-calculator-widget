@@ -4,8 +4,6 @@ export const Wrapper = styled.div`
   width: fill-available;
   background-color: ${({ theme }) => theme.colors.primary};
 
-  margin-top: 50px;
-
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     padding: 50px 24px;
   }
