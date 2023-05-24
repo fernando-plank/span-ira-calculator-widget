@@ -3,8 +3,8 @@ import { images } from './images'
 import { fonts } from './typography'
 import logoWhite from '@assets/img/span-logo-white.svg'
 import logo from '@assets/img/span-logo-r.svg'
-import bannerDesktop from '@assets/img/banner-span-ira-desktop.png';
-import bannerMobile from '@assets/img/banner-span-ira-mobile.png';
+import bannerDesktop from '@assets/img/banner-span-ira-desktop.png'
+import bannerMobile from '@assets/img/banner-span-ira-mobile.png'
 export default {
   grid: {
     container: '130rem',
@@ -36,6 +36,7 @@ export default {
     mobileS: '320px',
     mobileM: '375px',
     mobileL: '425px',
+    mobileXL: '480px',
     tablet: '768px',
     laptop: '1024px',
     laptopL: '1440px',

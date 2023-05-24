@@ -10,6 +10,10 @@ export const Wrapper = styled.div`
     padding: 50px 24px;
   }
 
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobileXL}) {
+    padding: 50px 32px;
+  }
+
   @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
     padding: 50px 40px;
   }

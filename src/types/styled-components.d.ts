@@ -27,6 +27,7 @@ declare module 'styled-components' {
       mobileS: string
       mobileM: string
       mobileL: string
+      mobileXL: string
       tablet: string
       laptop: string
       laptopL: string
