@@ -11,12 +11,6 @@ export const Wrapper = styled.div`
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     padding: 50px 64px;
   }
-
-  &.input:-webkit-autofill,
-  input:-webkit-autofill:focus {
-    -webkit-box-shadow: 0 0 0 50px #1f1f1f inset;
-    -webkit-text-fill-color: black;
-  }
 `
 
 export const Form = styled.form`

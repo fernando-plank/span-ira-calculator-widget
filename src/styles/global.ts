@@ -85,6 +85,7 @@ const GlobalStyles = createGlobalStyle`
     input:-webkit-autofill:focus,
     input:-webkit-autofill:active {
       -webkit-box-shadow: 0 0 0 60px white inset !important;
+      -webkit-text-fill-color: black !important;
     }
 
     input:focus-visible {
