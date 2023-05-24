@@ -127,7 +127,7 @@ export const IncentivesFooter = styled.div`
   display: flex;
   margin-top: 40px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex-direction: column;
   }
 `
