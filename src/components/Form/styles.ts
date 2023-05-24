@@ -171,6 +171,11 @@ export const FormSelect = styled.select`
   grid-area: select;
   display: block !important;
   cursor: pointer;
+  color: gray;
+
+  &.selected {
+    color: black;
+  }
 `
 
 export const FormFieldError = styled.span`
