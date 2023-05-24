@@ -127,6 +127,19 @@ export const FormInput = styled.input`
   &.error {
     border: 2px solid red;
   }
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 60px white inset !important;
+    -webkit-text-fill-color: black !important;
+  }
+
+  &:focus-visible {
+    border: 2px black solid;
+    outline: none !important;
+  }
 `
 
 export const FormSelectWrapper = styled.div`
