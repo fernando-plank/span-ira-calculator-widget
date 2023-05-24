@@ -19,6 +19,7 @@ export const FormSelect = ({ field, register, errors }) => {
           data-testid={field.id}
           onChange={() => {
             setSelected(true)
+            errors[field.id] = false
           }}
           className={classnames({ selected: selected })}
         >
