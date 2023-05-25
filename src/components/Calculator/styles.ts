@@ -3,10 +3,26 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   color: #111111;
   width: 100%;
-  padding: 0 24px 0px 24px;
+
+  @media (min-width: ${(props) => props.theme.breakpoints.mobileS}) {
+    padding: 30px 24px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobileXL}) {
+    padding: 30px 32px;
+  }
+
+  @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
+    padding: 30px 40px;
+  }
 
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
-    padding: 66px 64px 20px;
+    padding: 40px 64px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
+    width: ${({ theme }) => theme.breakpoints.laptopL};
+    margin: 0px auto;
   }
 `
 
@@ -27,6 +43,7 @@ export const FormWrapper = styled.form`
   display: flex;
   flex-direction: column;
 `
+
 export const FormGroup = styled.div`
   display: flex;
   justify-content: space-between;

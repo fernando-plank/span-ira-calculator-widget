@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    padding: 88px 64px 0 64px;
+    padding: 50px 64px;
   }
 `
 
@@ -127,6 +127,19 @@ export const FormInput = styled.input`
   &.error {
     border: 2px solid red;
   }
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 60px white inset !important;
+    -webkit-text-fill-color: black !important;
+  }
+
+  &:focus-visible {
+    border: 2px black solid;
+    outline: none !important;
+  }
 `
 
 export const FormSelectWrapper = styled.div`
@@ -137,15 +150,18 @@ export const FormSelectWrapper = styled.div`
   align-items: center;
   border-radius: 4px;
   background-color: white;
+  cursor: pointer;
 
   &::after {
     content: '';
     grid-area: select;
     justify-self: end;
-    width: 2em;
-    height: 2em;
-    background-color: ${(props) => props.theme.colors.primary};
-    background: url('/img/chevron-down.svg') no-repeat center;
+    width: 1.5em;
+    height: 1.5em;
+    //background-color: ${(props) => props.theme.colors.primary};
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='24' viewBox='0 0 25 24' fill='%23B0B0B1'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11.283 18.7448L0.316983 7.77881C-0.08678 7.37505 -0.0867814 6.72042 0.316982 6.31665C0.720746 5.91289 1.37538 5.91289 1.77914 6.31665L12.0141 16.5516L22.2492 6.3165C22.6529 5.91273 23.3076 5.91273 23.7113 6.31649C24.1151 6.72026 24.1151 7.37489 23.7113 7.77865L12.7606 18.7294C12.7556 18.7346 12.7505 18.7398 12.7453 18.745C12.3415 19.1487 11.6869 19.1487 11.2832 18.745L11.283 18.7448Z' fill='%23B0B0B1'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
     pointer-events: none;
     margin-right: 20px;
   }
@@ -167,6 +183,12 @@ export const FormSelect = styled.select`
   width: 100%;
   grid-area: select;
   display: block !important;
+  cursor: pointer;
+  color: gray;
+
+  &.selected {
+    color: black;
+  }
 `
 
 export const FormFieldError = styled.span`
