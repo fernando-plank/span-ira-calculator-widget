@@ -48,7 +48,7 @@ export const Home = () => {
     )
 
     if (items && eletricPanel) {
-      eletricPanel['item'] = 'Electric Panel Span'
+      eletricPanel['item'] = 'SPAN Smart Electrical Panel'
       items.unshift(eletricPanel)
     }
     setTaxCreditsInformation(items)
