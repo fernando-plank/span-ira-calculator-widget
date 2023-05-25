@@ -19,6 +19,11 @@ export const Wrapper = styled.div`
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
     padding: 40px 64px;
   }
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
+    width: ${({ theme }) => theme.breakpoints.laptopL};
+    margin: 0px auto;
+  }
 `
 
 export const Title = styled.h1`

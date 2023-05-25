@@ -1,9 +1,11 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  width: fill-available;
+  width: 100%;
   background-color: ${({ theme }) => theme.colors.primary};
+`
 
+export const Content = styled.div`
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     padding: 50px 24px;
   }
@@ -17,8 +19,12 @@ export const Wrapper = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    margin: 0px 30px;
-    padding: 50px 34px;
+    padding: 40px 64px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
+    width: ${({ theme }) => theme.breakpoints.laptopL};
+    margin: 0px auto;
   }
 
   svg {

@@ -15,9 +15,9 @@ const PersonalizedIncentives = ({
   householdInformation,
   incentivesRef
 }: PersonalizedIncentivesProps) => (
-  <>
+  <S.Wrapper>
     <div style={{ height: '65px' }} ref={incentivesRef}></div>
-    <S.Wrapper>
+    <S.Content>
       <S.Title>Your personalized incentives</S.Title>
       <S.IncentivesBody>
         <S.IncentivesBodyIcon>
@@ -76,8 +76,8 @@ const PersonalizedIncentives = ({
           Check out this relevant case study!
         </S.IncentivesFooterContent>
       </S.IncentivesFooter>
-    </S.Wrapper>
-  </>
+    </S.Content>
+  </S.Wrapper>
 )
 
 export default PersonalizedIncentives
