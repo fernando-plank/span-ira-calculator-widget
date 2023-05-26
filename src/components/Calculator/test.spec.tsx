@@ -1,11 +1,18 @@
 import { screen } from '@testing-library/react'
-import { render } from 'utils/test-utils'
+import { render } from '../../utils/test-utils'
 
 import Calculator from '.'
 
 const setup = () => {
   const onSubmitCallback = jest.fn()
-  const utils = render(<Calculator onSubmitCallback={onSubmitCallback} />)
+  const utils = render(
+    <Calculator
+      onSubmitCallback={onSubmitCallback}
+      executeScroll={function (): void {
+        throw new Error('Function not implemented.')
+      }}
+    />
+  )
   const zip: HTMLInputElement = screen.getByTestId('zip')
   const owner_status: HTMLSelectElement = screen.getByTestId('owner_status')
   const household_income: HTMLInputElement =

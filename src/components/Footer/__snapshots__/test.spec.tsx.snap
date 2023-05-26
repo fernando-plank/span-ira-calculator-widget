@@ -74,6 +74,7 @@ exports[`<Footer /> should have link to Mission & Careers 1`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {
@@ -368,6 +369,7 @@ exports[`<Footer /> should have link to app 1`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {
@@ -662,6 +664,7 @@ exports[`<Footer /> should have link to drive 1`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {
@@ -956,6 +959,7 @@ exports[`<Footer /> should have link to home 1`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {
@@ -1250,6 +1254,7 @@ exports[`<Footer /> should have link to legal 1`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {
@@ -1544,6 +1549,7 @@ exports[`<Footer /> should have link to news 1`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {
@@ -1838,6 +1844,7 @@ exports[`<Footer /> should have link to panel 1`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {
@@ -2132,6 +2139,7 @@ exports[`<Footer /> should have link to partners 1`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {
@@ -2426,6 +2434,7 @@ exports[`<Footer /> should have link to privacy policy 1`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {
@@ -2731,6 +2740,7 @@ exports[`<Footer /> should have link to social media 2`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {
@@ -3025,6 +3035,7 @@ exports[`<Footer /> should have link to support 1`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {
@@ -3319,6 +3330,7 @@ exports[`<Footer /> should have link to tech portal 1`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {
@@ -3613,6 +3625,7 @@ exports[`<Footer /> should have link to terms of service 1`] = `
   line-height: 16px;
   text-align: right;
   padding-top: 53px;
+  color: #FAFAFA;
 }
 
 @media (min-width:320px) {

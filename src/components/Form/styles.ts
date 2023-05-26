@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    padding: 88px 64px 0 64px;
+    padding: 50px 64px;
   }
 `
 
@@ -127,6 +127,19 @@ export const FormInput = styled.input`
   &.error {
     border: 2px solid red;
   }
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 60px white inset !important;
+    -webkit-text-fill-color: black !important;
+  }
+
+  &:focus-visible {
+    border: 2px black solid;
+    outline: none !important;
+  }
 `
 
 export const FormSelectWrapper = styled.div`
@@ -171,6 +184,11 @@ export const FormSelect = styled.select`
   grid-area: select;
   display: block !important;
   cursor: pointer;
+  color: gray;
+
+  &.selected {
+    color: black;
+  }
 `
 
 export const FormFieldError = styled.span`

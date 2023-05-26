@@ -6,11 +6,11 @@ import { IncentivesObject } from '../types'
 class IncentivesServices {
   getIncentives: () => Promise<IncentivesObject> = async () => {
     const response = await fetch.get<IncentivesObject>(
-      apiRoutes.incentives,
+      'https://api.rewiringamerica.org/api/v0/incentives',
       null,
       {
         headers: {
-          Authorization: `Bearer ${process.env.NEXT_PUBLIC_REWIRING_AMERICA_TOKEN}`
+          Authorization: `Bearer zpka_36dd9115f1b2463b93857ea0c517e640_73f9ee2a`
         }
       }
     )

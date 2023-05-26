@@ -6,6 +6,7 @@ export const Header = styled.div`
   align-items: baseline & > svg {
     cursor: pointer;
   }
+  cursor: pointer;
 `
 
 export const Body = styled.div`

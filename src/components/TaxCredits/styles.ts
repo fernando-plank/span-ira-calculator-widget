@@ -5,11 +5,24 @@ export const Wrapper = styled.div`
   color: ${({ theme }) => theme.colors.black};
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
-    padding: 56px 0;
+    padding: 56px 24px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobileXL}) {
+    padding: 56px 32px;
+  }
+
+  @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
+    padding: 56px 40px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    padding: 56px 0;
+    padding: 56px 64px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
+    width: ${({ theme }) => theme.breakpoints.laptopL};
+    margin: 0px auto;
   }
 `
 

@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import * as S from './styles'
 import Info from '@components/Info'
+import classnames from 'classnames'
 
 export const FormSelect = ({ field, register, errors }) => {
+  const [selected, setSelected] = useState(false)
   return (
     <>
       <S.FormInputLabel>
@@ -12,8 +14,16 @@ export const FormSelect = ({ field, register, errors }) => {
         <Info text={field.tooltip} />
       </S.FormInputLabel>
       <S.FormSelectWrapper className={errors[field.id] ? 'error' : ''}>
-        <S.FormSelect {...register} data-testid={field.id}>
-          <option value="" disabled hidden>
+        <S.FormSelect
+          {...register}
+          data-testid={field.id}
+          onChange={() => {
+            setSelected(true)
+            errors[field.id] = false
+          }}
+          className={classnames({ selected: selected })}
+        >
+          <option value="" disabled selected style={{ color: 'blue' }}>
             {field.label}
           </option>
           {field.options?.map((option) => {

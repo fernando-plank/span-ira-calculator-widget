@@ -1,14 +1,31 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  width: fill-available;
+  width: 100%;
   background-color: ${({ theme }) => theme.colors.primary};
-  padding: 50px 24px;
-  margin-top: 50px;
+`
 
-  // @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-  //   margin: 0px 30px;
-  // }
+export const Content = styled.div`
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
+    padding: 50px 24px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobileXL}) {
+    padding: 50px 32px;
+  }
+
+  @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
+    padding: 50px 40px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
+    padding: 40px 64px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
+    width: ${({ theme }) => theme.breakpoints.laptopL};
+    margin: 0px auto;
+  }
 
   svg {
     margin: 0px 10px;
@@ -55,6 +72,10 @@ export const IncentivesBodyIcon = styled.div`
     align-self: end;
     margin-top: 150px;
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    height: auto;
+  }
 `
 
 export const DescriptionWrapper = styled.div`
@@ -74,7 +95,7 @@ export const DescriptionContainer = styled.div`
   color: ${({ theme }) => theme.colors.white};
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    margin-right: 20px;
+    margin-right: 50px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
@@ -114,7 +135,7 @@ export const IncentivesFooter = styled.div`
   display: flex;
   margin-top: 40px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex-direction: column;
   }
 `
@@ -131,11 +152,12 @@ export const IncentivesFooterContent = styled.p`
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     padding-right: 59px;
+    flex: 0 0 50%;
   }
 `
 
 export const Separator = styled.div`
-  border: 2px solid ${({ theme }) => theme.colors.white};
+  border: 1px solid ${({ theme }) => theme.colors.white};
 `
 
 export const TotalWrapper = styled.div`

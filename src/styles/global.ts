@@ -1,6 +1,5 @@
 import { createGlobalStyle, css } from 'styled-components'
 
-
 const GlobalStyles = createGlobalStyle`
   @import url('https://fonts.cdnfonts.com/css/graphik');
   
@@ -79,15 +78,6 @@ const GlobalStyles = createGlobalStyle`
 
     body {
       font-family: ${theme.fonts.primary.family}, sans-serif;
-    }
-
-    input:-webkit-autofill {
-      -webkit-box-shadow: none !important;
-      -webkit-text-fill-color: ${theme.colors.black};
-    }
-
-    input:-webkit-autofill:focus {
-      -webkit-text-fill-color: ${theme.colors.black};
     }
   `}
 

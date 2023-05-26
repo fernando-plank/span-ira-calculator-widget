@@ -1,19 +1,35 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
+  width: 100%;
+  background: ${({ theme }) => theme.colors.gray};
+`
+
+export const Content = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
   color: ${({ theme }) => theme.colors.black};
-  background: ${({ theme }) => theme.colors.gray};
-  width: 100%;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     padding: 56px 24px;
   }
 
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobileXL}) {
+    padding: 56px 32px;
+  }
+
+  @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
+    padding: 90px 40px;
+  }
+
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     padding: 96px 64px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
+    width: ${({ theme }) => theme.breakpoints.laptopL};
+    margin: 0px auto;
   }
 `
 

@@ -8,16 +8,11 @@ const Navbar = () => {
   return (
     <S.Wrapper>
       <S.MenuIconWrapper data-testid="navbar-menu">
-        <Menu
-          alt="menu"
-          data-testid="menu-button"
-          width={32}
-          height={20}
-        />
+        <Menu alt="menu" data-testid="menu-button" width={32} height={20} />
       </S.MenuIconWrapper>
-      <S.NavbarLogo>
+      <div>
         <Icon icon="Logo" />
-      </S.NavbarLogo>
+      </div>
       <S.ExplorePanelWrapper
         onClick={() => window.open('https://www.span.io/panel', '_self')}
       >
