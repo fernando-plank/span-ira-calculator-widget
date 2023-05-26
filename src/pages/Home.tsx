@@ -31,7 +31,26 @@ export const Home = () => {
   }
 
   useEffect(() => {
-    const items = incentives?.filter((item) => item.type === 'tax_credit')
+    let eletricPanel: any = null
+    let items: any[] = incentives?.filter((item) => {
+      if (item.item === 'Electric Panel') {
+        eletricPanel = item
+      }
+      return item.type === 'tax_credit' && item.item !== 'Electric Panel'
+    })
+
+    items = items?.filter(
+      (item, index, self) =>
+        index ===
+        self.findIndex((t) => {
+          return t.item === item.item
+        })
+    )
+
+    if (items && eletricPanel) {
+      eletricPanel['item'] = 'SPAN Smart Electrical Panel'
+      items.unshift(eletricPanel)
+    }
     setTaxCreditsInformation(items)
   }, [incentives])
 

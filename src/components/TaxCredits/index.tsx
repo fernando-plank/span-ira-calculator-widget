@@ -51,7 +51,9 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
                             : `${theme.colors.black}`
                       }}
                     >
-                      {item.item}
+                      <div style={index == 0 ? { fontWeight: 'bold' } : {}}>
+                        {item.item}
+                      </div>
                     </S.TableTd>
                     <S.TableTd
                       style={{
@@ -62,9 +64,11 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
                             : `${theme.colors.black}`
                       }}
                     >
-                      {isInt(item.amount)
-                        ? formatCurrency(item.amount)
-                        : formatPercent(item.amount)}
+                      <div style={index == 0 ? { fontWeight: 'bold' } : {}}>
+                        {isInt(item.amount)
+                          ? formatCurrency(item.amount)
+                          : formatPercent(item.amount)}
+                      </div>
                     </S.TableTd>
                   </tr>
                 ))}
