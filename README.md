@@ -1,4 +1,4 @@
-<img alt="SpanIO" style="width:100%;height:200px;background-color: white;border-radius: 4px;padding: 24px" title="NextJS" src=".github/readme/span-logo-r.svg" />
+<img alt="SpanIO" style="width:100%;height:200px;background-color: white;border-radius: 4px;padding: 24px" title="NextJS" src="https://assets.website-files.com/628f26de26f0252b4094378b/62d2cce4a73d906e168d3c3a_span-logo-r.svg" />
 
 <h1 align="center">
     Span IRA Calculator
@@ -11,7 +11,7 @@
   </a>
 
   <a target="_blank" href="https://nextjs.org/">
-      <img alt="NextJS" src="https://img.shields.io/static/v1?color=white&label=Next&message=JS&?style=plastic&logo=Next.js">
+      <img alt="NextJS" src="https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square">
   </a>
 </p>
 
