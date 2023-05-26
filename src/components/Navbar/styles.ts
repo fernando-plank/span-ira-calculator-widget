@@ -18,8 +18,6 @@ export const MenuIconWrapper = styled.div`
   cursor: pointer;
 `
 
-export const NavbarLogo = styled.div``
-
 export const ExplorePanelWrapper = styled.div`
   heigth: 24px;
   margin-right: 20px;

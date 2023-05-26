@@ -1,6 +1,5 @@
 async function http<T>(path: string, config: RequestInit): Promise<T> {
-  const request = new Request(path, config)
-  const response = await fetch(request)
+  const response = await fetch(path, config)
 
   if (!response.ok) {
     const error = await response.json()

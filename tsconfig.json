@@ -8,7 +8,6 @@
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
-    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -25,8 +24,13 @@
       "@types/*": ["./types/*"],
       "@styles/*": ["./styles/*"],
       "@pages/*": ["./pages/*"],
-    }
+    },
+    "typeRoots": [
+      "node_modules/@types",
+      "src/typings"
+    ]
   },
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "storybook-static", "**/test.tsx", "**/**.test.ts"]
+  "exclude": ["node_modules", "storybook-static", "**/test.tsx", "**/**.test.ts", "**/*.spec.ts", "cypress/**/*", "./cypress.config.ts"],
+  "types": ["node", "jest", "@testing-library/jest-dom"]
 }

@@ -1,5 +1,5 @@
 import { screen } from '@testing-library/react'
-import { render } from 'utils/test-utils'
+import { render } from '../../utils/test-utils'
 
 import TaxCredits from '.'
 

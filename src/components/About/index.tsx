@@ -17,6 +17,7 @@ const About = () => (
             '_self'
           )
         }
+        data-testid="read-blog-button"
       >
         Read blog post
       </S.ReadBlogButton>

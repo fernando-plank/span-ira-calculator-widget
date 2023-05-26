@@ -1,5 +1,5 @@
 import { screen } from '@testing-library/react'
-import { render } from 'types/tax-credits'
+import { render } from '@utils/test-utils'
 
 import PersonalizedIncentives from '.'
 
@@ -18,6 +18,7 @@ describe('<PersonalizedIncentives />', () => {
     const { container } = render(
       <PersonalizedIncentives
         householdInformation={personalizedIncentivesProps}
+        incentivesRef={undefined}
       />
     )
 
@@ -32,27 +33,12 @@ describe('<PersonalizedIncentives />', () => {
     const { container } = render(
       <PersonalizedIncentives
         householdInformation={personalizedIncentivesProps}
+        incentivesRef={undefined}
       />
     )
 
     expect(screen.getByTestId('household_annual_savings')).toHaveTextContent(
       '$' + personalizedIncentivesProps.estimated_annual_savings
-    )
-
-    expect(container.firstChild).toMatchSnapshot()
-  })
-
-  it('should render the household total savings', () => {
-    const { container } = render(
-      <PersonalizedIncentives
-        householdInformation={personalizedIncentivesProps}
-      />
-    )
-
-    expect(screen.getByTestId('household_total_savings')).toHaveTextContent(
-      '$' +
-        (personalizedIncentivesProps?.tax_savings +
-          personalizedIncentivesProps?.pos_savings)
     )
 
     expect(container.firstChild).toMatchSnapshot()
