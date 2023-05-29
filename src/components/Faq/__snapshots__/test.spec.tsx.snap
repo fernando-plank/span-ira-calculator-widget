@@ -17,24 +17,65 @@ align-items:baseline .c2 > svg {
   cursor: pointer;
 }
 
-.c6 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
-  opacity: 0;
-  max-height: 0;
-  pointer-events: none;
+  height: auto;
   margin-bottom: 17px;
+  z-index: 2;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  max-height: 0px;
 }
 
-.c6.active {
-  max-height: -webkit-max-content;
-  max-height: -moz-max-content;
-  max-height: max-content;
-  opacity: 1;
-  pointer-events: auto;
+.c9.active {
+  max-height: 1000px;
+}
+
+.c5 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.c7 {
+  width: 2px;
+  height: 24px;
+  background-color: #1f1f1f;
+  border-radius: 2px;
+  position: absolute;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.c7.active {
+  -webkit-transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
+  -ms-transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
+  transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.c6 {
+  width: 24px;
+  height: 2px;
+  background-color: #1f1f1f;
+  border-radius: 2px;
 }
 
 .c4 {
@@ -42,11 +83,10 @@ align-items:baseline .c2 > svg {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  width: 80%;
-  margin-bottom: 17px;
+  width: 100%;
 }
 
-.c5 {
+.c8 {
   height: 1px;
   background: #b0b0b1;
   border-radius: 2px;
@@ -60,7 +100,7 @@ align-items:baseline .c2 > svg {
   text-align: left;
 }
 
-.c7 {
+.c10 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -68,7 +108,7 @@ align-items:baseline .c2 > svg {
 }
 
 @media (min-width:320px) {
-  .c6 {
+  .c9 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -76,7 +116,7 @@ align-items:baseline .c2 > svg {
 }
 
 @media (min-width:1024px) {
-  .c6 {
+  .c9 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
@@ -119,19 +159,26 @@ align-items:baseline .c2 > svg {
     >
       Will Enphase IQ  integrate with SPAN without SPAN Remote Meter?
     </h2>
-    <div>
-      mocked icon
+    <div
+      class="c5"
+    >
+      <div
+        class="c6"
+      />
+      <div
+        class="c7 accordion-body"
+      />
     </div>
   </div>
   <div
-    class="c5"
+    class="c8"
   />
   <div
-    class="c6 accordion-body"
+    class="c9 accordion-body"
     data-testid="accordion-body"
   >
     <div
-      class="c7"
+      class="c10"
     >
       All tax credits are available now. The rebates should start to become available by the end of 2023. We don\`‘\`t know exactly when the rebates marked “late 2023” will be available, because it will depend on how each state rolls out its incentive program.
     </div>
@@ -146,19 +193,26 @@ align-items:baseline .c2 > svg {
     >
       What is SPAN Remote Meter?
     </h2>
-    <div>
-      mocked icon
+    <div
+      class="c5"
+    >
+      <div
+        class="c6"
+      />
+      <div
+        class="c7 accordion-body"
+      />
     </div>
   </div>
   <div
-    class="c5"
+    class="c8"
   />
   <div
-    class="c6 accordion-body"
+    class="c9 accordion-body"
     data-testid="accordion-body"
   >
     <div
-      class="c7"
+      class="c10"
     >
       In many cases, no! The IRA’s incentives are designed to increase access to clean technology. For households with lower incomes, up to 100% of appliance and installation costs are discounted at purchase, meaning you could install efficient electric appliances at no cost, with no spending.Middle-income households do have to spend in order to access savings, but up to 50% of appliance and installation costs can be covered through upfront discounts, and you can use tax credits to cover some of the remaining gap. Highest-income households are not eligible for upfront discounts, so you will have to pay full price for appliances and installation — but tax credits on the back end could recoup up to 30% of your costs.
     </div>
@@ -173,19 +227,26 @@ align-items:baseline .c2 > svg {
     >
       How does it work?
     </h2>
-    <div>
-      mocked icon
+    <div
+      class="c5"
+    >
+      <div
+        class="c6"
+      />
+      <div
+        class="c7 accordion-body"
+      />
     </div>
   </div>
   <div
-    class="c5"
+    class="c8"
   />
   <div
-    class="c6 accordion-body"
+    class="c9 accordion-body"
     data-testid="accordion-body"
   >
     <div
-      class="c7"
+      class="c10"
     >
       <p>
         Yes! The IRA’s up-front electrification rebates and electrification tax credits can all be used by renters. Many of these upgrades — including window-unit heat pumps (which should qualify by 2024/2025), electric stoves/cooktops, and heat pump clothes dryers — are portable, so renters can bring them to their next homes and won’t have to leave any savings behind. Renters are also eligible for the used and new EV tax credits. And although they’re not exactly consumer-facing, renters will benefit from the IRA’s $1 billion investment in affordable housing energy upgrades and the new tax deduction for efficiency upgrades in commercial buildings (including apartment buildings). Renters can also subscribe to community solar — which will be cheaper because of the IRA’s supply-side renewable energy incentives.
@@ -202,19 +263,26 @@ align-items:baseline .c2 > svg {
     >
       Where is the Remote Meter installed?
     </h2>
-    <div>
-      mocked icon
+    <div
+      class="c5"
+    >
+      <div
+        class="c6"
+      />
+      <div
+        class="c7 accordion-body"
+      />
     </div>
   </div>
   <div
-    class="c5"
+    class="c8"
   />
   <div
-    class="c6 accordion-body"
+    class="c9 accordion-body"
     data-testid="accordion-body"
   >
     <div
-      class="c7"
+      class="c10"
     >
       All tax credits were available starting January 1, 2023, so save your receipts for filing season! If you installed rooftop solar in 2022, it is eligible for the new, 30% 25D tax credit. If you installed a heat pump in 2022, it is eligible for the old 25C tax credit: 10% of costs up to $300. The Electrification Rebates and Efficiency Rebates will likely not be retroactive.
     </div>

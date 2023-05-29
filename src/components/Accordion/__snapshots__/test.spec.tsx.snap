@@ -17,13 +17,54 @@ align-items:baseline .c0 > svg {
   cursor: pointer;
 }
 
+.c3 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.c5 {
+  width: 2px;
+  height: 24px;
+  background-color: #1f1f1f;
+  border-radius: 2px;
+  position: absolute;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.c5.active {
+  -webkit-transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
+  -ms-transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
+  transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.c4 {
+  width: 24px;
+  height: 2px;
+  background-color: #1f1f1f;
+  border-radius: 2px;
+}
+
 .c2 {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  width: 80%;
-  margin-bottom: 17px;
+  width: 100%;
 }
 
 @media (min-width:320px) {
@@ -43,8 +84,15 @@ align-items:baseline .c0 > svg {
   >
     Title
   </h2>
-  <div>
-    mocked icon
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    />
+    <div
+      class="c5 active accordion-body"
+    />
   </div>
 </div>
 `;
@@ -66,13 +114,54 @@ align-items:baseline .c0 > svg {
   cursor: pointer;
 }
 
+.c3 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.c5 {
+  width: 2px;
+  height: 24px;
+  background-color: #1f1f1f;
+  border-radius: 2px;
+  position: absolute;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.c5.active {
+  -webkit-transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
+  -ms-transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
+  transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.c4 {
+  width: 24px;
+  height: 2px;
+  background-color: #1f1f1f;
+  border-radius: 2px;
+}
+
 .c2 {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  width: 80%;
-  margin-bottom: 17px;
+  width: 100%;
 }
 
 @media (min-width:320px) {
@@ -93,8 +182,15 @@ align-items:baseline .c0 > svg {
   >
     Title
   </h2>
-  <div>
-    mocked icon
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    />
+    <div
+      class="c5 accordion-body"
+    />
   </div>
 </div>
 `;
@@ -116,13 +212,54 @@ align-items:baseline .c0 > svg {
   cursor: pointer;
 }
 
+.c3 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.c5 {
+  width: 2px;
+  height: 24px;
+  background-color: #1f1f1f;
+  border-radius: 2px;
+  position: absolute;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.c5.active {
+  -webkit-transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
+  -ms-transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
+  transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.c4 {
+  width: 24px;
+  height: 2px;
+  background-color: #1f1f1f;
+  border-radius: 2px;
+}
+
 .c2 {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  width: 80%;
-  margin-bottom: 17px;
+  width: 100%;
 }
 
 @media (min-width:320px) {
@@ -142,8 +279,15 @@ align-items:baseline .c0 > svg {
   >
     Title
   </h2>
-  <div>
-    mocked icon
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    />
+    <div
+      class="c5 accordion-body"
+    />
   </div>
 </div>
 `;
