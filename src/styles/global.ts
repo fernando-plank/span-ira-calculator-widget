@@ -11,10 +11,6 @@ const GlobalStyles = createGlobalStyle`
     display: flex !important;
   }
 
-  .accordion-body.active {
-    transition: 1s;
-  }
-  
   *{
     margin: 0;
     padding: 0;

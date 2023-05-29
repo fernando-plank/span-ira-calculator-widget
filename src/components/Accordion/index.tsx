@@ -24,7 +24,12 @@ const Accordion = (props: AccordionProps) => {
         >
           {props.title}
         </S.Title>
-        <Icon icon={props.icon} onClick={() => setShowSection(!showSection)} />
+        <S.IconContainer onClick={() => setShowSection(!showSection)}>
+          <S.IconHorizontal></S.IconHorizontal>
+          <S.Icon
+            className={classname({ active: showSection }, 'accordion-body')}
+          ></S.Icon>
+        </S.IconContainer>
       </S.Header>
       <S.Separator></S.Separator>
       <S.Body

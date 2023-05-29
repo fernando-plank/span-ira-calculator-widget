@@ -47,29 +47,6 @@ export const Title = styled.h1`
   margin-bottom: 81px;
 `
 
-export const Body = styled.div`
-  display: flex;
-  height: 100%;
-  opacity: 0;
-  max-height: 0;
-  pointer-events: none;
-  transition: max-height 0.2s ease-out;
-
-  &.active {
-    max-height: 400px;
-    opacity: 1;
-    pointer-events: auto;
-  }
-
-  @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
-    flex-direction: column;
-  }
-
-  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    flex-direction: row;
-  }
-`
-
 export const BodyWrapper = styled.div`
   display: flex;
   flex-direction: column;
