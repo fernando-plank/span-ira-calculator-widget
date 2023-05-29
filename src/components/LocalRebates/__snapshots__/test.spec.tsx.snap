@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<LocalRebates /> should render the title 1`] = `
-.c3 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -10,13 +10,14 @@ exports[`<LocalRebates /> should render the title 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-}
-
-align-items:baseline .c2 > svg {
   cursor: pointer;
 }
 
-.c6 {
+align-items:baseline .c3 > svg {
+  cursor: pointer;
+}
+
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -28,7 +29,7 @@ align-items:baseline .c2 > svg {
   margin-bottom: 17px;
 }
 
-.c6.active {
+.c7.active {
   max-height: -webkit-max-content;
   max-height: -moz-max-content;
   max-height: max-content;
@@ -36,7 +37,7 @@ align-items:baseline .c2 > svg {
   pointer-events: auto;
 }
 
-.c4 {
+.c5 {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -45,7 +46,7 @@ align-items:baseline .c2 > svg {
   margin-bottom: 17px;
 }
 
-.c5 {
+.c6 {
   height: 1px;
   background: #b0b0b1;
   border-radius: 2px;
@@ -53,6 +54,11 @@ align-items:baseline .c2 > svg {
 }
 
 .c0 {
+  width: 100%;
+  background: #EFEFEF;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -62,11 +68,9 @@ align-items:baseline .c2 > svg {
   flex-direction: column;
   text-align: left;
   color: #1F1F1F;
-  background: #EFEFEF;
-  width: 100%;
 }
 
-.c1 {
+.c2 {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -74,7 +78,7 @@ align-items:baseline .c2 > svg {
   margin-bottom: 81px;
 }
 
-.c7 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -84,7 +88,7 @@ align-items:baseline .c2 > svg {
   flex-direction: column;
 }
 
-.c8 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -92,7 +96,7 @@ align-items:baseline .c2 > svg {
   margin-top: 40px;
 }
 
-.c9 {
+.c10 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -100,7 +104,7 @@ align-items:baseline .c2 > svg {
   width: 100%;
 }
 
-.c10 {
+.c11 {
   border: 2px solid #1F1F1F;
   border-radius: 20px;
   width: 50%;
@@ -112,14 +116,14 @@ align-items:baseline .c2 > svg {
   line-height: 24px;
 }
 
-.c11 {
+.c12 {
   font-style: normal;
   font-weight: 500;
   margin-top: 50px;
 }
 
 @media (min-width:320px) {
-  .c6 {
+  .c7 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -127,7 +131,7 @@ align-items:baseline .c2 > svg {
 }
 
 @media (min-width:1024px) {
-  .c6 {
+  .c7 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
@@ -135,31 +139,50 @@ align-items:baseline .c2 > svg {
 }
 
 @media (min-width:320px) {
-  .c0 {
+  .c1 {
     padding: 56px 24px;
   }
 }
 
+@media (min-width:480px) {
+  .c1 {
+    padding: 56px 32px;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding: 90px 40px;
+  }
+}
+
 @media (min-width:1024px) {
-  .c0 {
+  .c1 {
     padding: 96px 64px;
   }
 }
 
+@media (min-width:1400px) {
+  .c1 {
+    width: 1400px;
+    margin: 0px auto;
+  }
+}
+
 @media (min-width:320px) {
-  .c7 {
+  .c8 {
     width: 100%;
   }
 }
 
 @media (min-width:1024px) {
-  .c7 {
+  .c8 {
     width: 50%;
   }
 }
 
 @media (min-width:320px) {
-  .c8 {
+  .c9 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -167,7 +190,7 @@ align-items:baseline .c2 > svg {
 }
 
 @media (min-width:1024px) {
-  .c8 {
+  .c9 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
@@ -175,7 +198,7 @@ align-items:baseline .c2 > svg {
 }
 
 @media (min-width:320px) {
-  .c10 {
+  .c11 {
     -webkit-align-self: end;
     -ms-flex-item-align: end;
     align-self: end;
@@ -184,7 +207,7 @@ align-items:baseline .c2 > svg {
 }
 
 @media (min-width:1024px) {
-  .c10 {
+  .c11 {
     -webkit-align-self: start;
     -ms-flex-item-align: start;
     align-self: start;
@@ -193,7 +216,7 @@ align-items:baseline .c2 > svg {
 }
 
 @media (min-width:320px) {
-  .c11 {
+  .c12 {
     width: 100%;
     font-size: 16px;
     line-height: 24px;
@@ -201,7 +224,7 @@ align-items:baseline .c2 > svg {
 }
 
 @media (min-width:1024px) {
-  .c11 {
+  .c12 {
     width: 50%;
     font-size: 12px;
     line-height: 16px;
@@ -211,146 +234,150 @@ align-items:baseline .c2 > svg {
 <div
   class="c0"
 >
-  <div>
-    <h1
-      class="c1"
-      data-testid="local-rebates-title"
-    >
-      Local utility electrification rebates
-    </h1>
-  </div>
-  <div>
-    <div
-      class="c2 c3"
-    >
-      <h2
-        class="c4"
-        data-testid="accordion-title"
+  <div
+    class="c1"
+  >
+    <div>
+      <h1
+        class="c2"
+        data-testid="local-rebates-title"
       >
-        California
-      </h2>
-      <div>
-        mocked icon
-      </div>
+        Local utility electrification rebates
+      </h1>
     </div>
-    <div
-      class="c5"
-    />
-    <div
-      class="c6 accordion-body"
-      data-testid="accordion-body"
-    >
+    <div>
       <div
-        class="c7"
+        class="c3 c4"
+      >
+        <h2
+          class="c5"
+          data-testid="accordion-title"
+        >
+          California
+        </h2>
+        <div>
+          mocked icon
+        </div>
+      </div>
+      <div
+        class="c6"
       />
       <div
-        class="c7"
+        class="c7 accordion-body"
+        data-testid="accordion-body"
       >
         <div
           class="c8"
-        >
-          <p
-            class="c9"
-          >
-            <b>
-              Silicon Valley Power
-            </b>
-             customers can save up to $2,500 on SPAN as part of a larger home electrification project.
-          </p>
-          <button
-            class="c10"
-          >
-            Learn more
-          </button>
-        </div>
+        />
         <div
           class="c8"
         >
-          <p
+          <div
             class="c9"
           >
-            <b>
-              Sacramento Municipal Utility District
-            </b>
-             (SMUD) customers can save up to $2,500 as part of a larger home electrification project.
-          </p>
-          <button
-            class="c10"
+            <p
+              class="c10"
+            >
+              <b>
+                Silicon Valley Power
+              </b>
+               customers can save up to $2,500 on SPAN as part of a larger home electrification project.
+            </p>
+            <button
+              class="c11"
+            >
+              Learn more
+            </button>
+          </div>
+          <div
+            class="c9"
           >
-            Learn more
-          </button>
+            <p
+              class="c10"
+            >
+              <b>
+                Sacramento Municipal Utility District
+              </b>
+               (SMUD) customers can save up to $2,500 as part of a larger home electrification project.
+            </p>
+            <button
+              class="c11"
+            >
+              Learn more
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-    <div
-      class="c2 c3"
-    >
-      <h2
-        class="c4"
-        data-testid="accordion-title"
-      >
-        Hawai’i
-      </h2>
-      <div>
-        mocked icon
-      </div>
-    </div>
-    <div
-      class="c5"
-    />
-    <div
-      class="c6 accordion-body"
-      data-testid="accordion-body"
-    >
       <div
-        class="c7"
+        class="c3 c4"
+      >
+        <h2
+          class="c5"
+          data-testid="accordion-title"
+        >
+          Hawai’i
+        </h2>
+        <div>
+          mocked icon
+        </div>
+      </div>
+      <div
+        class="c6"
       />
       <div
-        class="c7"
+        class="c7 accordion-body"
+        data-testid="accordion-body"
       >
         <div
           class="c8"
-        >
-          <p
-            class="c9"
-          >
-            <b>
-              Shifted Energy
-            </b>
-             customers can have the costs of SPAN Panel covered, plus up to $4,000 for install when they agree to share SPAN Panel data and control with Shifted Energy.
-          </p>
-          <button
-            class="c10"
-          >
-            Learn more
-          </button>
-        </div>
+        />
         <div
           class="c8"
         >
-          <p
+          <div
             class="c9"
           >
-            <b>
-              Hawaiian Electric
-            </b>
-             customers can save $500 on SPAN Panel product costs by becoming a HECO Utility rate payer.
-          </p>
-          <button
-            class="c10"
+            <p
+              class="c10"
+            >
+              <b>
+                Shifted Energy
+              </b>
+               customers can have the costs of SPAN Panel covered, plus up to $4,000 for install when they agree to share SPAN Panel data and control with Shifted Energy.
+            </p>
+            <button
+              class="c11"
+            >
+              Learn more
+            </button>
+          </div>
+          <div
+            class="c9"
           >
-            Learn more
-          </button>
+            <p
+              class="c10"
+            >
+              <b>
+                Hawaiian Electric
+              </b>
+               customers can save $500 on SPAN Panel product costs by becoming a HECO Utility rate payer.
+            </p>
+            <button
+              class="c11"
+            >
+              Learn more
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div>
-    <p
-      class="c11"
-    >
-      We’re constantly updating this list, so check back to see if your utility provider provides localized incentives for getting SPAN.
-    </p>
+    <div>
+      <p
+        class="c12"
+      >
+        We’re constantly updating this list, so check back to see if your utility provider provides localized incentives for getting SPAN.
+      </p>
+    </div>
   </div>
 </div>
 `;

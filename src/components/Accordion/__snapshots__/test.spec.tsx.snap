@@ -10,6 +10,7 @@ exports[`<Accordion /> should add classname on click 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 align-items:baseline .c0 > svg {
@@ -58,6 +59,7 @@ exports[`<Accordion /> should add title 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 align-items:baseline .c0 > svg {
@@ -107,6 +109,7 @@ exports[`<Accordion /> should render accordion body 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 align-items:baseline .c0 > svg {
