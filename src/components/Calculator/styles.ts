@@ -21,6 +21,7 @@ export const Wrapper = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
+    padding: 40px 64px;
     width: ${({ theme }) => theme.breakpoints.laptopL};
     margin: 0px auto;
   }
