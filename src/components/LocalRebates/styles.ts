@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   width: 100%;
   background: ${({ theme }) => theme.colors.gray};
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
+    padding: 96px 64px;
+  }
 `
 
 export const Content = styled.div`
@@ -28,6 +32,7 @@ export const Content = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
+    padding: 0px;
     width: ${({ theme }) => theme.breakpoints.laptopL};
     margin: 0px auto;
   }

@@ -4,6 +4,12 @@ export const Wrapper = styled.div`
   width: 100%;
   color: ${({ theme }) => theme.colors.black};
 
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
+    padding: 56px 64px;
+  }
+`
+
+export const Content = styled.div`
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     padding: 56px 24px;
   }
@@ -21,6 +27,7 @@ export const Wrapper = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
+    padding: 0px;
     width: ${({ theme }) => theme.breakpoints.laptopL};
     margin: 0px auto;
   }

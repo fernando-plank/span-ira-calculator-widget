@@ -104,8 +104,14 @@ const Calculator = ({ onSubmitCallback, executeScroll }: CalculatorProps) => {
 
   return (
     <S.Wrapper>
-      <S.Title>Enter your household information to find your savings</S.Title>
-      <Form fields={fields.fields} isLoading={isLoading} onSubmit={onSubmit} />
+      <S.Content>
+        <S.Title>Enter your household information to find your savings</S.Title>
+        <Form
+          fields={fields.fields}
+          isLoading={isLoading}
+          onSubmit={onSubmit}
+        />
+      </S.Content>
     </S.Wrapper>
   )
 }
