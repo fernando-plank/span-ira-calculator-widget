@@ -43,7 +43,7 @@ const Calculator = ({ onSubmitCallback, executeScroll }: CalculatorProps) => {
     .makeRequired()
     .addField({
       name: 'owner_status',
-      label: 'Owner Status',
+      label: 'Owner status',
       type: 'select',
       id: 'owner_status',
       tooltip: 'Homeowners and renters qualify for different incentives.',
@@ -55,7 +55,7 @@ const Calculator = ({ onSubmitCallback, executeScroll }: CalculatorProps) => {
     .makeRequired()
     .addField({
       name: 'household_income',
-      label: 'Household Income',
+      label: 'Household income',
       type: 'text',
       id: 'household_income',
       tooltip: `
@@ -67,23 +67,23 @@ const Calculator = ({ onSubmitCallback, executeScroll }: CalculatorProps) => {
     .makeRequired()
     .addField({
       name: 'tax_filing',
-      label: 'Tax Filing Status',
+      label: 'Tax filing status',
       type: 'select',
       id: 'tax_filing',
       tooltip: `
-        Select "Head of Household" if you have a child or relative living with you, and you 
+        Select "Head of household" if you have a child or relative living with you, and you 
         pay more than half the costs of your home. Select "Joint" if you file your taxes as a married couple.
       `,
       options: [
         { label: 'Single', value: 'single' },
         { label: 'Joint', value: 'joint' },
-        { label: 'Head of Household', value: 'hoh' }
+        { label: 'Head of household', value: 'hoh' }
       ]
     })
     .makeRequired()
     .addField({
       name: 'household_size',
-      label: 'Household Size',
+      label: 'Household size',
       type: 'select',
       id: 'household_size',
       tooltip:

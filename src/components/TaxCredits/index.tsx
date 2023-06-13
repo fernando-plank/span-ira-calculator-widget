@@ -5,6 +5,7 @@ import { TaxCreditsTableData } from 'types/tax-credits'
 import { useTheme } from 'styled-components'
 
 import * as S from './styles'
+import Info from '@components/Info'
 
 interface TaxCreditsProps {
   tableData: TaxCreditsTableData[]
@@ -16,7 +17,11 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
   return (
     <S.Wrapper>
       <S.Content>
+        <S.AvailableNowText>AVAILABLE NOW</S.AvailableNowText>
         <S.Title data-testid="tax-credits-title">Tax credits</S.Title>
+        <S.Subtitle>
+          Save on SPAN Panel and other home electrification upgrades.
+        </S.Subtitle>
         <S.TaxBody>
           <S.TaxBodyContent>
             <S.TaxText>
@@ -30,6 +35,12 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
             </S.TaxText>
           </S.TaxBodyContent>
           <S.TaxBodyContent>
+            <S.CardInfo>
+              <S.CardTitle>25C Tax Credit </S.CardTitle>
+              <S.CardText>
+                Provides 30% tax credit of maximum $600 per year
+              </S.CardText>
+            </S.CardInfo>
             <table
               style={{
                 width: '100%',
@@ -39,8 +50,8 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
             >
               <thead>
                 <tr>
-                  <S.TableTh>ITEM</S.TableTh>
-                  <S.TableTh>AMOUNT</S.TableTh>
+                  <S.TableTh style={{ paddingBottom: '20px' }}>ITEM</S.TableTh>
+                  <S.TableTh>Estimated savings</S.TableTh>
                 </tr>
               </thead>
               <tbody>
@@ -58,6 +69,7 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
                       >
                         <div style={index == 0 ? { fontWeight: 'bold' } : {}}>
                           {item.item}
+                          <Info text={item.tooltip} />
                         </div>
                       </S.TableTd>
                       <S.TableTd

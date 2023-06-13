@@ -11,6 +11,9 @@ import Logo from '@assets/img/span-logo-r.svg'
 import Tiktok from '@assets/img/tiktok.svg'
 import Twitter from '@assets/img/twitter.svg'
 import Youtube from '@assets/img/youtube.svg'
+import AnimationCircle from '@assets/img/calc-animation-circle.svg'
+import AnimationPercentage from '@assets/img/calc-animation-percentage.svg'
+import AnimationRotate from '@assets/img/calc-animation-rotate.svg'
 
 const IconsDictionary = {
   Logo,
@@ -23,7 +26,10 @@ const IconsDictionary = {
   Tiktok,
   Linkedin,
   Plus,
-  Info
+  Info,
+  AnimationCircle,
+  AnimationPercentage,
+  AnimationRotate
 }
 
 export type IconOptions = keyof typeof IconsDictionary

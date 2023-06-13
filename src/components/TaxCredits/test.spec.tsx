@@ -17,13 +17,17 @@ describe('<TaxCredits />', () => {
   })
 
   it('should format percent correctly', () => {
-    render(<TaxCredits tableData={[{ item: 'Item', amount: 0.1 }]} />)
+    render(
+      <TaxCredits tableData={[{ item: 'Item', amount: 0.1, tooltip: '' }]} />
+    )
 
     expect(screen.getByText('10%')).toBeInTheDocument()
   })
 
   it('should format dollar amount correctly', () => {
-    render(<TaxCredits tableData={[{ item: 'Item', amount: 100 }]} />)
+    render(
+      <TaxCredits tableData={[{ item: 'Item', amount: 100, tooltip: '' }]} />
+    )
     expect(screen.getByText('$100')).toBeInTheDocument()
   })
 })

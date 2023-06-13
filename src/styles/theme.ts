@@ -39,7 +39,7 @@ export default {
     mobileXL: '480px',
     tablet: '768px',
     laptop: '1024px',
-    laptopL: '1400px',
+    laptopL: '1528px',
     desktop: '2560px'
   },
   banner: {

@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   color: #111111;
+  background-color: ${({ theme }) => theme.colors.white};
   width: 100%;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
@@ -28,7 +29,7 @@ export const Content = styled.div`
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
     padding: 0px;
-    width: ${({ theme }) => theme.breakpoints.laptopL};
+    width: 1400px;
     margin: 0px auto;
   }
 `

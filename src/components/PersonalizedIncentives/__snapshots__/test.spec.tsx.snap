@@ -115,6 +115,12 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
   display: contents;
 }
 
+@media (min-width:1400px) {
+  .c0 {
+    padding: 40px 64px;
+  }
+}
+
 @media (min-width:320px) {
   .c1 {
     padding: 50px 24px;
@@ -141,6 +147,7 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
 
 @media (min-width:1400px) {
   .c1 {
+    padding: 0px;
     width: 1400px;
     margin: 0px auto;
   }
@@ -461,6 +468,12 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
   display: contents;
 }
 
+@media (min-width:1400px) {
+  .c0 {
+    padding: 40px 64px;
+  }
+}
+
 @media (min-width:320px) {
   .c1 {
     padding: 50px 24px;
@@ -487,6 +500,7 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
 
 @media (min-width:1400px) {
   .c1 {
+    padding: 0px;
     width: 1400px;
     margin: 0px auto;
   }

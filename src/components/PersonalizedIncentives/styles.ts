@@ -2,14 +2,25 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   width: 100%;
-  background-color: ${({ theme }) => theme.colors.primary};
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
+    padding: 0px 32px;
+  }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
-    padding: 40px 64px;
+    padding: 40px 0px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}) {
+    .hide-on-mobile {
+      display: none;
+    }
   }
 `
 
-export const Content = styled.div`
+export const Background = styled.div`
+  background-color: ${({ theme }) => theme.colors.primary};
+
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     padding: 50px 24px;
   }
@@ -23,12 +34,14 @@ export const Content = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    padding: 40px 64px;
+    padding: 40px 32px;
   }
+`
 
+export const Content = styled.div`
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
     padding: 0px;
-    width: ${({ theme }) => theme.breakpoints.laptopL};
+    width: 1400px;
     margin: 0px auto;
   }
 

@@ -33,7 +33,7 @@ export const Content = styled.div`
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
     padding: 0px;
-    width: ${({ theme }) => theme.breakpoints.laptopL};
+    width: 1400px;
     margin: 0px auto;
   }
 `
@@ -49,12 +49,19 @@ export const Title = styled.h1`
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  margin-bottom: 81px;
+  margin-bottom: 42px;
+`
+
+export const Subtitle = styled.h2`
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 `
 
 export const BodyWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     width: 100%;
@@ -134,7 +141,7 @@ export const TextFooter = styled.p`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    width: 50%;
+    width: 26%;
     font-size: 12px;
     line-height: 16px;
   }

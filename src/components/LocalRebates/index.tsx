@@ -11,8 +11,14 @@ const LocalRebates = () => {
           <S.Title data-testid="local-rebates-title">
             Local utility electrification rebates
           </S.Title>
+          <S.Subtitle data-testid="local-rebates-title">
+            Enjoy even more potential savings from
+          </S.Subtitle>
+          <S.Subtitle data-testid="local-rebates-title">
+            localized utility incentives.
+          </S.Subtitle>
         </div>
-        <div>
+        <div style={{ marginTop: '40px' }}>
           <Accordion icon={'Plus'} title={'California'}>
             <S.BodyWrapper></S.BodyWrapper>
             <S.BodyWrapper>
@@ -26,8 +32,8 @@ const LocalRebates = () => {
               <S.BodyContent>
                 <S.BodyText>
                   <b>Sacramento Municipal Utility District</b> (SMUD) customers
-                  can save up to $2,500 as part of a larger home electrification
-                  project.
+                  can save up to $2,500 on SPAN Panel as part of a larger home
+                  electrification project.
                 </S.BodyText>
                 <S.LearnMoreButton>Learn more</S.LearnMoreButton>
               </S.BodyContent>
@@ -39,9 +45,9 @@ const LocalRebates = () => {
             <S.BodyWrapper>
               <S.BodyContent>
                 <S.BodyText>
-                  <b>Shifted Energy</b> customers can have the costs of SPAN
-                  Panel covered, plus up to $4,000 for install when they agree
-                  to share SPAN Panel data and control with Shifted Energy.
+                  <b>Shifted Energy</b> will cover the costs of SPAN Panel in
+                  full (plus up to $4,000 for installation) for customers who
+                  agree to share SPAN Panel data and control.
                 </S.BodyText>
                 <S.LearnMoreButton>Learn more</S.LearnMoreButton>
               </S.BodyContent>
@@ -57,8 +63,8 @@ const LocalRebates = () => {
         </div>
         <div>
           <S.TextFooter>
-            We’re constantly updating this list, so check back to see if your
-            utility provider provides localized incentives for getting SPAN.
+            Any incentives, grants, or rebates provided by a government or
+            public utility may affect the tax credits listed above.
           </S.TextFooter>
         </div>
       </S.Content>

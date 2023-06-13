@@ -116,6 +116,7 @@ export const FormInput = styled.input`
   box-sizing: border-box;
   height: 68px;
   border: 2px solid #b0b0b1;
+  background: none;
   border-radius: 4px;
   font-size: 16px;
   font-weight: 700;
@@ -123,6 +124,7 @@ export const FormInput = styled.input`
   letter-spacing: 0;
   text-align: left;
   padding-left: 24px;
+  height: 80px;
 
   &.error {
     border: 2px solid red;
@@ -149,8 +151,8 @@ export const FormSelectWrapper = styled.div`
   grid-template-areas: 'select';
   align-items: center;
   border-radius: 4px;
-  background-color: white;
   cursor: pointer;
+  height: 80px;
 
   &::after {
     content: '';
@@ -172,10 +174,10 @@ export const FormSelectWrapper = styled.div`
 `
 
 export const FormSelect = styled.select`
-  height: 64px;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+  background: none;
   letter-spacing: 0;
   text-align: left;
   padding-left: 24px;
@@ -205,8 +207,8 @@ export const FormFieldError = styled.span`
 export const CalculateButton = styled.button`
   width: 160px;
   height: 40px;
-  background: #00b0d3;
-  border: 2px solid #00b0d3;
+  background: ${({ theme }) => theme.colors.primary};
+  border: 2px solid ${({ theme }) => theme.colors.primary};
   border-radius: 20px;
   color: #fff;
   font-style: normal;

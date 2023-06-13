@@ -6,9 +6,9 @@ export const Tooltip = styled.div`
 `
 
 export const InfoContent = styled.h4`
-  background-color: ${({ theme }) => theme.colors.white};
+  background-color: ${({ theme }) => theme.colors.gray};
   width: max-content;
-  padding: 10px;
+  padding: 12px 16px;
   border-radius: 5px;
   position: absolute;
   color: ${({ theme }) => theme.colors.black};

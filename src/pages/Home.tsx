@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useMemo, useRef, useState } from 'react'
 import HouseholdInformation from '@components/HouseholdInformation'
 import LocalRebates from '@components/LocalRebates'
 
@@ -8,6 +8,8 @@ import IncentivesServices from '@services/incentives'
 import { TaxCreditsTableData } from 'types/tax-credits'
 
 import * as S from './Home.styles'
+import { makeTaxCreditsTooltip } from '@utils/tooltips'
+import { IncentivesApiResponse } from '@services/types'
 
 export type IncentivesProps = {
   pos_savings: number
@@ -23,16 +25,18 @@ export const Home = () => {
   const [houseHoldingInformation, setHouseHoldingInformation] =
     useState<IncentivesProps>()
   const incentivesRef = useRef(null)
+
   const executeScroll = () =>
     incentivesRef.current.scrollIntoView({ behavior: 'smooth' })
+
   const fetchIncentives = async () => {
     const { incentives } = await new IncentivesServices().getIncentives()
     return incentives
   }
 
-  useEffect(() => {
+  useMemo(() => {
     let eletricPanel: any = null
-    let items: any[] = incentives?.filter((item) => {
+    let items: IncentivesApiResponse[] = incentives?.filter((item) => {
       if (item.item === 'Electric Panel') {
         eletricPanel = item
       }
@@ -50,7 +54,9 @@ export const Home = () => {
     if (items && eletricPanel) {
       eletricPanel['item'] = 'SPAN Smart Electrical Panel'
       items.unshift(eletricPanel)
+      items = makeTaxCreditsTooltip(items)
     }
+
     setTaxCreditsInformation(items)
   }, [incentives])
 
@@ -71,11 +77,15 @@ export const Home = () => {
           info={houseHoldingInformation}
           onSubmitCallback={onSubmitCallback}
         />
-        <PersonalizedIncentives
-          incentivesRef={incentivesRef}
-          householdInformation={houseHoldingInformation}
-        />
-        <TaxCredits tableData={taxCreditsInformation} />
+        {houseHoldingInformation && (
+          <>
+            <PersonalizedIncentives
+              incentivesRef={incentivesRef}
+              householdInformation={houseHoldingInformation}
+            />
+            <TaxCredits tableData={taxCreditsInformation} />
+          </>
+        )}
         <LocalRebates />
         {/*<Faq/>*/}
         {/*<BannerGetQuote/>*/}

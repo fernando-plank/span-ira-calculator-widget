@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { ReactChild } from 'react'
 import { useState } from 'react'
 
 import Icon from '@components/Icon'
 
 import * as S from './styles'
 
-const Info = (props: { text: string }) => {
+const Info = (props: { text: ReactChild }) => {
   const [showContent, setShowContent] = useState(false)
   return (
     <S.Tooltip
