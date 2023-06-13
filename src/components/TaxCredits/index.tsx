@@ -35,12 +35,6 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
             </S.TaxText>
           </S.TaxBodyContent>
           <S.TaxBodyContent>
-            <S.CardInfo>
-              <S.CardTitle>25C Tax Credit </S.CardTitle>
-              <S.CardText>
-                Provides 30% tax credit of maximum $600 per year
-              </S.CardText>
-            </S.CardInfo>
             <table
               style={{
                 width: '100%',
