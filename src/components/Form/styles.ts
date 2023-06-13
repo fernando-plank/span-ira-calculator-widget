@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    padding: 50px 64px;
+    padding: 0px 64px;
   }
 `
 
@@ -19,6 +19,7 @@ export const Form = styled.form`
   flex: 0 0 100%;
   flex-wrap: wrap;
   align-items: center;
+  padding-bottom: 96px;
 `
 
 export const FormTitle = styled.h2`

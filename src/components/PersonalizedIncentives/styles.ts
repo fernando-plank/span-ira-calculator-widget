@@ -82,12 +82,10 @@ export const IncentivesBodyIcon = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: end;
-  padding-left: 40px;
   height: 30vh;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}) {
     position: absolute;
-    align-self: end;
     margin-top: 150px;
   }
 
@@ -98,14 +96,18 @@ export const IncentivesBodyIcon = styled.div`
 
 export const DescriptionWrapper = styled.div`
   display: flex;
-
-  @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
-    flex-direction: column;
-  }
+  flex-direction: column;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    flex-direction: row;
     width: 100%;
+  }
+`
+
+export const DescriptionBox = styled.div`
+  display: flex;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    flex-direction: column;
   }
 `
 
@@ -118,6 +120,29 @@ export const DescriptionContainer = styled.div`
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     margin-top: 28px;
+  }
+`
+
+export const TotalContainer = styled.div`
+  margin-top: 44px;
+  color: ${({ theme }) => theme.colors.white};
+`
+
+export const TotalText = styled.h1`
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+`
+
+export const TotalPrice = styled.h1`
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
+    font-size: 136px;
+    font-weight: 600;
+    line-height: 136px;
   }
 `
 
@@ -172,6 +197,14 @@ export const IncentivesFooterContent = styled.p`
     padding-right: 59px;
     flex: 0 0 50%;
   }
+`
+
+export const ContentLink = styled.a`
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin: 12px 0px 9px 0px;
+  font-weight: bold;
 `
 
 export const Separator = styled.div`

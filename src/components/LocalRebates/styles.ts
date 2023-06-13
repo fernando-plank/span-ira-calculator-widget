@@ -94,11 +94,12 @@ export const BodyText = styled.p`
 `
 
 export const LearnMoreButton = styled.button`
+  cursor: pointer;
   border: 2px solid ${({ theme }) => theme.colors.black};
   border-radius: 20px;
   width: 50%;
   height: 40px;
-  margin-left: 50px;
+  margin-left: 40px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -132,7 +133,7 @@ export const Separator = styled.div`
 export const TextFooter = styled.p`
   font-style: normal;
   font-weight: 500;
-  margin-top: 50px;
+  margin-top: 32px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     width: 100%;
@@ -141,7 +142,7 @@ export const TextFooter = styled.p`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    width: 26%;
+    max-width: 460px;
     font-size: 12px;
     line-height: 16px;
   }

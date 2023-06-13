@@ -6,25 +6,25 @@ export const Wrapper = styled.div`
   width: 100%;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
-    padding: 40px 64px;
+    padding: 0px 64px;
   }
 `
 
 export const Content = styled.div`
   @media (min-width: ${(props) => props.theme.breakpoints.mobileS}) {
-    padding: 30px 24px;
+    padding: 0px 24px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileXL}) {
-    padding: 30px 32px;
+    padding: 0px 32px;
   }
 
   @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
-    padding: 30px 40px;
+    padding: 0px 40px;
   }
 
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
-    padding: 40px 64px;
+    padding: 0px 64px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
@@ -35,15 +35,14 @@ export const Content = styled.div`
 `
 
 export const Title = styled.h1`
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 40px;
   width: 100%;
-  padding: 24px 0 65px;
   text-align: left;
 
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
-    width: 50%;
+    width: 510px;
   }
 `
 

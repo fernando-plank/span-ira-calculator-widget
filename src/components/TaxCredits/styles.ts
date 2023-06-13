@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   color: ${({ theme }) => theme.colors.black};
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
-    padding: 56px 64px;
+    padding: 96px 64px;
   }
 `
 
@@ -23,7 +23,7 @@ export const Content = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    padding: 56px 64px;
+    padding: 96px 64px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
@@ -85,7 +85,6 @@ export const TaxBodyContent = styled.div`
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     width: 50%;
-    padding-bottom: 40px;
   }
 `
 

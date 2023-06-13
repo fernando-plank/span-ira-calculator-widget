@@ -28,36 +28,46 @@ const PersonalizedIncentives = ({
           </S.IncentivesBodyIcon>
           <div style={{ marginBottom: '60px', flex: '0 0 50%' }}>
             <S.DescriptionWrapper>
-              <S.DescriptionContainer>
-                <S.Subtitle>Available</S.Subtitle>
-                <S.Subtitle>
-                  tax credits
-                  <Info
-                    text={
-                      'The geothermal tax credit is not included in this total.'
-                    }
-                  />
-                </S.Subtitle>
-                <S.Price data-testid="household_tax_savings">
-                  {formatCurrency(householdInformation?.tax_savings)}
-                </S.Price>
-              </S.DescriptionContainer>
-              <S.DescriptionContainer>
-                <S.Subtitle>Estimated energy</S.Subtitle>
-                <S.Subtitle>
-                  savings per year
-                  <Info
-                    text={`This estimate is based on energy costs in your state. 
+              <S.DescriptionBox>
+                <S.DescriptionContainer>
+                  <S.Subtitle>Available</S.Subtitle>
+                  <S.Subtitle>
+                    tax credits
+                    <Info
+                      text={
+                        'The geothermal tax credit is not included in this total.'
+                      }
+                    />
+                  </S.Subtitle>
+                  <S.Price data-testid="household_tax_savings">
+                    {formatCurrency(householdInformation?.tax_savings)}
+                  </S.Price>
+                </S.DescriptionContainer>
+                <S.DescriptionContainer>
+                  <S.Subtitle>Estimated energy</S.Subtitle>
+                  <S.Subtitle>
+                    savings per year
+                    <Info
+                      text={`This estimate is based on energy costs in your state. 
                 It includes savings on both utility and gasoline bills if you switch to an 
                 electric vehicle and a heat pump for space and water heating.`}
-                  />
-                </S.Subtitle>
-                <S.Price data-testid="household_annual_savings">
+                    />
+                  </S.Subtitle>
+                  <S.Price data-testid="household_annual_savings">
+                    {formatCurrency(
+                      householdInformation?.estimated_annual_savings
+                    )}
+                  </S.Price>
+                </S.DescriptionContainer>
+              </S.DescriptionBox>
+              <S.TotalContainer>
+                <S.TotalText>Total incentives</S.TotalText>
+                <S.TotalPrice>
                   {formatCurrency(
                     householdInformation?.estimated_annual_savings
                   )}
-                </S.Price>
-              </S.DescriptionContainer>
+                </S.TotalPrice>
+              </S.TotalContainer>
             </S.DescriptionWrapper>
           </div>
         </S.IncentivesBody>
@@ -69,8 +79,20 @@ const PersonalizedIncentives = ({
               your federal taxes owed (our estimate may be inaccurate).
             </p>
             <p style={{ marginTop: '15px' }}>
-              Powered by the Rewiring America API and subject to the API Terms
-              of Service
+              Powered by the{' '}
+              <S.ContentLink
+                href="https://www.rewiringamerica.org"
+                target="_blank"
+              >
+                Rewiring America API
+              </S.ContentLink>{' '}
+              and subject to the API{' '}
+              <S.ContentLink
+                href="https://content.rewiringamerica.org/api/terms.pdf"
+                target="_blank"
+              >
+                Terms of Service.
+              </S.ContentLink>
             </p>
           </S.IncentivesFooterContent>
           <S.IncentivesFooterContent className="hide-on-mobile">
