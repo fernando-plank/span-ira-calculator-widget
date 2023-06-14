@@ -16,13 +16,10 @@ const PersonalizedIncentives = ({
   incentivesRef
 }: PersonalizedIncentivesProps) => (
   <S.Wrapper>
-<<<<<<< Updated upstream
-=======
     <div
       style={{ height: '65px', backgroundColor: '#FAFAFA' }}
       ref={incentivesRef}
     ></div>
->>>>>>> Stashed changes
     <S.Background>
       <S.Content>
         <S.Title>Your personalized incentives</S.Title>
