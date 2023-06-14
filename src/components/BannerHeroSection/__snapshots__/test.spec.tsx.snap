@@ -3,7 +3,7 @@
 exports[`<BannerHeroSection /> should render the description 1`] = `
 .c0 {
   width: 100%;
-  background-color: #00b0d3;
+  background-color: #787BFF;
 }
 
 .c1 {
@@ -100,7 +100,7 @@ exports[`<BannerHeroSection /> should render the description 1`] = `
 exports[`<BannerHeroSection /> should render the heading 1`] = `
 .c0 {
   width: 100%;
-  background-color: #00b0d3;
+  background-color: #787BFF;
 }
 
 .c1 {

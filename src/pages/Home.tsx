@@ -78,11 +78,11 @@ export const Home = () => {
           info={houseHoldingInformation}
           onSubmitCallback={onSubmitCallback}
           onReset={onReset}
+          incentivesRef={incentivesRef}
         />
         {houseHoldingInformation && (
           <>
             <PersonalizedIncentives
-              incentivesRef={incentivesRef}
               householdInformation={houseHoldingInformation}
             />
             <TaxCredits tableData={taxCreditsInformation} />

@@ -15,6 +15,6 @@ export const Default: Story = () => (
       tax_savings: 0,
       pos_savings: 0
     }}
-    incentivesRef={undefined}
+    // incentivesRef={undefined}
   />
 )

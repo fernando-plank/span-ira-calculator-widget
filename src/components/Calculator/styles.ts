@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
+  position: relative;
 
   @media (min-width: ${(props) => props.theme.breakpoints.mobileS}) {
     padding: 0px 24px;

@@ -49,6 +49,13 @@ export const ResetCalculatorButton = styled.a`
   color: #1f1f1f;
   align-self: end;
   cursor: pointer;
+  
+  
+  @media (min-width: ${props => props.theme.breakpoints.laptop}) {
+    margin-top: -20px;
+    margin-right: 60px;
+  }
+  
 `
 
 export const FormContent = styled.div`
@@ -92,7 +99,7 @@ export const FormButtonGroup = styled.div`
     flex: 0 0 30%;
     margin-right: 3%;
     margin-top: 55px;
-    align-items: center;
+    align-items: end;
   }
 `
 

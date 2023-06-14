@@ -8,7 +8,7 @@ import { MutableRefObject } from 'react'
 
 export interface PersonalizedIncentivesProps {
   householdInformation: IncentivesProps
-  incentivesRef: MutableRefObject<any>
+  incentivesRef?: MutableRefObject<any>
 }
 
 const PersonalizedIncentives = ({
@@ -16,7 +16,7 @@ const PersonalizedIncentives = ({
   incentivesRef
 }: PersonalizedIncentivesProps) => (
   <S.Wrapper>
-    <div style={{ height: '65px' }} ref={incentivesRef}></div>
+
     <S.Background>
       <S.Content>
         <S.Title>Your personalized incentives</S.Title>

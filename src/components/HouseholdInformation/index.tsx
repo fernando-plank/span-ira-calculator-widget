@@ -1,12 +1,14 @@
 import Calculator from '@components/Calculator'
 
 import * as S from './styles'
+import { MutableRefObject } from 'react'
 
 interface HouseholdInformationProps {
   onSubmitCallback: (data) => void
   onReset: () => void
   info: any
   executeScroll: () => void
+  incentivesRef?: MutableRefObject<any>
 }
 
 const errorsMessage = {
@@ -18,7 +20,8 @@ const HouseholdInformation = ({
   onSubmitCallback,
   info,
   onReset,
-  executeScroll
+  executeScroll,
+  incentivesRef
 }: HouseholdInformationProps) => {
   return (
     <>
@@ -32,6 +35,7 @@ const HouseholdInformation = ({
           {errorsMessage[info.message] || errorsMessage['default']}
         </S.HouseholdInformationMessage>
       )}
+      <div style={{ height: '1', visibility: "hidden" }}  ref={incentivesRef}></div>
     </>
   )
 }
