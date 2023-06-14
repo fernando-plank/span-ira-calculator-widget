@@ -13,6 +13,10 @@ const callback = (data) => {
   return data
 }
 
+const onReset = () => {
+  return null
+}
+
 const formFields = new FormBuilder()
   .addField({
     name: 'zip',
@@ -34,5 +38,5 @@ const formFields = new FormBuilder()
       { label: '2', value: '2' }
     ]
   })
-  .build(callback)
+  .build(callback, onReset)
 export const Default: Story = () => <Form {...formFields} />

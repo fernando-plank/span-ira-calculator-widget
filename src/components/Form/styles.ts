@@ -14,6 +14,7 @@ export const Wrapper = styled.div`
 `
 
 export const Form = styled.form`
+  margin-top: 64px;
   width: 100%;
   display: flex;
   flex: 0 0 100%;
@@ -46,6 +47,8 @@ export const ResetCalculatorButton = styled.a`
   line-height: 16px;
   letter-spacing: 0em;
   color: #1f1f1f;
+  align-self: end;
+  cursor: pointer;
 `
 
 export const FormContent = styled.div`

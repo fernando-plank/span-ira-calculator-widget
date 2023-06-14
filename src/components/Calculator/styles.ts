@@ -11,6 +11,9 @@ export const Wrapper = styled.div`
 `
 
 export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+
   @media (min-width: ${(props) => props.theme.breakpoints.mobileS}) {
     padding: 0px 24px;
   }
@@ -39,6 +42,7 @@ export const Title = styled.h1`
   font-weight: 700;
   line-height: 40px;
   width: 100%;
+  padding: 24px 0 0px;
   text-align: left;
 
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {

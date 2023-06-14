@@ -7,6 +7,7 @@ const setup = () => {
   const onSubmitCallback = jest.fn()
   const utils = render(
     <Calculator
+      onReset={() => {}}
       onSubmitCallback={onSubmitCallback}
       executeScroll={function (): void {
         throw new Error('Function not implemented.')

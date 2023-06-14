@@ -18,9 +18,14 @@ type Inputs = {
 interface CalculatorProps {
   onSubmitCallback: (response: any) => void
   executeScroll: () => void
+  onReset: () => void
 }
 
-const Calculator = ({ onSubmitCallback, executeScroll }: CalculatorProps) => {
+const Calculator = ({
+  onSubmitCallback,
+  executeScroll,
+  onReset
+}: CalculatorProps) => {
   const [isLoading, setIsLoading] = useState(false)
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
     setIsLoading(true)
@@ -100,7 +105,7 @@ const Calculator = ({ onSubmitCallback, executeScroll }: CalculatorProps) => {
       ]
     })
     .makeRequired()
-    .build(onSubmit)
+    .build(onSubmit, onReset)
 
   return (
     <S.Wrapper>
@@ -110,6 +115,7 @@ const Calculator = ({ onSubmitCallback, executeScroll }: CalculatorProps) => {
           fields={fields.fields}
           isLoading={isLoading}
           onSubmit={onSubmit}
+          onReset={onReset}
         />
       </S.Content>
     </S.Wrapper>

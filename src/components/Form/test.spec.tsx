@@ -18,6 +18,7 @@ jest.mock('../Icon', () => {
 
 const setup = () => {
   const onSubmitCallback = jest.fn()
+  const onReset = jest.fn()
   const fields = new FormBuilder()
     .addField({
       name: 'zip',
@@ -80,9 +81,13 @@ const setup = () => {
       ]
     })
     .makeRequired()
-    .build(onSubmitCallback)
+    .build(onSubmitCallback, onReset)
   const { user } = setupUserEvent(
-    <Form fields={fields.fields} onSubmit={onSubmitCallback} />
+    <Form
+      fields={fields.fields}
+      onReset={onReset}
+      onSubmit={onSubmitCallback}
+    />
   )
 
   const zip: HTMLInputElement = screen.getByTestId('zip')

@@ -4,6 +4,7 @@ import * as S from './styles'
 
 interface HouseholdInformationProps {
   onSubmitCallback: (data) => void
+  onReset: () => void
   info: any
   executeScroll: () => void
 }
@@ -16,12 +17,14 @@ const errorsMessage = {
 const HouseholdInformation = ({
   onSubmitCallback,
   info,
+  onReset,
   executeScroll
 }: HouseholdInformationProps) => {
   return (
     <>
       <Calculator
         onSubmitCallback={onSubmitCallback}
+        onReset={onReset}
         executeScroll={executeScroll}
       />
       {info?.message && (

@@ -66,6 +66,7 @@ export const Home = () => {
     })
   }, [])
   const onSubmitCallback = (data) => setHouseHoldingInformation(data)
+  const onReset = () => setHouseHoldingInformation(undefined)
 
   return (
     <S.Wrapper>
@@ -76,6 +77,7 @@ export const Home = () => {
           executeScroll={executeScroll}
           info={houseHoldingInformation}
           onSubmitCallback={onSubmitCallback}
+          onReset={onReset}
         />
         {houseHoldingInformation && (
           <>

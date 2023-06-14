@@ -21,6 +21,7 @@ export interface FormFieldProps {
 export interface FormProps {
   fields: FormFieldProps[]
   onSubmit: (data) => void
+  onReset: () => void
   isLoading?: boolean
 }
 
@@ -56,10 +57,11 @@ class FormBuilder {
     return this
   }
 
-  build(submitCallback): FormProps {
+  build(submitCallback, resetCallback): FormProps {
     return {
       fields: this.fields,
-      onSubmit: submitCallback
+      onSubmit: submitCallback,
+      onReset: resetCallback
     }
   }
 }

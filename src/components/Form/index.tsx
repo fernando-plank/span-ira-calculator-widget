@@ -6,6 +6,7 @@ import FormSelect from '@components/Form/FormSelect'
 
 import * as S from './styles'
 import Loading from '@components/Loading'
+import { useEffect, useState } from 'react'
 
 type Inputs = {
   zip: string
@@ -19,18 +20,32 @@ export const Form = (props: FormProps) => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors }
   } = useForm<Inputs>()
+
+  const [resetSelect, setResetSelect] = useState(false)
 
   return (
     <>
       <Loading isLoading={props.isLoading} />
+      <S.ResetCalculatorButton
+        onClick={() => {
+          props.onReset()
+          reset()
+          setResetSelect(true)
+        }}
+      >
+        Reset Calculator
+      </S.ResetCalculatorButton>
       <S.Form onSubmit={handleSubmit(onSubmit)} data-testid="form-element">
         {fields.map((field) => {
           if (field.type === 'select') {
             return (
               <S.FormInputGroup key={field.name}>
                 <FormSelect
+                  onReset={resetSelect}
+                  setResetSelect={setResetSelect}
                   errors={errors}
                   field={field}
                   register={register(field.id, { ...field })}

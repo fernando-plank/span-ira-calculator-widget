@@ -1,11 +1,25 @@
-import React, { useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 
 import * as S from './styles'
 import Info from '@components/Info'
 import classnames from 'classnames'
 
-export const FormSelect = ({ field, register, errors }) => {
+export const FormSelect = ({
+  field,
+  register,
+  errors,
+  onReset,
+  setResetSelect
+}) => {
   const [selected, setSelected] = useState(false)
+
+  useEffect(() => {
+    if (onReset) {
+      setSelected(false)
+      setResetSelect(false)
+    }
+  }, [onReset])
+
   return (
     <>
       <S.FormInputLabel>
