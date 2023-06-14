@@ -102,9 +102,10 @@ export const BodyText = styled.p`
 
 export const LearnMoreButton = styled.button`
   cursor: pointer;
+  background-color: ${({ theme }) => theme.colors.gray};
   border: 2px solid ${({ theme }) => theme.colors.black};
   border-radius: 20px;
-  width: 50%;
+  width: 160px;
   height: 40px;
   margin-left: 40px;
   font-style: normal;
