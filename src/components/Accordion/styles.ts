@@ -73,5 +73,6 @@ export const Separator = styled.div`
   height: 1px;
   background: #b0b0b1;
   border-radius: 2px;
-  margin-bottom: 17px;
+  margin-bottom: 53px;
+  margin-top: 13px;
 `

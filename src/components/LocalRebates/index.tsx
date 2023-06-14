@@ -18,7 +18,7 @@ const LocalRebates = () => {
             localized utility incentives.
           </S.Subtitle>
         </div>
-        <div style={{ marginTop: '40px' }}>
+        <div style={{ marginTop: '70px' }}>
           <Accordion icon={'Plus'} title={'California'}>
             <S.BodyWrapper></S.BodyWrapper>
             <S.BodyWrapper>

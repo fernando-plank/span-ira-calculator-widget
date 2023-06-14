@@ -23,28 +23,17 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
           Save on SPAN Panel and other home electrification upgrades.
         </S.Subtitle>
         <S.TaxBody>
-          <S.TaxBodyContent>
-            <S.TaxText>
-              Disclaimer: These values are estimates. The rebates may be
-              implemented differently in each state, so we cannot guarantee
-              final amounts, eligibility, or timeline. And without additional
-              appropriations from Congress, the rebate programs will end once
-              their initial IRA funding is exhausted. Tax credits can only be
-              used to offset your federal taxes owed, which we estimate but do
-              not know.
-            </S.TaxText>
-          </S.TaxBodyContent>
+          <S.TaxBodyContent></S.TaxBodyContent>
           <S.TaxBodyContent>
             <table
               style={{
                 width: '100%',
-                textAlign: 'left',
-                marginBottom: '130px'
+                textAlign: 'left'
               }}
             >
               <thead>
                 <tr>
-                  <S.TableTh style={{ paddingBottom: '20px' }}>ITEM</S.TableTh>
+                  <S.TableTh>ITEM</S.TableTh>
                   <S.TableTh>Estimated savings</S.TableTh>
                 </tr>
               </thead>
