@@ -35,12 +35,6 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
             </S.TaxText>
           </S.TaxBodyContent>
           <S.TaxBodyContent>
-            <S.CardInfo>
-              <S.CardTitle>25C Tax Credit </S.CardTitle>
-              <S.CardText>
-                Provides 30% tax credit of maximum $600 per year
-              </S.CardText>
-            </S.CardInfo>
             <table
               style={{
                 width: '100%',
@@ -58,29 +52,13 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
                 {tableData &&
                   tableData.map((item, index) => (
                     <tr key={index}>
-                      <S.TableTd
-                        style={{
-                          color:
-                            index == tableData.length - 1 ||
-                            index == tableData.length - 2
-                              ? `#B0B0B1`
-                              : `${theme.colors.black}`
-                        }}
-                      >
+                      <S.TableTd>
                         <div style={index == 0 ? { fontWeight: 'bold' } : {}}>
                           {item.item}
                           <Info text={item.tooltip} />
                         </div>
                       </S.TableTd>
-                      <S.TableTd
-                        style={{
-                          color:
-                            index == tableData.length - 1 ||
-                            index == tableData.length - 2
-                              ? `#B0B0B1`
-                              : `${theme.colors.black}`
-                        }}
-                      >
+                      <S.TableTd>
                         <div style={index == 0 ? { fontWeight: 'bold' } : {}}>
                           {isInt(item.amount)
                             ? formatCurrency(item.amount)

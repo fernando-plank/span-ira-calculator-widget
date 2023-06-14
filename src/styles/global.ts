@@ -11,6 +11,10 @@ const GlobalStyles = createGlobalStyle`
     display: flex !important;
   }
 
+  body {
+    font-size: 16px;
+  }
+
   *{
     margin: 0;
     padding: 0;

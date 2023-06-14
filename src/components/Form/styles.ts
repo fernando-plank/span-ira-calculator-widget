@@ -14,13 +14,13 @@ export const Wrapper = styled.div`
 `
 
 export const Form = styled.form`
-  margin-top: 64px;
   width: 100%;
   display: flex;
   flex: 0 0 100%;
   flex-wrap: wrap;
   align-items: center;
-  padding-bottom: 96px;
+  align-items: flex-start;
+  justify-content: space-between;
 `
 
 export const FormTitle = styled.h2`
@@ -67,15 +67,13 @@ export const FormContent = styled.div`
 export const FormInputGroup = styled.div`
   display: flex;
   flex: 0 0 100%;
-  margin-top: 22px;
   flex-direction: column;
   justify-content: flex-start;
+  margin-bottom: 22px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex: 0 0 30%;
-    margin-right: 3%;
-    margin-top: 55px;
-    height: 138px;
+    margin-bottom: 63px;
   }
 `
 
@@ -83,15 +81,12 @@ export const FormButtonGroup = styled.div`
   display: flex;
   flex: 0 0 100%;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-around;
   align-items: end;
-  margin-top: 22px;
   height: 110px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex: 0 0 30%;
-    margin-right: 3%;
-    margin-top: 55px;
     align-items: center;
   }
 `
@@ -211,6 +206,7 @@ export const FormFieldError = styled.span`
 export const CalculateButton = styled.button`
   width: 160px;
   height: 40px;
+  align-self: end;
   background: ${({ theme }) => theme.colors.primary};
   border: 2px solid ${({ theme }) => theme.colors.primary};
   border-radius: 20px;
