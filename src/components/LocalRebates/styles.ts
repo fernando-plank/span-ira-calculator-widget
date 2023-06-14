@@ -50,6 +50,11 @@ export const Title = styled.h1`
   font-size: 48px;
   line-height: 56px;
   margin-bottom: 42px;
+
+  width: auto;
+  @media (min-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    width: 560px;
+  }
 `
 
 export const Subtitle = styled.h2`
@@ -61,7 +66,10 @@ export const Subtitle = styled.h2`
 export const BodyWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+
+  > div:first-child {
+    margin-bottom: 73px;
+  }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     width: 100%;
@@ -74,7 +82,6 @@ export const BodyWrapper = styled.div`
 
 export const BodyContent = styled.div`
   display: flex;
-  margin-top: 40px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     flex-direction: column;
@@ -95,9 +102,10 @@ export const BodyText = styled.p`
 
 export const LearnMoreButton = styled.button`
   cursor: pointer;
+  background-color: ${({ theme }) => theme.colors.gray};
   border: 2px solid ${({ theme }) => theme.colors.black};
   border-radius: 20px;
-  width: 50%;
+  width: 160px;
   height: 40px;
   margin-left: 40px;
   font-style: normal;

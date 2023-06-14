@@ -16,6 +16,10 @@ const PersonalizedIncentives = ({
   incentivesRef
 }: PersonalizedIncentivesProps) => (
   <S.Wrapper>
+    <div
+      style={{ height: '65px', backgroundColor: '#FAFAFA' }}
+      ref={incentivesRef}
+    ></div>
     <S.Background>
       <S.Content>
         <S.Title>Your personalized incentives</S.Title>
@@ -25,7 +29,7 @@ const PersonalizedIncentives = ({
             <Icon icon={'Lightning'} />
             <Icon icon={'Lightning'} />
           </S.IncentivesBodyIcon>
-          <div style={{ marginBottom: '60px', flex: '0 0 50%' }}>
+          <div style={{ flex: '0 0 50%' }}>
             <S.DescriptionWrapper>
               <S.DescriptionBox>
                 <S.DescriptionContainer>

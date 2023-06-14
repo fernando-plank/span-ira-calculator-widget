@@ -88,39 +88,6 @@ export const TaxBodyContent = styled.div`
   }
 `
 
-export const CardInfo = styled.div`
-  padding: 12px 16px;
-  position: absolute;
-  width: 210px;
-  height: 73px;
-  margin-left: 104px;
-  margin-top: -15px;
-  background: #efefef;
-  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    display: none;
-  }
-`
-
-export const CardTitle = styled.p`
-  font-size: 12px;
-  font-weight: 700;
-`
-
-export const CardText = styled.p`
-  font-size: 12px;
-  font-weight: 500;
-`
-
-export const Table = styled.table`
-  width: 100%;
-  text-align: left;
-  margin-bottom: 35px;
-
-  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    margin-bottom: 135px;
-  }
-`
-
 export const TableTh = styled.th`
   font-style: normal;
   font-weight: 700;
@@ -133,7 +100,7 @@ export const TableTd = styled.td`
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  padding-top: 20px;
+  padding-top: 28px;
 
   svg {
     & > path {

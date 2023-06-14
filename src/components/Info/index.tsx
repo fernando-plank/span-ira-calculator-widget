@@ -20,7 +20,7 @@ const Info = (props: { text: ReactChild }) => {
       )}
       <Icon
         data-testid="tooltip-data"
-        style={{ margin: '0px 5px' }}
+        style={{ margin: '0px 10px' }}
         icon={'Info'}
       />
     </S.Tooltip>
