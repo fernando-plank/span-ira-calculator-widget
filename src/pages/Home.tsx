@@ -27,7 +27,7 @@ export const Home = () => {
   const incentivesRef = useRef(null)
 
   const executeScroll = () =>
-    incentivesRef.current.scrollIntoView({ behavior: 'smooth' })
+    incentivesRef.current.scrollIntoView({ behavior: 'smooth', inline: 'end' })
 
   const fetchIncentives = async () => {
     const { incentives } = await new IncentivesServices().getIncentives()

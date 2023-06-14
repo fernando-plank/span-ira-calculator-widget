@@ -6,7 +6,7 @@ import FormSelect from '@components/Form/FormSelect'
 
 import * as S from './styles'
 import Loading from '@components/Loading'
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 type Inputs = {
   zip: string
@@ -16,12 +16,12 @@ type Inputs = {
   household_size: string
 }
 export const Form = (props: FormProps) => {
-  const { fields, onSubmit } = props
+  const { fields, onSubmit, incentivesRef } = props
   const {
     register,
     handleSubmit,
     reset,
-    formState: { errors }
+    formState: { errors},
   } = useForm<Inputs>()
 
   const [resetSelect, setResetSelect] = useState(false)
@@ -68,6 +68,7 @@ export const Form = (props: FormProps) => {
             Calculate
           </S.CalculateButton>
         </S.FormButtonGroup>
+        <div style={{ height: '65px', visibility: "hidden", backgroundColor: 'rgb(250, 250, 250)', position: 'absolute', bottom: '0', left: '0' }} ref={incentivesRef}></div>
       </S.Form>
     </>
   )

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, {MutableRefObject, useState} from 'react'
 import { SubmitHandler } from 'react-hook-form'
 
 import Form from '@components/Form'
@@ -19,12 +19,14 @@ interface CalculatorProps {
   onSubmitCallback: (response: any) => void
   executeScroll: () => void
   onReset: () => void
+  incentivesRef?: MutableRefObject<any>
 }
 
 const Calculator = ({
   onSubmitCallback,
   executeScroll,
-  onReset
+  onReset,
+  incentivesRef,
 }: CalculatorProps) => {
   const [isLoading, setIsLoading] = useState(false)
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
@@ -116,6 +118,7 @@ const Calculator = ({
           isLoading={isLoading}
           onSubmit={onSubmit}
           onReset={onReset}
+          incentivesRef={incentivesRef}
         />
       </S.Content>
     </S.Wrapper>

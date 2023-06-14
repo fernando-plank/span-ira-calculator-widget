@@ -29,13 +29,13 @@ const HouseholdInformation = ({
         onSubmitCallback={onSubmitCallback}
         onReset={onReset}
         executeScroll={executeScroll}
+        incentivesRef={incentivesRef}
       />
       {info?.message && (
         <S.HouseholdInformationMessage>
           {errorsMessage[info.message] || errorsMessage['default']}
         </S.HouseholdInformationMessage>
       )}
-      <div style={{ height: '1', visibility: "hidden" }}  ref={incentivesRef}></div>
     </>
   )
 }

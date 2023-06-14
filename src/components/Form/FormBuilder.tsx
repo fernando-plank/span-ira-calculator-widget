@@ -1,3 +1,5 @@
+import {MutableRefObject} from "react";
+
 export type SelectOptionProps = {
   value: string
   label: string
@@ -23,6 +25,7 @@ export interface FormProps {
   onSubmit: (data) => void
   onReset: () => void
   isLoading?: boolean
+  incentivesRef?: MutableRefObject<any>
 }
 
 class FormBuilder {

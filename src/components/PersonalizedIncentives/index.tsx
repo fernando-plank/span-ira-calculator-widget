@@ -16,7 +16,6 @@ const PersonalizedIncentives = ({
   incentivesRef
 }: PersonalizedIncentivesProps) => (
   <S.Wrapper>
-
     <S.Background>
       <S.Content>
         <S.Title>Your personalized incentives</S.Title>
