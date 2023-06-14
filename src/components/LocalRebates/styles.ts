@@ -52,8 +52,8 @@ export const Title = styled.h1`
   margin-bottom: 42px;
 
   width: auto;
-  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    width: 500px;
+  @media (min-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    width: 560px;
   }
 `
 
