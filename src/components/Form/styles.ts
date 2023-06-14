@@ -138,7 +138,7 @@ export const FormInput = styled.input`
   height: 80px;
 
   &.error {
-    border: 2px solid red;
+    border: 2px solid #F72A63;
   }
 
   &:-webkit-autofill,
@@ -180,7 +180,7 @@ export const FormSelectWrapper = styled.div`
   }
 
   &.error {
-    border: 2px solid red;
+    border: 2px solid #F72A63;
   }
 `
 
@@ -209,7 +209,7 @@ export const FormFieldError = styled.span`
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0em;
-  color: red;
+  color: #F72A63;
   padding: 8px 0;
   height: 32px;
   text-align: left;
