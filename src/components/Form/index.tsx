@@ -68,7 +68,7 @@ export const Form = (props: FormProps) => {
             Calculate
           </S.CalculateButton>
         </S.FormButtonGroup>
-        <div style={{ height: '65px', visibility: "hidden", backgroundColor: 'rgb(250, 250, 250)', position: 'absolute', bottom: '0', left: '0' }} ref={incentivesRef}></div>
+        <div style={{ height: '65px', visibility: "hidden", backgroundColor: 'rgb(250, 250, 250)', position: 'absolute', bottom: '-65px', left: '0' }} ref={incentivesRef}></div>
       </S.Form>
     </>
   )
