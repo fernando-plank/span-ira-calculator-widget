@@ -107,11 +107,11 @@ export const FormInputLabel = styled.label`
 
   svg {
     & > path {
-      fill: black;
+      fill: #6f7070;
     }
 
     & > circle {
-      stroke: black;
+      stroke: #6f7070;
     }
   }
 `
