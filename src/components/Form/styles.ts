@@ -49,13 +49,16 @@ export const ResetCalculatorButton = styled.a`
   color: #1f1f1f;
   align-self: end;
   cursor: pointer;
-  
-  
-  @media (min-width: ${props => props.theme.breakpoints.laptop}) {
+
+  @media (max-width: ${(props) => props.theme.breakpoints.tablet}) {
+    position: relative;
+    top: 108px;
+  }
+
+  @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
     margin-top: -20px;
     margin-right: 60px;
   }
-  
 `
 
 export const FormContent = styled.div`
@@ -138,7 +141,7 @@ export const FormInput = styled.input`
   height: 80px;
 
   &.error {
-    border: 2px solid #F72A63;
+    border: 2px solid #f72a63;
   }
 
   &:-webkit-autofill,
@@ -180,7 +183,7 @@ export const FormSelectWrapper = styled.div`
   }
 
   &.error {
-    border: 2px solid #F72A63;
+    border: 2px solid #f72a63;
   }
 `
 
@@ -209,7 +212,7 @@ export const FormFieldError = styled.span`
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0em;
-  color: #F72A63;
+  color: #f72a63;
   padding: 8px 0;
   height: 32px;
   text-align: left;
