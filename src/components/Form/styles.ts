@@ -98,6 +98,10 @@ export const FormButtonGroup = styled.div`
   margin-top: 22px;
   height: 110px;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    height: auto;
+  }
+
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex: 0 0 30%;
     margin-right: 3%;
