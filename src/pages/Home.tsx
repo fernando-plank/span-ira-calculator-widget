@@ -54,6 +54,7 @@ export const Home = () => {
     if (items && eletricPanel) {
       eletricPanel.amount = 600
       eletricPanel['item'] = 'SPAN Smart Electrical Panel'
+      eletricPanel['amount'] = 600
       items.unshift(eletricPanel)
       items = makeTaxCreditsTooltip(items)
     }
