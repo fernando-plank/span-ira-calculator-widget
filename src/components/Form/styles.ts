@@ -230,7 +230,7 @@ export const CalculateButton = styled.button`
   font-size: 16px;
   line-height: 24px;
   cursor: pointer;
-  margin-top: 64px;
+  margin-top: 16px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     margin-top: 40px;
