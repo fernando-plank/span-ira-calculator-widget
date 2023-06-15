@@ -1,4 +1,4 @@
-import React, {MutableRefObject, useState} from 'react'
+import React, { MutableRefObject, useState } from 'react'
 import { SubmitHandler } from 'react-hook-form'
 
 import Form from '@components/Form'
@@ -26,7 +26,7 @@ const Calculator = ({
   onSubmitCallback,
   executeScroll,
   onReset,
-  incentivesRef,
+  incentivesRef
 }: CalculatorProps) => {
   const [isLoading, setIsLoading] = useState(false)
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
@@ -43,6 +43,7 @@ const Calculator = ({
       label: 'Zip Code',
       type: 'text',
       id: 'zip',
+      maxLength: 5,
       tooltip:
         'Your zip code helps determine the amount of discounts and tax credits you qualify for.',
       options: []

@@ -1,4 +1,4 @@
-import {MutableRefObject} from "react";
+import { MutableRefObject } from 'react'
 
 export type SelectOptionProps = {
   value: string
@@ -11,6 +11,7 @@ export interface FormFieldProps {
   required: boolean
   value: string
   tooltip: string
+  maxLength?: number
   id:
     | 'zip'
     | 'owner_status'
@@ -35,13 +36,14 @@ class FormBuilder {
     this.fields = []
   }
 
-  addField({ name, label, type, id, options, tooltip }) {
+  addField({ name, label, type, id, options, tooltip, maxLength = null }) {
     this.fields.push({
       name,
       label,
       type,
       id,
       options,
+      maxLength,
       tooltip,
       required: false,
       value: ''
