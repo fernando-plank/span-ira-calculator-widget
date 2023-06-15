@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.white};
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    padding: 0px 32px;
+    padding: 0px 41px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
@@ -35,7 +35,7 @@ export const Background = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    padding: 40px 32px;
+    padding: 64px 41px 40px 32px;
   }
 `
 
@@ -59,9 +59,10 @@ export const Title = styled.h1`
   text-align: left;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.colors.white};
-
+  width: 280px;
+  
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    width: 30vw;
+    width: 380px;
   }
 `
 
@@ -75,6 +76,7 @@ export const IncentivesBody = styled.div`
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex-direction: row;
+    justify-content: space-between;
   }
 `
 
@@ -94,7 +96,7 @@ export const DescriptionWrapper = styled.div`
   flex-direction: column;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    width: 100%;
+    //width: 100%;
   }
 `
 
@@ -144,8 +146,8 @@ export const TotalPrice = styled.h1`
 export const Subtitle = styled.h6`
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 20px;
   text-transform: uppercase;
   text-align: left;
   max-width: 100vw;
@@ -171,10 +173,16 @@ export const Price = styled.h6`
 
 export const IncentivesFooter = styled.div`
   display: flex;
-  margin-top: 40px;
+  justify-content: space-between;
+  margin-top: 72px;
+  
+  > :last-child {
+    margin-right: 31px;
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex-direction: column;
+    margin-top: 40px;
   }
 `
 
@@ -185,12 +193,12 @@ export const IncentivesFooterContent = styled.p`
   font-size: 12px;
   line-height: 16px;
   text-align: left;
+  width: 522px;
 
   margin-bottom: 30px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    padding-right: 59px;
-    flex: 0 0 50%;
+    //padding-right: 59px;
   }
 `
 

@@ -20,7 +20,7 @@ export const Form = styled.form`
   flex: 0 0 100%;
   flex-wrap: wrap;
   align-items: center;
-  padding-bottom: 121px;
+  padding-bottom: 96px;
 `
 
 export const FormTitle = styled.h2`
@@ -85,7 +85,6 @@ export const FormInputGroup = styled.div`
     flex: 0 0 30%;
     margin-right: 3%;
     margin-top: 55px;
-    height: 138px;
   }
 `
 
