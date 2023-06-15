@@ -34,7 +34,9 @@ const Calculator = ({
     const response = await new CalculatorService().getCalculatorResponse(data)
     onSubmitCallback(response)
     setIsLoading(false)
-    executeScroll()
+    if (!response['error']) {
+      executeScroll()
+    }
   }
 
   const fields = new FormBuilder()

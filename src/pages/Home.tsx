@@ -66,7 +66,9 @@ export const Home = () => {
       setIncentives(incentives)
     })
   }, [])
-  const onSubmitCallback = (data) => setHouseHoldingInformation(data)
+  const onSubmitCallback = (data) => {
+    setHouseHoldingInformation(data)
+  }
   const onReset = () => setHouseHoldingInformation(undefined)
 
   return (
@@ -81,7 +83,7 @@ export const Home = () => {
           onReset={onReset}
           incentivesRef={incentivesRef}
         />
-        {houseHoldingInformation && (
+        {houseHoldingInformation && !houseHoldingInformation['error'] && (
           <>
             <PersonalizedIncentives
               householdInformation={houseHoldingInformation}
