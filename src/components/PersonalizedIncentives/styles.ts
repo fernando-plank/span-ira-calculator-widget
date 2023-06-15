@@ -84,13 +84,8 @@ export const IncentivesBodyIcon = styled.div`
   justify-content: flex-start;
   align-items: end;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}) {
-    position: absolute;
-    margin-top: 150px;
-  }
-
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    height: auto;
+    margin-top: 15px;
   }
 `
 
