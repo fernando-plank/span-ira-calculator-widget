@@ -34,7 +34,7 @@ const LocalRebates = () => {
                   <S.LearnMoreButton
                     onClick={() => {
                       window.open(
-                        'https://www.siliconvalleypower.com/home/showpublisheddocument/77952/637945284994130000',
+                        'https://www.irs.gov/credits-deductions/frequently-asked-questions-about-energy-efficient-home-improvements-and-residential-clean-energy-property-credits',
                         '_blank'
                       )
                     }}
