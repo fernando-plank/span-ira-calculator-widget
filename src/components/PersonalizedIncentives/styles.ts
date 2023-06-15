@@ -60,7 +60,7 @@ export const Title = styled.h1`
   margin-bottom: 42px;
   color: ${({ theme }) => theme.colors.white};
   width: 280px;
-  
+
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     width: 380px;
   }
@@ -175,12 +175,12 @@ export const IncentivesFooter = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 72px;
-  
+
   > :last-child {
     margin-right: 31px;
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.laptop}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     flex-direction: column;
     margin-top: 40px;
   }
@@ -193,12 +193,11 @@ export const IncentivesFooterContent = styled.p`
   font-size: 12px;
   line-height: 16px;
   text-align: left;
-  width: 522px;
 
   margin-bottom: 30px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    //padding-right: 59px;
+    width: 522px;
   }
 `
 

@@ -41,7 +41,7 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
                 {tableData &&
                   tableData.map((item, index) => (
                     <tr key={index}>
-                      <S.TableTd>
+                      <S.TableTd className="first-column">
                         <div style={index == 0 ? { fontWeight: 'bold' } : {}}>
                           {item.item}
                           <Info text={item.tooltip} />

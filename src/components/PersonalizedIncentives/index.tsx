@@ -25,52 +25,53 @@ const PersonalizedIncentives = ({
             <Icon icon={'Lightning'} />
             <Icon icon={'Lightning'} />
           </S.IncentivesBodyIcon>
-            <S.DescriptionWrapper>
-              <S.DescriptionBox>
-                <S.DescriptionContainer>
-                  <S.Subtitle>Available</S.Subtitle>
-                  <S.Subtitle>
-                    tax credits
-                    <Info
-                      text={
-                        'The geothermal tax credit is not included in this total.'
-                      }
-                    />
-                  </S.Subtitle>
-                  <S.Price data-testid="household_tax_savings">
-                    {formatCurrency(householdInformation?.tax_savings)}
-                  </S.Price>
-                </S.DescriptionContainer>
-                <S.DescriptionContainer>
-                  <S.Subtitle>Estimated energy</S.Subtitle>
-                  <S.Subtitle>
-                    savings per year
-                    <Info
-                      text={`This estimate is based on energy costs in your state. 
+          <S.DescriptionWrapper>
+            <S.DescriptionBox>
+              <S.DescriptionContainer>
+                <S.Subtitle>Available</S.Subtitle>
+                <S.Subtitle>
+                  tax credits
+                  <Info
+                    text={
+                      'The geothermal tax credit is not included in this total.'
+                    }
+                  />
+                </S.Subtitle>
+                <S.Price data-testid="household_tax_savings">
+                  {formatCurrency(householdInformation?.tax_savings)}
+                </S.Price>
+              </S.DescriptionContainer>
+              <S.DescriptionContainer>
+                <S.Subtitle>Estimated energy</S.Subtitle>
+                <S.Subtitle>
+                  savings per year
+                  <Info
+                    text={`This estimate is based on energy costs in your state. 
                 It includes savings on both utility and gasoline bills if you switch to an 
                 electric vehicle and a heat pump for space and water heating.`}
-                    />
-                  </S.Subtitle>
-                  <S.Price data-testid="household_annual_savings">
-                    {formatCurrency(
-                      householdInformation?.estimated_annual_savings
-                    )}
-                  </S.Price>
-                </S.DescriptionContainer>
-              </S.DescriptionBox>
-              <S.TotalContainer>
-                <S.TotalText>Total incentives</S.TotalText>
-                <S.TotalPrice>
+                  />
+                </S.Subtitle>
+                <S.Price data-testid="household_annual_savings">
                   {formatCurrency(
-                    householdInformation?.estimated_annual_savings + householdInformation?.pos_savings
+                    householdInformation?.estimated_annual_savings
                   )}
-                </S.TotalPrice>
-              </S.TotalContainer>
-            </S.DescriptionWrapper>
+                </S.Price>
+              </S.DescriptionContainer>
+            </S.DescriptionBox>
+            <S.TotalContainer>
+              <S.TotalText>Total incentives</S.TotalText>
+              <S.TotalPrice>
+                {formatCurrency(
+                  householdInformation?.estimated_annual_savings +
+                    householdInformation?.pos_savings
+                )}
+              </S.TotalPrice>
+            </S.TotalContainer>
+          </S.DescriptionWrapper>
         </S.IncentivesBody>
         <S.Separator></S.Separator>
         <S.IncentivesFooter>
-          <S.IncentivesFooterContent>
+          <S.IncentivesFooterContent style={{ marginRight: '15px' }}>
             <p>
               These values are estimates. Tax credits can only be used to offset
               your federal taxes owed (our estimate may be inaccurate).
