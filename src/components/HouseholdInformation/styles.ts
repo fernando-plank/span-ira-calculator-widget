@@ -7,7 +7,9 @@ export const HouseholdInformationMessage = styled.p`
   font-weight: 500;
   font-size: 15px;
   line-height: 32px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: ${({ theme }) => theme.colors.white};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}) {
     margin: 30px;

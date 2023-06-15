@@ -31,7 +31,16 @@ const LocalRebates = () => {
                   </S.BodyText>
                 </div>
                 <div>
-                  <S.LearnMoreButton>Learn more</S.LearnMoreButton>
+                  <S.LearnMoreButton
+                    onClick={() => {
+                      window.open(
+                        'https://www.siliconvalleypower.com/home/showpublisheddocument/77952/637945284994130000',
+                        '_blank'
+                      )
+                    }}
+                  >
+                    Learn more
+                  </S.LearnMoreButton>
                 </div>
               </S.BodyContent>
               <S.BodyContent>
@@ -43,7 +52,16 @@ const LocalRebates = () => {
                   </S.BodyText>
                 </div>
                 <div>
-                  <S.LearnMoreButton>Learn more</S.LearnMoreButton>
+                  <S.LearnMoreButton
+                    onClick={() => {
+                      window.open(
+                        'https://www.smud.org/en/Rebates-and-Savings-Tips/Improve-Home-Efficiency/Go-Electric-Bonus-Package',
+                        '_blank'
+                      )
+                    }}
+                  >
+                    Learn more
+                  </S.LearnMoreButton>
                 </div>
               </S.BodyContent>
             </S.BodyWrapper>
@@ -61,7 +79,13 @@ const LocalRebates = () => {
                   </S.BodyText>
                 </div>
                 <div>
-                  <S.LearnMoreButton>Learn more</S.LearnMoreButton>
+                  <S.LearnMoreButton
+                    onClick={() => {
+                      window.open('https://www.shiftedenergy.com/', '_blank')
+                    }}
+                  >
+                    Learn more
+                  </S.LearnMoreButton>
                 </div>
               </S.BodyContent>
               <S.BodyContent>
@@ -72,7 +96,16 @@ const LocalRebates = () => {
                   </S.BodyText>
                 </div>
                 <div>
-                  <S.LearnMoreButton>Learn more</S.LearnMoreButton>
+                  <S.LearnMoreButton
+                    onClick={() => {
+                      window.open(
+                        'https://hawaiienergy.com/for-homes/rebates',
+                        '_blank'
+                      )
+                    }}
+                  >
+                    Learn more
+                  </S.LearnMoreButton>
                 </div>
               </S.BodyContent>
             </S.BodyWrapper>
