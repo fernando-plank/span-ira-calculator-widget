@@ -238,3 +238,16 @@ export const CalculateButton = styled.button`
     margin-top: 40px;
   }
 `
+
+export const DivRef = styled.div`
+  height: 65px;
+  visibility: hidden;
+  backgroundcolor: rgb(250, 250, 250);
+  position: absolute;
+  bottom: -65px;
+  left: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    height: 5px;
+  }
+`

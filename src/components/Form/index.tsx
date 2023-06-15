@@ -21,7 +21,7 @@ export const Form = (props: FormProps) => {
     register,
     handleSubmit,
     reset,
-    formState: { errors},
+    formState: { errors }
   } = useForm<Inputs>()
 
   const [resetSelect, setResetSelect] = useState(false)
@@ -68,7 +68,7 @@ export const Form = (props: FormProps) => {
             Calculate
           </S.CalculateButton>
         </S.FormButtonGroup>
-        <div style={{ height: '65px', visibility: "hidden", backgroundColor: 'rgb(250, 250, 250)', position: 'absolute', bottom: '-65px', left: '0' }} ref={incentivesRef}></div>
+        <S.DivRef ref={incentivesRef}></S.DivRef>
       </S.Form>
     </>
   )
