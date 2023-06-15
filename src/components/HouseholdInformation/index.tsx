@@ -25,7 +25,7 @@ const HouseholdInformation = ({
   incentivesRef
 }: HouseholdInformationProps) => {
   return (
-    <>
+    <S.Wrapper>
       <Calculator
         onSubmitCallback={onSubmitCallback}
         onReset={onReset}
@@ -37,7 +37,7 @@ const HouseholdInformation = ({
           {cleanError(info.message)}
         </S.HouseholdInformationMessage>
       )}
-    </>
+    </S.Wrapper>
   )
 }
 export default HouseholdInformation

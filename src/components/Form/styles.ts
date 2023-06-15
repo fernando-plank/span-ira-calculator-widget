@@ -20,7 +20,6 @@ export const Form = styled.form`
   flex: 0 0 100%;
   flex-wrap: wrap;
   align-items: center;
-  padding-bottom: 96px;
 `
 
 export const FormTitle = styled.h2`
