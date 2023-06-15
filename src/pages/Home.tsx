@@ -81,14 +81,16 @@ export const Home = () => {
           onReset={onReset}
           incentivesRef={incentivesRef}
         />
-        {houseHoldingInformation && (
+
           <>
             <PersonalizedIncentives
-              householdInformation={houseHoldingInformation}
+              householdInformation={houseHoldingInformation ?? {pos_savings: 23550,
+                tax_savings: 23550,
+                estimated_annual_savings: 1400,}}
             />
             <TaxCredits tableData={taxCreditsInformation} />
           </>
-        )}
+
         <LocalRebates />
         {/*<Faq/>*/}
         {/*<BannerGetQuote/>*/}
