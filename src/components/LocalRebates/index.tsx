@@ -30,7 +30,7 @@ const LocalRebates = () => {
                     project.
                   </S.BodyText>
                 </div>
-                <div>
+                <S.LearnMoreButtonContent>
                   <S.LearnMoreButton
                     onClick={() => {
                       window.open(
@@ -41,7 +41,7 @@ const LocalRebates = () => {
                   >
                     Learn more
                   </S.LearnMoreButton>
-                </div>
+                </S.LearnMoreButtonContent>
               </S.BodyContent>
               <S.BodyContent>
                 <div>
@@ -51,7 +51,7 @@ const LocalRebates = () => {
                     larger home electrification project.
                   </S.BodyText>
                 </div>
-                <div>
+                <S.LearnMoreButtonContent>
                   <S.LearnMoreButton
                     onClick={() => {
                       window.open(
@@ -62,7 +62,7 @@ const LocalRebates = () => {
                   >
                     Learn more
                   </S.LearnMoreButton>
-                </div>
+                </S.LearnMoreButtonContent>
               </S.BodyContent>
             </S.BodyWrapper>
           </Accordion>
@@ -78,7 +78,7 @@ const LocalRebates = () => {
                     agree to share SPAN Panel data and control.
                   </S.BodyText>
                 </div>
-                <div>
+                <S.LearnMoreButtonContent>
                   <S.LearnMoreButton
                     onClick={() => {
                       window.open('https://www.shiftedenergy.com/', '_blank')
@@ -86,7 +86,7 @@ const LocalRebates = () => {
                   >
                     Learn more
                   </S.LearnMoreButton>
-                </div>
+                </S.LearnMoreButtonContent>
               </S.BodyContent>
               <S.BodyContent>
                 <div>
@@ -95,7 +95,7 @@ const LocalRebates = () => {
                     Panel by becoming a HECO Utility rate payer.
                   </S.BodyText>
                 </div>
-                <div>
+                <S.LearnMoreButtonContent>
                   <S.LearnMoreButton
                     onClick={() => {
                       window.open(
@@ -106,7 +106,7 @@ const LocalRebates = () => {
                   >
                     Learn more
                   </S.LearnMoreButton>
-                </div>
+                </S.LearnMoreButtonContent>
               </S.BodyContent>
             </S.BodyWrapper>
           </Accordion>
