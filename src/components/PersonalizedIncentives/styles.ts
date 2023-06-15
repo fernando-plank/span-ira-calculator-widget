@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptopL}) {
-    padding: 40px 0px;
+    padding: 40px 0px 0px 0px;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}) {

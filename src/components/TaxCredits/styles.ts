@@ -101,6 +101,7 @@ export const TableTd = styled.td`
   font-size: 16px;
   line-height: 24px;
   padding-top: 28px;
+  padding-right: 24px;
 
   svg {
     & > path {
