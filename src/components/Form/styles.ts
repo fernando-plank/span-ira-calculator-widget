@@ -246,8 +246,4 @@ export const DivRef = styled.div`
   position: absolute;
   bottom: -65px;
   left: 0;
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    height: 5px;
-  }
 `
