@@ -62,7 +62,7 @@ const PersonalizedIncentives = ({
               <S.TotalText>Total incentives</S.TotalText>
               <S.TotalPrice>
                 {formatCurrency(
-                  householdInformation?.estimated_annual_savings +
+                  householdInformation?.tax_savings +
                     householdInformation?.pos_savings
                 )}
               </S.TotalPrice>
