@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
 `
 
 export const Form = styled.form`
-  margin-top: 64px;
+  margin-top: 9px;
   width: 100%;
   display: flex;
   flex: 0 0 100%;
@@ -131,7 +131,7 @@ export const FormInput = styled.input`
   box-sizing: border-box;
   height: 68px;
   border: 2px solid #b0b0b1;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border-radius: 4px;
   font-size: 16px;
   font-weight: 700;
@@ -201,7 +201,7 @@ export const FormSelect = styled.select`
   display: block !important;
   cursor: pointer;
   color: gray;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 
   &.selected {
     color: black;
