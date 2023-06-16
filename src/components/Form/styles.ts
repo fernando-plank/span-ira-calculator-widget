@@ -20,6 +20,7 @@ export const Form = styled.form`
   flex: 0 0 100%;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
 `
 
 export const FormTitle = styled.h2`
@@ -82,7 +83,6 @@ export const FormInputGroup = styled.div`
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex: 0 0 30%;
-    margin-right: 3%;
     margin-top: 55px;
   }
 `
@@ -102,7 +102,6 @@ export const FormButtonGroup = styled.div`
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex: 0 0 30%;
-    margin-right: 3%;
     margin-top: 55px;
     align-items: end;
   }
