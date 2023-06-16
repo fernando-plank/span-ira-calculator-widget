@@ -11,6 +11,7 @@ export const FormField = ({ field, register, errors }) => {
         <Info text={field.tooltip} />
       </S.FormInputLabel>
       <S.FormInput
+        maxLength={field.maxLength ? field.maxLength : null}
         className={errors[field.id] ? 'error' : ''}
         placeholder={field.label}
         data-testid={field.id}

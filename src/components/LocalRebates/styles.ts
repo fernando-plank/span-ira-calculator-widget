@@ -159,3 +159,10 @@ export const TextFooter = styled.p`
 export const PlusIcon = styled.img`
   cursor: pointer;
 `
+
+export const LearnMoreButtonContent = styled.div`
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    display: flex;
+    justify-content: flex-end;
+  }
+`

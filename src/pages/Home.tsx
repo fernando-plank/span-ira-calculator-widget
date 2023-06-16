@@ -84,7 +84,7 @@ export const Home = () => {
           onReset={onReset}
           incentivesRef={incentivesRef}
         />
-        {houseHoldingInformation && (
+        {houseHoldingInformation && !houseHoldingInformation['error'] && (
           <>
             <PersonalizedIncentives
               householdInformation={houseHoldingInformation}

@@ -1,4 +1,4 @@
-import React, {MutableRefObject, useState} from 'react'
+import React, { MutableRefObject, useState } from 'react'
 import { SubmitHandler } from 'react-hook-form'
 
 import Form from '@components/Form'
@@ -37,7 +37,7 @@ const Calculator = ({
     onSubmitCallback(response)
     setIsLoading(false)
 
-    if (!response?.message) {
+    if (!response['error']) {
       executeScroll()
     }
   }

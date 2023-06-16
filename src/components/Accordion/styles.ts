@@ -12,7 +12,6 @@ export const Header = styled.div`
 export const Body = styled.div`
   display: flex;
   height: auto;
-  margin-bottom: 17px;
   z-index: 2;
   overflow: hidden;
   position: relative;
@@ -29,6 +28,7 @@ export const Body = styled.div`
 
   &.active {
     max-height: 1000px;
+    margin-bottom: 63px;
   }
 `
 

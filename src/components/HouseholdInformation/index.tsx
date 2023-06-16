@@ -2,6 +2,7 @@ import Calculator from '@components/Calculator'
 
 import * as S from './styles'
 import { MutableRefObject } from 'react'
+import { capitalizeFirstLetter, cleanError } from '@utils/string'
 
 interface HouseholdInformationProps {
   onSubmitCallback: (data) => void
@@ -25,7 +26,7 @@ const HouseholdInformation = ({
 }: HouseholdInformationProps) => {
 
   return (
-    <>
+    <S.Wrapper>
       <Calculator
         onSubmitCallback={onSubmitCallback}
         onReset={onReset}
@@ -35,10 +36,10 @@ const HouseholdInformation = ({
       />
       {info?.message && (
         <S.HouseholdInformationMessage>
-          {info.message || errorsMessage['default']}
+          {cleanError(info.message)}
         </S.HouseholdInformationMessage>
       )}
-    </>
+    </S.Wrapper>
   )
 }
 export default HouseholdInformation

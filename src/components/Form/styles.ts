@@ -20,7 +20,6 @@ export const Form = styled.form`
   flex: 0 0 100%;
   flex-wrap: wrap;
   align-items: center;
-  padding-bottom: 96px;
 `
 
 export const FormTitle = styled.h2`
@@ -238,4 +237,13 @@ export const CalculateButton = styled.button`
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     margin-top: 40px;
   }
+`
+
+export const DivRef = styled.div`
+  height: 65px;
+  visibility: hidden;
+  backgroundcolor: rgb(250, 250, 250);
+  position: absolute;
+  bottom: -65px;
+  left: 0;
 `
