@@ -6,5 +6,6 @@ export function cleanError(string: string) {
   if (string.includes('querystring/')) {
     string = string.replace('querystring/', '')
   }
-  return capitalizeFirstLetter(string)
+
+  return capitalizeFirstLetter(string.normalize('NFD').replace(/_/g, ' '))
 }

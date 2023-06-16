@@ -7,6 +7,7 @@ import FormSelect from '@components/Form/FormSelect'
 import * as S from './styles'
 import Loading from '@components/Loading'
 import React, { useEffect, useState } from 'react'
+import {cleanError} from "@utils/string";
 
 type Inputs = {
   zip: string
@@ -29,10 +30,10 @@ export const Form = (props: FormProps) => {
 
     useEffect(() => {
       if (info?.field) {
-        setError(info?.field, { type: 'focus', message: info?.message })
+        setError(info?.field, { type: 'focus', message: cleanError(info?.message) })
       }
       if (info?.message?.match('household_income')) {
-          setError('household_income', { type: 'focus', message: info?.message })
+          setError('household_income', { type: 'focus', message: cleanError(info?.message)})
       }
     }, [info])
   
