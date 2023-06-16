@@ -71,7 +71,7 @@ const PersonalizedIncentives = ({
         </S.IncentivesBody>
         <S.Separator></S.Separator>
         <S.IncentivesFooter>
-          <S.IncentivesFooterContent style={{ marginRight: '15px' }}>
+          <S.IncentivesFooterContent>
             <p>
               These values are estimates. Tax credits can only be used to offset
               your federal taxes owed (our estimate may be inaccurate).

@@ -23,7 +23,7 @@ export const Background = styled.div`
   background-color: ${({ theme }) => theme.colors.primary};
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
-    padding: 50px 24px;
+    padding: 64px 24px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileXL}) {
@@ -193,8 +193,6 @@ export const IncentivesFooterContent = styled.p`
   font-size: 12px;
   line-height: 16px;
   text-align: left;
-
-  margin-bottom: 30px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     width: 522px;

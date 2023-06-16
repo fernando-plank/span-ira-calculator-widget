@@ -52,7 +52,7 @@ export const ResetCalculatorButton = styled.a`
 
   @media (max-width: ${(props) => props.theme.breakpoints.tablet}) {
     position: relative;
-    top: 108px;
+    top: 54px;
   }
 
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
@@ -93,7 +93,6 @@ export const FormButtonGroup = styled.div`
   flex-direction: column;
   justify-content: start;
   align-items: end;
-  margin-top: 22px;
   height: 110px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {

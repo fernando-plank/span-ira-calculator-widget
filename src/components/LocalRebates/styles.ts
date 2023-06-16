@@ -16,15 +16,15 @@ export const Content = styled.div`
   color: ${({ theme }) => theme.colors.black};
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
-    padding: 56px 24px;
+    padding: 64px 24px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileXL}) {
-    padding: 56px 32px;
+    padding: 64px 32px;
   }
 
   @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
-    padding: 90px 40px;
+    padding: 64px 40px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
