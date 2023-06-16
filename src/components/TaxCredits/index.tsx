@@ -28,22 +28,25 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
             <table
               style={{
                 width: '100%',
-                textAlign: 'left'
+                textAlign: 'left',
+                display: 'grid'
               }}
             >
               <thead>
-                <tr>
+                <S.TableRowHeader>
                   <S.TableTh>ITEM</S.TableTh>
                   <S.TableTh>Estimated savings</S.TableTh>
-                </tr>
+                </S.TableRowHeader>
               </thead>
               <tbody>
                 {tableData &&
                   tableData.map((item, index) => (
-                    <tr key={index}>
-                      <S.TableTd className="first-column">
+                    <tr className="tax-credits-table-row" key={index}>
+                      <S.TableTd>
                         <div style={index == 0 ? { fontWeight: 'bold' } : {}}>
-                          {item.item}
+                          <span style={{ marginRight: '6px' }}>
+                            {item.item}
+                          </span>
                           <Info text={item.tooltip} />
                         </div>
                       </S.TableTd>

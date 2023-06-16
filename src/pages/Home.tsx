@@ -10,7 +10,7 @@ import { TaxCreditsTableData } from 'types/tax-credits'
 import * as S from './Home.styles'
 import { makeTaxCreditsTooltip } from '@utils/tooltips'
 import { IncentivesApiResponse } from '@services/types'
-import {useForm} from "react-hook-form";
+import { useForm } from 'react-hook-form'
 
 export type IncentivesProps = {
   pos_savings: number
@@ -84,14 +84,14 @@ export const Home = () => {
           onReset={onReset}
           incentivesRef={incentivesRef}
         />
-        {houseHoldingInformation && !houseHoldingInformation['error'] && (
-          <>
-            <PersonalizedIncentives
-              householdInformation={houseHoldingInformation}
-            />
-            <TaxCredits tableData={taxCreditsInformation} />
-          </>
-        )}
+
+        <>
+          <PersonalizedIncentives
+            householdInformation={houseHoldingInformation}
+          />
+          <TaxCredits tableData={taxCreditsInformation} />
+        </>
+
         <LocalRebates />
         {/*<Faq/>*/}
         {/*<BannerGetQuote/>*/}

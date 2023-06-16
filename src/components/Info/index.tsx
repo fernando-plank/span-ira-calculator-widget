@@ -18,11 +18,7 @@ const Info = (props: { text: ReactChild }) => {
           {props.text}
         </S.InfoContent>
       )}
-      <Icon
-        data-testid="tooltip-data"
-        style={{ margin: '0px 10px' }}
-        icon={'Info'}
-      />
+      <Icon data-testid="tooltip-data" icon={'Info'} />
     </S.Tooltip>
   )
 }

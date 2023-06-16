@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const Tooltip = styled.div`
   width: max-content;
   display: contents;
+
+  svg {
+    margin: 0px 10px;
+  }
 `
 
 export const InfoContent = styled.h4`

@@ -65,9 +65,20 @@ export const Subtitle = styled.p`
   }
 `
 
+export const TableRowHeader = styled.tr`
+  display: grid;
+  grid-template-columns: 75% auto;
+`
+
 export const TaxBody = styled.div`
   display: flex;
   align-items: end;
+
+  .tax-credits-table-row {
+    display: grid;
+    grid-template-columns: 68% auto;
+    gap: 24px;
+  }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     flex-direction: column-reverse;
@@ -102,11 +113,9 @@ export const TableTd = styled.td`
   line-height: 24px;
   padding-top: 28px;
 
-  &.first-column {
-    padding-right: 24px;
-  }
-
   svg {
+    margin: 0px;
+
     & > path {
       fill: black;
     }
