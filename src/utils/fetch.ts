@@ -6,7 +6,8 @@ async function http<T>(path: string, config: RequestInit): Promise<T> {
     return {
       code: error.statusCode,
       error: error.error,
-      message: error.message
+      message: error.message,
+      field: error.field
     } as never
   }
 

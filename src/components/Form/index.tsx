@@ -16,16 +16,26 @@ type Inputs = {
   household_size: string
 }
 export const Form = (props: FormProps) => {
-  const { fields, onSubmit, incentivesRef } = props
+  const { fields, onSubmit, incentivesRef, info } = props
   const {
     register,
     handleSubmit,
     reset,
     formState: { errors},
-  } = useForm<Inputs>()
+    setError
+  } = useForm<Inputs>({ mode: 'all'})
 
   const [resetSelect, setResetSelect] = useState(false)
 
+    useEffect(() => {
+      if (info?.field) {
+        setError(info?.field, { type: 'focus', message: info?.message })
+      }
+      if (info?.message?.match('household_income')) {
+          setError('household_income', { type: 'focus', message: info?.message })
+      }
+    }, [info])
+  
   return (
     <>
       <Loading isLoading={props.isLoading} />

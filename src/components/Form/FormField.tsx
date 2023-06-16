@@ -17,7 +17,10 @@ export const FormField = ({ field, register, errors }) => {
         {...register}
       />
       <S.FormFieldError data-testid={`${field.id}-error`}>
-        {errors[field.id] ? '* This field is required' : ''}
+        {errors[field.id] ? errors[field.id]?.message : ''}
+        {errors[field.id] && errors[field.id]?.type === 'required'
+          ? '* This field is required'
+          : ''}
       </S.FormFieldError>
     </>
   )

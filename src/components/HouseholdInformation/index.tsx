@@ -23,6 +23,7 @@ const HouseholdInformation = ({
   executeScroll,
   incentivesRef
 }: HouseholdInformationProps) => {
+
   return (
     <>
       <Calculator
@@ -30,10 +31,11 @@ const HouseholdInformation = ({
         onReset={onReset}
         executeScroll={executeScroll}
         incentivesRef={incentivesRef}
+        info={info}
       />
       {info?.message && (
         <S.HouseholdInformationMessage>
-          {errorsMessage[info.message] || errorsMessage['default']}
+          {info.message || errorsMessage['default']}
         </S.HouseholdInformationMessage>
       )}
     </>

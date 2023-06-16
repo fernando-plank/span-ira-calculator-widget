@@ -19,7 +19,8 @@ interface CalculatorProps {
   onSubmitCallback: (response: any) => void
   executeScroll: () => void
   onReset: () => void
-  incentivesRef?: MutableRefObject<any>
+  incentivesRef?: MutableRefObject<any>,
+  info?: any
 }
 
 const Calculator = ({
@@ -27,6 +28,7 @@ const Calculator = ({
   executeScroll,
   onReset,
   incentivesRef,
+  info
 }: CalculatorProps) => {
   const [isLoading, setIsLoading] = useState(false)
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
@@ -34,7 +36,10 @@ const Calculator = ({
     const response = await new CalculatorService().getCalculatorResponse(data)
     onSubmitCallback(response)
     setIsLoading(false)
-    executeScroll()
+
+    if (!response?.message) {
+      executeScroll()
+    }
   }
 
   const fields = new FormBuilder()
@@ -45,7 +50,15 @@ const Calculator = ({
       id: 'zip',
       tooltip:
         'Your zip code helps determine the amount of discounts and tax credits you qualify for.',
-      options: []
+      options: [],
+      pattern: {
+        value: /^\d{5}$/,
+        message: 'Zip code must be only 5 characters',
+      },
+      maxLength: {
+        value: 5,
+        message: 'Zip Code should be 5-digit number',
+      }
     })
     .makeRequired()
     .addField({
@@ -119,6 +132,7 @@ const Calculator = ({
           onSubmit={onSubmit}
           onReset={onReset}
           incentivesRef={incentivesRef}
+          info={info}
         />
       </S.Content>
     </S.Wrapper>

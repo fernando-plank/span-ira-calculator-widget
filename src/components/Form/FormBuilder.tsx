@@ -1,4 +1,4 @@
-import {MutableRefObject} from "react";
+import { MutableRefObject } from 'react'
 
 export type SelectOptionProps = {
   value: string
@@ -11,6 +11,8 @@ export interface FormFieldProps {
   required: boolean
   value: string
   tooltip: string
+  pattern?: any
+  maxLength?: any
   id:
     | 'zip'
     | 'owner_status'
@@ -23,9 +25,10 @@ export interface FormFieldProps {
 export interface FormProps {
   fields: FormFieldProps[]
   onSubmit: (data) => void
-  onReset: () => void
+  onReset?: () => void
   isLoading?: boolean
   incentivesRef?: MutableRefObject<any>
+  info?: any
 }
 
 class FormBuilder {
@@ -35,7 +38,7 @@ class FormBuilder {
     this.fields = []
   }
 
-  addField({ name, label, type, id, options, tooltip }) {
+  addField({ name, label, type, id, options, tooltip, pattern = {}, maxLength = {} }) {
     this.fields.push({
       name,
       label,
@@ -44,7 +47,9 @@ class FormBuilder {
       options,
       tooltip,
       required: false,
-      value: ''
+      value: '',
+      pattern,
+      maxLength
     })
 
     return this
@@ -60,7 +65,7 @@ class FormBuilder {
     return this
   }
 
-  build(submitCallback, resetCallback): FormProps {
+  build(submitCallback, resetCallback = () => {}): FormProps {
     return {
       fields: this.fields,
       onSubmit: submitCallback,

@@ -133,7 +133,7 @@ export const FormInput = styled.input`
   box-sizing: border-box;
   height: 68px;
   border: 2px solid #b0b0b1;
-  background: none;
+  background-color: #FAFAFA;
   border-radius: 4px;
   font-size: 16px;
   font-weight: 700;
@@ -194,7 +194,6 @@ export const FormSelect = styled.select`
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
-  background: none;
   letter-spacing: 0;
   text-align: left;
   padding-left: 24px;
@@ -204,6 +203,7 @@ export const FormSelect = styled.select`
   display: block !important;
   cursor: pointer;
   color: gray;
+  background-color: #FAFAFA;
 
   &.selected {
     color: black;
