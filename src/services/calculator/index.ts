@@ -13,7 +13,7 @@ class CalculatorService {
     tax_filing,
     household_size
   }: CalculatorIncomes) => {
-    return await fetch.get(
+    return await fetch.get<IncentivesApiResponse>(
       apiRoutes.calculator,
       {
         zip,

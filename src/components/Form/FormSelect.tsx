@@ -3,6 +3,7 @@ import React, { useEffect, useMemo, useState } from 'react'
 import * as S from './styles'
 import Info from '@components/Info'
 import classnames from 'classnames'
+import { Controller } from 'react-hook-form'
 
 export const FormSelect = ({
   field,
@@ -50,7 +51,10 @@ export const FormSelect = ({
         </S.FormSelect>
       </S.FormSelectWrapper>
       <S.FormFieldError data-testid={`${field.id}-error`}>
-        {errors[field.id] ? '* This field is required' : ''}
+        {errors[field.id] ? errors[field.id]?.message : ''}
+        {errors[field.id] && errors[field.id]?.type === 'required'
+          ? '* This field is required'
+          : ''}
       </S.FormFieldError>
     </>
   )

@@ -4,6 +4,8 @@ export type CalculatorIncomes = {
   household_income: string
   tax_filing: string
   household_size: string
+  field?: string
+  error?: string
 }
 
 export type CalculatorIncentives = {
@@ -40,6 +42,9 @@ export type IncentivesApiResponse = {
   filing_status?: string | number
   start_date: number
   end_date: number
+  field?: string
+  error?: string
+  message?: string
 }
 
 export type IncentivesObject = {

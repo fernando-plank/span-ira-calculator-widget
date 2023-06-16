@@ -7,6 +7,7 @@ import FormSelect from '@components/Form/FormSelect'
 import * as S from './styles'
 import Loading from '@components/Loading'
 import React, { useEffect, useState } from 'react'
+import {cleanError} from "@utils/string";
 
 type Inputs = {
   zip: string
@@ -16,16 +17,26 @@ type Inputs = {
   household_size: string
 }
 export const Form = (props: FormProps) => {
-  const { fields, onSubmit, incentivesRef } = props
+  const { fields, onSubmit, incentivesRef, info } = props
   const {
     register,
     handleSubmit,
     reset,
-    formState: { errors }
-  } = useForm<Inputs>()
+    formState: { errors},
+    setError
+  } = useForm<Inputs>({ mode: 'onBlur'})
 
   const [resetSelect, setResetSelect] = useState(false)
 
+    useEffect(() => {
+      if (info?.field) {
+        setError(info?.field, { type: 'focus', message: cleanError(info?.message) })
+      }
+      if (info?.message?.match('household_income')) {
+          setError('household_income', { type: 'focus', message: cleanError(info?.message)})
+      }
+    }, [info])
+  
   return (
     <>
       <Loading isLoading={props.isLoading} />
