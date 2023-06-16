@@ -53,7 +53,7 @@ const Calculator = ({
       options: [],
       pattern: {
         value: /^\d{5}$/,
-        message: 'Zip code must be only 5 characters',
+        message: 'Zip Code should be 5-digit number',
       },
       maxLength: {
         value: 5,
