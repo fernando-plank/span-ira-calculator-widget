@@ -24,7 +24,7 @@ export const Form = (props: FormProps) => {
     reset,
     formState: { errors},
     setError
-  } = useForm<Inputs>({ mode: 'all'})
+  } = useForm<Inputs>({ mode: 'onBlur'})
 
   const [resetSelect, setResetSelect] = useState(false)
 

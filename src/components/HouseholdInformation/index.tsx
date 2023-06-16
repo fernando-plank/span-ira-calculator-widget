@@ -34,11 +34,11 @@ const HouseholdInformation = ({
         incentivesRef={incentivesRef}
         info={info}
       />
-      {info?.message && (
-        <S.HouseholdInformationMessage>
-          {cleanError(info.message)}
-        </S.HouseholdInformationMessage>
-      )}
+      {/*{info?.message && (*/}
+      {/*  <S.HouseholdInformationMessage>*/}
+      {/*    {cleanError(info.message)}*/}
+      {/*  </S.HouseholdInformationMessage>*/}
+      {/*)}*/}
     </S.Wrapper>
   )
 }
