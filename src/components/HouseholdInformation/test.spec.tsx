@@ -82,6 +82,11 @@ describe('Houselhold Information Tests', () => {
 
     await user.click(screen.getByTestId('form-submit'))
 
-    expect(screen.queryByTestId('household_size-error')).toBeNull()
+    expect(screen.queryByTestId(`${zip.id}-error`)).toBeNull()
+    expect(screen.queryByTestId(`${household_income.id}-error`)).toBeNull()
+    expect(screen.queryByTestId(`${household_size.id}-error`)).toBeNull()
+    expect(screen.queryByTestId(`${owner_status.id}-error`)).toBeNull()
+    expect(screen.queryByTestId(`${tax_filing.id}-error`)).toBeNull()
+    expect(screen.queryByTestId(`${zip.id}-error`)).toBeNull()
   })
 })

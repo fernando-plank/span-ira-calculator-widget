@@ -23,7 +23,6 @@ align-items:baseline .c2 > svg {
   display: -ms-flexbox;
   display: flex;
   height: auto;
-  margin-bottom: 17px;
   z-index: 2;
   overflow: hidden;
   position: relative;
@@ -34,6 +33,7 @@ align-items:baseline .c2 > svg {
 
 .c9.active {
   max-height: 1000px;
+  margin-bottom: 63px;
 }
 
 .c5 {
@@ -90,7 +90,8 @@ align-items:baseline .c2 > svg {
   height: 1px;
   background: #b0b0b1;
   border-radius: 2px;
-  margin-bottom: 17px;
+  margin-bottom: 53px;
+  margin-top: 13px;
 }
 
 .c0 {

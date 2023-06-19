@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<LocalRebates /> should render the title 1`] = `
-.c4 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -13,17 +13,16 @@ exports[`<LocalRebates /> should render the title 1`] = `
   cursor: pointer;
 }
 
-align-items:baseline .c3 > svg {
+align-items:baseline .c4 > svg {
   cursor: pointer;
 }
 
-.c10 {
+.c11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   height: auto;
-  margin-bottom: 17px;
   z-index: 2;
   overflow: hidden;
   position: relative;
@@ -32,11 +31,12 @@ align-items:baseline .c3 > svg {
   max-height: 0px;
 }
 
-.c10.active {
+.c11.active {
   max-height: 1000px;
+  margin-bottom: 63px;
 }
 
-.c6 {
+.c7 {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -52,7 +52,7 @@ align-items:baseline .c3 > svg {
   position: relative;
 }
 
-.c8 {
+.c9 {
   width: 2px;
   height: 24px;
   background-color: #1f1f1f;
@@ -62,7 +62,7 @@ align-items:baseline .c3 > svg {
   transition: all 0.2s ease-in-out;
 }
 
-.c8.active {
+.c9.active {
   -webkit-transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
   -ms-transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
   transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(90deg) skew(0deg,0deg);
@@ -71,14 +71,14 @@ align-items:baseline .c3 > svg {
   transform-style: preserve-3d;
 }
 
-.c7 {
+.c8 {
   width: 24px;
   height: 2px;
   background-color: #1f1f1f;
   border-radius: 2px;
 }
 
-.c5 {
+.c6 {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -86,11 +86,12 @@ align-items:baseline .c3 > svg {
   width: 100%;
 }
 
-.c9 {
+.c10 {
   height: 1px;
   background: #b0b0b1;
   border-radius: 2px;
-  margin-bottom: 17px;
+  margin-bottom: 53px;
+  margin-top: 13px;
 }
 
 .c0 {
@@ -115,10 +116,17 @@ align-items:baseline .c3 > svg {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  margin-bottom: 81px;
+  margin-bottom: 42px;
+  width: auto;
 }
 
-.c11 {
+.c3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -128,15 +136,18 @@ align-items:baseline .c3 > svg {
   flex-direction: column;
 }
 
-.c12 {
+.c12 > div:first-child {
+  margin-bottom: 73px;
+}
+
+.c13 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 40px;
 }
 
-.c13 {
+.c14 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -144,26 +155,28 @@ align-items:baseline .c3 > svg {
   width: 100%;
 }
 
-.c14 {
+.c16 {
+  cursor: pointer;
+  background-color: #EFEFEF;
   border: 2px solid #1F1F1F;
   border-radius: 20px;
-  width: 50%;
+  width: 160px;
   height: 40px;
-  margin-left: 50px;
+  margin-left: 40px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
 }
 
-.c15 {
+.c17 {
   font-style: normal;
   font-weight: 500;
-  margin-top: 50px;
+  margin-top: 32px;
 }
 
 @media (min-width:320px) {
-  .c10 {
+  .c11 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -171,14 +184,14 @@ align-items:baseline .c3 > svg {
 }
 
 @media (min-width:1024px) {
-  .c10 {
+  .c11 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
   }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1528px) {
   .c0 {
     padding: 96px 64px;
   }
@@ -186,19 +199,19 @@ align-items:baseline .c3 > svg {
 
 @media (min-width:320px) {
   .c1 {
-    padding: 56px 24px;
+    padding: 64px 24px;
   }
 }
 
 @media (min-width:480px) {
   .c1 {
-    padding: 56px 32px;
+    padding: 64px 32px;
   }
 }
 
 @media (min-width:768px) {
   .c1 {
-    padding: 90px 40px;
+    padding: 64px 40px;
   }
 }
 
@@ -208,7 +221,7 @@ align-items:baseline .c3 > svg {
   }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1528px) {
   .c1 {
     padding: 0px;
     width: 1400px;
@@ -216,20 +229,26 @@ align-items:baseline .c3 > svg {
   }
 }
 
-@media (min-width:320px) {
-  .c11 {
-    width: 100%;
-  }
-}
-
-@media (min-width:1024px) {
-  .c11 {
-    width: 50%;
+@media (min-width:768px) {
+  .c2 {
+    width: 560px;
   }
 }
 
 @media (min-width:320px) {
   .c12 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c12 {
+    width: 50%;
+  }
+}
+
+@media (min-width:320px) {
+  .c13 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -237,7 +256,7 @@ align-items:baseline .c3 > svg {
 }
 
 @media (min-width:1024px) {
-  .c12 {
+  .c13 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
@@ -245,7 +264,7 @@ align-items:baseline .c3 > svg {
 }
 
 @media (min-width:320px) {
-  .c14 {
+  .c16 {
     -webkit-align-self: end;
     -ms-flex-item-align: end;
     align-self: end;
@@ -254,7 +273,7 @@ align-items:baseline .c3 > svg {
 }
 
 @media (min-width:1024px) {
-  .c14 {
+  .c16 {
     -webkit-align-self: start;
     -ms-flex-item-align: start;
     align-self: start;
@@ -263,7 +282,7 @@ align-items:baseline .c3 > svg {
 }
 
 @media (min-width:320px) {
-  .c15 {
+  .c17 {
     width: 100%;
     font-size: 16px;
     line-height: 24px;
@@ -271,10 +290,23 @@ align-items:baseline .c3 > svg {
 }
 
 @media (min-width:1024px) {
-  .c15 {
-    width: 50%;
+  .c17 {
+    max-width: 460px;
     font-size: 12px;
     line-height: 16px;
+  }
+}
+
+@media (max-width:768px) {
+  .c15 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
 }
 
@@ -291,152 +323,188 @@ align-items:baseline .c3 > svg {
       >
         Local utility electrification rebates
       </h1>
+      <h2
+        class="c3"
+      >
+        Enjoy even more potential savings from
+      </h2>
+      <h2
+        class="c3"
+      >
+        localized utility incentives.
+      </h2>
     </div>
-    <div>
+    <div
+      style="margin-top: 70px;"
+    >
       <div
-        class="c3 c4"
+        class="c4 c5"
       >
         <h2
-          class="c5"
+          class="c6"
           data-testid="accordion-title"
         >
           California
         </h2>
         <div
-          class="c6"
+          class="c7"
         >
           <div
-            class="c7"
+            class="c8"
           />
           <div
-            class="c8 accordion-body"
+            class="c9 accordion-body"
           />
         </div>
       </div>
       <div
-        class="c9"
+        class="c10"
       />
       <div
-        class="c10 accordion-body"
+        class="c11 accordion-body"
         data-testid="accordion-body"
       >
         <div
-          class="c11"
+          class="c12"
         />
         <div
-          class="c11"
+          class="c12"
         >
           <div
-            class="c12"
+            class="c13"
           >
-            <p
-              class="c13"
+            <div>
+              <p
+                class="c14"
+              >
+                <b>
+                  Silicon Valley Power
+                </b>
+                 customers can save up to $2,500 on SPAN Panel as part of a larger home electrification project.
+              </p>
+            </div>
+            <div
+              class="c15"
             >
-              <b>
-                Silicon Valley Power
-              </b>
-               customers can save up to $2,500 on SPAN as part of a larger home electrification project.
-            </p>
-            <button
-              class="c14"
-            >
-              Learn more
-            </button>
+              <button
+                class="c16"
+              >
+                Learn more
+              </button>
+            </div>
           </div>
           <div
-            class="c12"
+            class="c13"
           >
-            <p
-              class="c13"
+            <div>
+              <p
+                class="c14"
+              >
+                <b>
+                  Sacramento Municipal Utility District
+                </b>
+                 (SMUD) customers can save up to $2,500 on SPAN Panel as part of a larger home electrification project.
+              </p>
+            </div>
+            <div
+              class="c15"
             >
-              <b>
-                Sacramento Municipal Utility District
-              </b>
-               (SMUD) customers can save up to $2,500 as part of a larger home electrification project.
-            </p>
-            <button
-              class="c14"
-            >
-              Learn more
-            </button>
+              <button
+                class="c16"
+              >
+                Learn more
+              </button>
+            </div>
           </div>
         </div>
       </div>
       <div
-        class="c3 c4"
+        class="c4 c5"
       >
         <h2
-          class="c5"
+          class="c6"
           data-testid="accordion-title"
         >
           Hawai’i
         </h2>
         <div
-          class="c6"
+          class="c7"
         >
           <div
-            class="c7"
+            class="c8"
           />
           <div
-            class="c8 accordion-body"
+            class="c9 accordion-body"
           />
         </div>
       </div>
       <div
-        class="c9"
+        class="c10"
       />
       <div
-        class="c10 accordion-body"
+        class="c11 accordion-body"
         data-testid="accordion-body"
       >
         <div
-          class="c11"
+          class="c12"
         />
         <div
-          class="c11"
+          class="c12"
         >
           <div
-            class="c12"
+            class="c13"
           >
-            <p
-              class="c13"
+            <div>
+              <p
+                class="c14"
+              >
+                <b>
+                  Shifted Energy
+                </b>
+                 will cover the costs of SPAN Panel in full (plus up to $4,000 for installation) for customers who agree to share SPAN Panel data and control.
+              </p>
+            </div>
+            <div
+              class="c15"
             >
-              <b>
-                Shifted Energy
-              </b>
-               customers can have the costs of SPAN Panel covered, plus up to $4,000 for install when they agree to share SPAN Panel data and control with Shifted Energy.
-            </p>
-            <button
-              class="c14"
-            >
-              Learn more
-            </button>
+              <button
+                class="c16"
+              >
+                Learn more
+              </button>
+            </div>
           </div>
           <div
-            class="c12"
+            class="c13"
           >
-            <p
-              class="c13"
+            <div>
+              <p
+                class="c14"
+              >
+                <b>
+                  Hawaiian Electric
+                </b>
+                 customers can save $500 on SPAN Panel by becoming a HECO Utility rate payer.
+              </p>
+            </div>
+            <div
+              class="c15"
             >
-              <b>
-                Hawaiian Electric
-              </b>
-               customers can save $500 on SPAN Panel product costs by becoming a HECO Utility rate payer.
-            </p>
-            <button
-              class="c14"
-            >
-              Learn more
-            </button>
+              <button
+                class="c16"
+              >
+                Learn more
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div>
       <p
-        class="c15"
+        class="c17"
       >
-        We’re constantly updating this list, so check back to see if your utility provider provides localized incentives for getting SPAN.
+        Any incentives, grants, or rebates provided by a government or public utility may affect the tax credits listed above.
       </p>
     </div>
   </div>

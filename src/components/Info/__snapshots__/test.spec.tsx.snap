@@ -5,7 +5,12 @@ exports[`<Info /> should show tooltip when click on icon 1`] = `
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  display: contents;
+  position: relative;
+  display: initial;
+}
+
+.c0 svg {
+  margin: 0px 10px;
 }
 
 .c1 {
@@ -23,18 +28,19 @@ exports[`<Info /> should show tooltip when click on icon 1`] = `
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  bottom: 25px;
 }
 
 <div
   class="c0"
   data-testid="tooltip"
 >
-  <h4
+  <div
     class="c1"
     data-testid="tooltip-content"
   >
     Info Content
-  </h4>
+  </div>
   <div>
     mocked icon
   </div>
@@ -46,7 +52,12 @@ exports[`<Info /> should show tooltip when click on icon 2`] = `
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  display: contents;
+  position: relative;
+  display: initial;
+}
+
+.c0 svg {
+  margin: 0px 10px;
 }
 
 <div

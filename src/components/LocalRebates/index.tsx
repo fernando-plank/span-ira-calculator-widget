@@ -11,12 +11,8 @@ const LocalRebates = () => {
           <S.Title data-testid="local-rebates-title">
             Local utility electrification rebates
           </S.Title>
-          <S.Subtitle data-testid="local-rebates-title">
-            Enjoy even more potential savings from
-          </S.Subtitle>
-          <S.Subtitle data-testid="local-rebates-title">
-            localized utility incentives.
-          </S.Subtitle>
+          <S.Subtitle>Enjoy even more potential savings from</S.Subtitle>
+          <S.Subtitle>localized utility incentives.</S.Subtitle>
         </div>
         <div style={{ marginTop: '70px' }}>
           <Accordion icon={'Plus'} title={'California'}>

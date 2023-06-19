@@ -7,7 +7,7 @@ interface LoadingProps {
 const Loading = (props: LoadingProps) => {
   return (
     props.isLoading && (
-      <S.Wrapper>
+      <S.Wrapper data-testid="loading">
         <S.LoadingCircle>
           <Icon icon={'AnimationCircle'}></Icon>
         </S.LoadingCircle>

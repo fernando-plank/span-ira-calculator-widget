@@ -6,8 +6,7 @@ exports[`<Loading /> should render the loading when isLoading is true 1`] = `
 .c0 {
   width: 100vw;
   height: 100vh;
-  background-color: #000;
-  opacity: 0.7;
+  background-color: rgba(31,31,31,0.35);
   position: fixed;
   left: 0;
   top: 0;
@@ -15,23 +14,25 @@ exports[`<Loading /> should render the loading when isLoading is true 1`] = `
 }
 
 .c1 {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  top: calc(50% - 40px);
-  left: calc(50% - 40px);
+  top: calc(50% - 34px);
+  left: calc(50% - 34px);
   position: fixed;
 }
 
-.c1:after {
-  content: " ";
-  display: block;
-  width: 64px;
-  height: 64px;
-  margin: 8px;
-  border-radius: 50%;
-  border: 6px solid #fff;
-  border-color: #fff transparent #fff transparent;
+.c2 {
+  top: calc(50% - 34px);
+  left: calc(50% - 34px);
+  position: fixed;
+}
+
+.c3 {
+  top: calc(50% - 34px);
+  left: calc(50% - 34px);
+  position: fixed;
+  z-index: 10;
+}
+
+.c3 > svg {
   -webkit-animation: lds-dual-ring 1.2s linear infinite;
   animation: lds-dual-ring 1.2s linear infinite;
   -webkit-animation-name: Hqxfx;
@@ -40,10 +41,28 @@ exports[`<Loading /> should render the loading when isLoading is true 1`] = `
 
 <div
   class="c0"
+  data-testid="loading"
 >
-  <div
+  <span
     class="c1"
-    data-testid="loading"
-  />
+  >
+    <div>
+      mocked icon
+    </div>
+  </span>
+  <span
+    class="c2"
+  >
+    <div>
+      mocked icon
+    </div>
+  </span>
+  <span
+    class="c3"
+  >
+    <div>
+      mocked icon
+    </div>
+  </span>
 </div>
 `;

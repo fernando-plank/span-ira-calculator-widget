@@ -3,6 +3,7 @@
 exports[`<PersonalizedIncentives /> should render the household anual savings 1`] = `
 .c0 {
   width: 100%;
+  background-color: #FAFAFA;
 }
 
 .c1 {
@@ -21,6 +22,7 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
   text-align: left;
   margin-bottom: 42px;
   color: #FAFAFA;
+  width: 280px;
 }
 
 .c4 {
@@ -45,7 +47,6 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: end;
-  height: 30vh;
 }
 
 .c6 {
@@ -89,8 +90,8 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
 .c9 {
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 20px;
   text-transform: uppercase;
   text-align: left;
   max-width: 100vw;
@@ -120,7 +121,15 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 40px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 72px;
+}
+
+.c16 > :last-child {
+  margin-right: 31px;
 }
 
 .c17 {
@@ -130,7 +139,6 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
   font-size: 12px;
   line-height: 16px;
   text-align: left;
-  margin-bottom: 30px;
 }
 
 .c18 {
@@ -150,30 +158,35 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  display: contents;
+  position: relative;
+  display: initial;
+}
+
+.c10 svg {
+  margin: 0px 10px;
 }
 
 @media (min-width:1024px) {
   .c0 {
-    padding: 0px 32px;
+    padding: 0px 41px;
   }
 }
 
 @media (min-width:1528px) {
   .c0 {
-    padding: 40px 0px;
+    padding: 40px 0px 0px 0px;
   }
 }
 
-@media (max-width:425px) {
-  .c0 .hide-on-mobile {
-    display: none;
+@media (max-width:1024px) {
+  .c0 .second-section {
+    margin-top: 40px;
   }
 }
 
 @media (min-width:320px) {
   .c1 {
-    padding: 50px 24px;
+    padding: 64px 24px;
   }
 }
 
@@ -191,7 +204,7 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
 
 @media (min-width:1024px) {
   .c1 {
-    padding: 40px 32px;
+    padding: 64px 41px 40px 32px;
   }
 }
 
@@ -205,7 +218,7 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
 
 @media (min-width:1024px) {
   .c3 {
-    width: 30vw;
+    width: 380px;
   }
 }
 
@@ -222,29 +235,24 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-  }
-}
-
-@media (max-width:425px) {
-  .c5 {
-    position: absolute;
-    margin-top: 150px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 }
 
 @media (max-width:768px) {
   .c5 {
-    height: auto;
+    margin-top: 15px;
   }
 }
 
 @media (min-width:1024px) {
-  .c6 {
-    width: 100%;
-  }
+
 }
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
   .c7 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -277,15 +285,13 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin-top: 40px;
   }
 }
 
 @media (min-width:1024px) {
   .c17 {
-    padding-right: 59px;
-    -webkit-flex: 0 0 50%;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+    width: 522px;
   }
 }
 
@@ -320,85 +326,81 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
           </div>
         </div>
         <div
-          style="margin-bottom: 60px; flex: 0 0 50%;"
+          class="c6"
         >
           <div
-            class="c6"
+            class="c7"
           >
             <div
-              class="c7"
+              class="c8"
             >
-              <div
-                class="c8"
+              <h6
+                class="c9"
               >
-                <h6
-                  class="c9"
-                >
-                  Available
-                </h6>
-                <h6
-                  class="c9"
-                >
-                  tax credits
-                  <div
-                    class="c10"
-                    data-testid="tooltip"
-                  >
-                    <div>
-                      mocked icon
-                    </div>
-                  </div>
-                </h6>
-                <h6
-                  class="c11"
-                  data-testid="household_tax_savings"
-                >
-                  $320
-                </h6>
-              </div>
-              <div
-                class="c8"
+                Available
+              </h6>
+              <h6
+                class="c9"
               >
-                <h6
-                  class="c9"
+                tax credits
+                <div
+                  class="c10"
+                  data-testid="tooltip"
                 >
-                  Estimated energy
-                </h6>
-                <h6
-                  class="c9"
-                >
-                  savings per year
-                  <div
-                    class="c10"
-                    data-testid="tooltip"
-                  >
-                    <div>
-                      mocked icon
-                    </div>
+                  <div>
+                    mocked icon
                   </div>
-                </h6>
-                <h6
-                  class="c11"
-                  data-testid="household_annual_savings"
-                >
-                  $111
-                </h6>
-              </div>
+                </div>
+              </h6>
+              <h6
+                class="c11"
+                data-testid="household_tax_savings"
+              >
+                $320
+              </h6>
             </div>
             <div
-              class="c12"
+              class="c8"
             >
-              <h1
-                class="c13"
+              <h6
+                class="c9"
               >
-                Total incentives
-              </h1>
-              <h1
-                class="c14"
+                Estimated energy
+              </h6>
+              <h6
+                class="c9"
+              >
+                savings per year
+                <div
+                  class="c10"
+                  data-testid="tooltip"
+                >
+                  <div>
+                    mocked icon
+                  </div>
+                </div>
+              </h6>
+              <h6
+                class="c11"
+                data-testid="household_annual_savings"
               >
                 $111
-              </h1>
+              </h6>
             </div>
+          </div>
+          <div
+            class="c12"
+          >
+            <h1
+              class="c13"
+            >
+              Total incentives
+            </h1>
+            <h1
+              class="c14"
+            >
+              $443
+            </h1>
           </div>
         </div>
       </div>
@@ -439,7 +441,7 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
           </p>
         </p>
         <p
-          class="c17 hide-on-mobile"
+          class="c17 second-section"
         >
           Your income is above the threshold for upfront discounts and/or EV tax credits, but your tax liability will likely qualify you for equipment tax credits. You do qualify for a performance-based efficiency rebate worth $4,000. However, we do not consider this an upfront discount. Check out this relevant case study!
         </p>
@@ -452,6 +454,7 @@ exports[`<PersonalizedIncentives /> should render the household anual savings 1`
 exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
 .c0 {
   width: 100%;
+  background-color: #FAFAFA;
 }
 
 .c1 {
@@ -470,6 +473,7 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
   text-align: left;
   margin-bottom: 42px;
   color: #FAFAFA;
+  width: 280px;
 }
 
 .c4 {
@@ -494,7 +498,6 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: end;
-  height: 30vh;
 }
 
 .c6 {
@@ -538,8 +541,8 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
 .c9 {
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 20px;
   text-transform: uppercase;
   text-align: left;
   max-width: 100vw;
@@ -569,7 +572,15 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 40px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 72px;
+}
+
+.c16 > :last-child {
+  margin-right: 31px;
 }
 
 .c17 {
@@ -579,7 +590,6 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
   font-size: 12px;
   line-height: 16px;
   text-align: left;
-  margin-bottom: 30px;
 }
 
 .c18 {
@@ -599,30 +609,35 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  display: contents;
+  position: relative;
+  display: initial;
+}
+
+.c10 svg {
+  margin: 0px 10px;
 }
 
 @media (min-width:1024px) {
   .c0 {
-    padding: 0px 32px;
+    padding: 0px 41px;
   }
 }
 
 @media (min-width:1528px) {
   .c0 {
-    padding: 40px 0px;
+    padding: 40px 0px 0px 0px;
   }
 }
 
-@media (max-width:425px) {
-  .c0 .hide-on-mobile {
-    display: none;
+@media (max-width:1024px) {
+  .c0 .second-section {
+    margin-top: 40px;
   }
 }
 
 @media (min-width:320px) {
   .c1 {
-    padding: 50px 24px;
+    padding: 64px 24px;
   }
 }
 
@@ -640,7 +655,7 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
 
 @media (min-width:1024px) {
   .c1 {
-    padding: 40px 32px;
+    padding: 64px 41px 40px 32px;
   }
 }
 
@@ -654,7 +669,7 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
 
 @media (min-width:1024px) {
   .c3 {
-    width: 30vw;
+    width: 380px;
   }
 }
 
@@ -671,29 +686,24 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-  }
-}
-
-@media (max-width:425px) {
-  .c5 {
-    position: absolute;
-    margin-top: 150px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 }
 
 @media (max-width:768px) {
   .c5 {
-    height: auto;
+    margin-top: 15px;
   }
 }
 
 @media (min-width:1024px) {
-  .c6 {
-    width: 100%;
-  }
+
 }
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
   .c7 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -726,15 +736,13 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin-top: 40px;
   }
 }
 
 @media (min-width:1024px) {
   .c17 {
-    padding-right: 59px;
-    -webkit-flex: 0 0 50%;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+    width: 522px;
   }
 }
 
@@ -769,85 +777,81 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
           </div>
         </div>
         <div
-          style="margin-bottom: 60px; flex: 0 0 50%;"
+          class="c6"
         >
           <div
-            class="c6"
+            class="c7"
           >
             <div
-              class="c7"
+              class="c8"
             >
-              <div
-                class="c8"
+              <h6
+                class="c9"
               >
-                <h6
-                  class="c9"
-                >
-                  Available
-                </h6>
-                <h6
-                  class="c9"
-                >
-                  tax credits
-                  <div
-                    class="c10"
-                    data-testid="tooltip"
-                  >
-                    <div>
-                      mocked icon
-                    </div>
-                  </div>
-                </h6>
-                <h6
-                  class="c11"
-                  data-testid="household_tax_savings"
-                >
-                  $320
-                </h6>
-              </div>
-              <div
-                class="c8"
+                Available
+              </h6>
+              <h6
+                class="c9"
               >
-                <h6
-                  class="c9"
+                tax credits
+                <div
+                  class="c10"
+                  data-testid="tooltip"
                 >
-                  Estimated energy
-                </h6>
-                <h6
-                  class="c9"
-                >
-                  savings per year
-                  <div
-                    class="c10"
-                    data-testid="tooltip"
-                  >
-                    <div>
-                      mocked icon
-                    </div>
+                  <div>
+                    mocked icon
                   </div>
-                </h6>
-                <h6
-                  class="c11"
-                  data-testid="household_annual_savings"
-                >
-                  $111
-                </h6>
-              </div>
+                </div>
+              </h6>
+              <h6
+                class="c11"
+                data-testid="household_tax_savings"
+              >
+                $320
+              </h6>
             </div>
             <div
-              class="c12"
+              class="c8"
             >
-              <h1
-                class="c13"
+              <h6
+                class="c9"
               >
-                Total incentives
-              </h1>
-              <h1
-                class="c14"
+                Estimated energy
+              </h6>
+              <h6
+                class="c9"
+              >
+                savings per year
+                <div
+                  class="c10"
+                  data-testid="tooltip"
+                >
+                  <div>
+                    mocked icon
+                  </div>
+                </div>
+              </h6>
+              <h6
+                class="c11"
+                data-testid="household_annual_savings"
               >
                 $111
-              </h1>
+              </h6>
             </div>
+          </div>
+          <div
+            class="c12"
+          >
+            <h1
+              class="c13"
+            >
+              Total incentives
+            </h1>
+            <h1
+              class="c14"
+            >
+              $443
+            </h1>
           </div>
         </div>
       </div>
@@ -888,7 +892,7 @@ exports[`<PersonalizedIncentives /> should render the tax savings 1`] = `
           </p>
         </p>
         <p
-          class="c17 hide-on-mobile"
+          class="c17 second-section"
         >
           Your income is above the threshold for upfront discounts and/or EV tax credits, but your tax liability will likely qualify you for equipment tax credits. You do qualify for a performance-based efficiency rebate worth $4,000. However, we do not consider this an upfront discount. Check out this relevant case study!
         </p>
