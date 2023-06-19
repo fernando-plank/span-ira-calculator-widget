@@ -67,7 +67,8 @@ export const Subtitle = styled.p`
 
 export const TableRowHeader = styled.tr`
   display: grid;
-  grid-template-columns: 75% auto;
+  grid-template-columns: 68% auto;
+  gap: 24px;
 `
 
 export const TaxBody = styled.div`
