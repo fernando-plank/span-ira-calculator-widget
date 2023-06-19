@@ -93,7 +93,7 @@ const PersonalizedIncentives = ({
               </S.ContentLink>
             </p>
           </S.IncentivesFooterContent>
-          <S.IncentivesFooterContent className="hide-on-mobile">
+          <S.IncentivesFooterContent className="second-section">
             Your income is above the threshold for upfront discounts and/or EV
             tax credits, but your tax liability will likely qualify you for
             equipment tax credits. You do qualify for a performance-based

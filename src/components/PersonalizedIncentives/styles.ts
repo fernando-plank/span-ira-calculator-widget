@@ -12,9 +12,9 @@ export const Wrapper = styled.div`
     padding: 40px 0px 0px 0px;
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}) {
-    .hide-on-mobile {
-      display: none;
+  @media (max-width: ${({ theme }) => theme.breakpoints.laptop}) {
+    .second-section {
+      margin-top: 40px;
     }
   }
 `
@@ -103,7 +103,7 @@ export const DescriptionWrapper = styled.div`
 export const DescriptionBox = styled.div`
   display: flex;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex-direction: column;
   }
 `
@@ -180,7 +180,7 @@ export const IncentivesFooter = styled.div`
     margin-right: 31px;
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex-direction: column;
     margin-top: 40px;
   }
