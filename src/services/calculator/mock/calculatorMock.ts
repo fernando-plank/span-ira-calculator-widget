@@ -9,6 +9,7 @@ export class CalculatorMock extends MockGenerator<IncentivesResponse> {
       pos_savings: chance.integer({ min: 200, max: 8000 }),
       tax_savings: chance.integer({ min: 200, max: 8000 }),
       estimated_annual_savings: chance.integer({ min: 200, max: 8000 }),
+      tax_credit_incentives: [],
       ...properties
     }
   }

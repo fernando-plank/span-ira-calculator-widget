@@ -1,4 +1,4 @@
-import { IncentivesApiResponse } from '@services/types'
+import { TaxCreditsIncentives } from '@services/types'
 import { ReactChild } from 'react'
 import styled from 'styled-components'
 
@@ -124,8 +124,8 @@ const tooltips: taxCreditsTooltip[] = [
 ]
 
 export const makeTaxCreditsTooltip = (
-  elements: IncentivesApiResponse[]
-): IncentivesApiResponse[] => {
+  elements: TaxCreditsIncentives[]
+): TaxCreditsIncentives[] => {
   return elements.map((e) => {
     tooltips.map((t) => {
       if (e.item === t.item) {

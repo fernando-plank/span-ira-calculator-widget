@@ -1,14 +1,15 @@
 import React from 'react'
 import { formatCurrency } from '@utils/currency'
 import { formatPercent, isInt } from '@utils/number'
-import { TaxCreditsTableData } from 'types/tax-credits'
 import { useTheme } from 'styled-components'
 
 import * as S from './styles'
 import Info from '@components/Info'
+import classnames from 'classnames'
+import { TaxCreditsIncentives } from '@services/types'
 
 interface TaxCreditsProps {
-  tableData: TaxCreditsTableData[]
+  tableData: TaxCreditsIncentives[]
 }
 
 const TaxCredits = ({ tableData }: TaxCreditsProps) => {
@@ -44,14 +45,24 @@ const TaxCredits = ({ tableData }: TaxCreditsProps) => {
                     <tr className="tax-credits-table-row" key={index}>
                       <S.TableTd>
                         <div style={index == 0 ? { fontWeight: 'bold' } : {}}>
-                          <span style={{ marginRight: '6px' }}>
+                          <span
+                            style={{ marginRight: '6px' }}
+                            className={classnames({
+                              'not-eligible': !item.eligible
+                            })}
+                          >
                             {item.item}
                           </span>
                           <Info text={item.tooltip} />
                         </div>
                       </S.TableTd>
                       <S.TableTd>
-                        <div style={index == 0 ? { fontWeight: 'bold' } : {}}>
+                        <div
+                          style={index == 0 ? { fontWeight: 'bold' } : {}}
+                          className={classnames({
+                            'not-eligible': !item.eligible
+                          })}
+                        >
                           {isInt(item.amount)
                             ? formatCurrency(item.amount)
                             : formatPercent(item.amount)}

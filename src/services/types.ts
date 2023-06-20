@@ -1,3 +1,5 @@
+import { ReactChild } from 'react'
+
 export type CalculatorIncomes = {
   zip: string
   owner_status: string
@@ -22,6 +24,16 @@ export type IncentivesResponse = {
   pos_savings: number
   tax_savings: number
   estimated_annual_savings: number
+  tax_credit_incentives: TaxCreditsIncentives[]
+}
+
+export interface TaxCreditsIncentives {
+  item: string
+  amount: number
+  tooltip?: ReactChild
+  lineColor?: string
+  eligible: boolean
+  type: string
 }
 
 export type IncentivesApiResponse = {

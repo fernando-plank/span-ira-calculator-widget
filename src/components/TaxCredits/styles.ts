@@ -114,6 +114,10 @@ export const TableTd = styled.td`
   line-height: 24px;
   padding-top: 28px;
 
+  .not-eligible {
+    color: #b0b0b1;
+  }
+
   svg {
     margin: 0px;
 
