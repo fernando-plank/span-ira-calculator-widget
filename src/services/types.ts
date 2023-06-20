@@ -10,16 +10,6 @@ export type CalculatorIncomes = {
   error?: string
 }
 
-export type CalculatorIncentives = {
-  location: string
-}
-
-export enum TAX_FILING {
-  single = 'Single',
-  joint = 'Joint',
-  hoh = 'Head of Household'
-}
-
 export type IncentivesResponse = {
   pos_savings: number
   tax_savings: number

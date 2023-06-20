@@ -1,4 +1,3 @@
-import { apiRoutes } from '@services/constants'
 import * as fetch from '@utils/fetch'
 
 import { IncentivesObject } from '../types'

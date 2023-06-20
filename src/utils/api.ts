@@ -1,4 +1,4 @@
-import { IncentivesResponse, TaxCreditsIncentives } from '@services/types'
+import { TaxCreditsIncentives } from '@services/types'
 import { makeTaxCreditsTooltip } from './tooltips'
 
 export const formatTaxCreditsIncentives = (
