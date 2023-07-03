@@ -13,14 +13,46 @@ export const Wrapper = styled.div`
   }
 `
 
+export const Title = styled.h1`
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  width: 100%;
+  padding: 24px 0 0px;
+  text-align: left;
+
+  @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
+    width: 510px;
+  }
+`
+
+export const FormHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
+  
+  @media (min-width: ${(props) => props.theme.breakpoints.mobileS}) {
+    flex-direction: column;
+  }
+  
+  @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
+    padding-right: 25px;
+  }
+  
+  @media (min-width: 1366px) {
+    padding-right: 50px;
+  }
+`
+
 export const Form = styled.form`
-  margin-top: 9px;
   width: 100%;
   display: flex;
   flex: 0 0 100%;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  gap: 40px;
+  margin-top: 66px;
 `
 
 export const FormTitle = styled.h2`
@@ -41,23 +73,26 @@ export const ResetCalculatorButtonWrapper = styled.div`
   text-align: right;
 `
 
-export const ResetCalculatorButton = styled.a`
+export const ResetCalculatorButton = styled.button`
+  outline: none;
+  background-color: transparent;
+  border: none;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 16px;
   letter-spacing: 0em;
   color: #1f1f1f;
   align-self: end;
   cursor: pointer;
 
-  @media (max-width: ${(props) => props.theme.breakpoints.tablet}) {
-    position: relative;
-    top: 54px;
+  @media (min-width: ${(props) => props.theme.breakpoints.mobileS}) {
+    position: absolute;
+    bottom: -85px;
   }
-
+  
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
-    margin-top: -20px;
-    margin-right: 60px;
+    position: relative;
+    bottom: 0;
   }
 `
 
@@ -77,13 +112,11 @@ export const FormContent = styled.div`
 export const FormInputGroup = styled.div`
   display: flex;
   flex: 0 0 100%;
-  margin-top: 22px;
   flex-direction: column;
   justify-content: flex-start;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex: 0 0 30%;
-    margin-top: 55px;
   }
 `
 

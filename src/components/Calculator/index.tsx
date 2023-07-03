@@ -125,7 +125,6 @@ const Calculator = ({
   return (
     <S.Wrapper>
       <S.Content>
-        <S.Title>Enter your household information to determine savings</S.Title>
         <Form
           fields={fields.fields}
           isLoading={isLoading}

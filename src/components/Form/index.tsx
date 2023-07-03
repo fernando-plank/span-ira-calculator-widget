@@ -40,15 +40,18 @@ export const Form = (props: FormProps) => {
   return (
     <>
       <Loading isLoading={props.isLoading} />
-      <S.ResetCalculatorButton
-        onClick={() => {
-          props.onReset()
-          reset()
-          setResetSelect(true)
-        }}
-      >
-        Reset Calculator
-      </S.ResetCalculatorButton>
+      <S.FormHeader>
+          <S.Title>Enter your household information to determine savings</S.Title>
+          <S.ResetCalculatorButton
+              onClick={() => {
+                  props.onReset()
+                  reset()
+                  setResetSelect(true)
+              }}
+          >
+              Reset Calculator
+          </S.ResetCalculatorButton>
+      </S.FormHeader>
       <S.Form onSubmit={handleSubmit(onSubmit)} data-testid="form-element">
         {fields.map((field) => {
           if (field.type === 'select') {
