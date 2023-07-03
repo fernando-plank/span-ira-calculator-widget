@@ -26,11 +26,14 @@ export const Home = () => {
   const executeScroll = () =>
     incentivesRef.current.scrollIntoView({ behavior: 'smooth', inline: 'end' })
 
-  const onSubmitCallback = (data: IncentivesResponse) => {
+  const onSubmitCallback = (data) => {
     setHouseHoldingInformation(data)
-    setTaxCreditsInformation(
-      formatTaxCreditsIncentives(data.tax_credit_incentives)
-    )
+
+    if(!data?.error) {
+      setTaxCreditsInformation(
+          formatTaxCreditsIncentives(data.tax_credit_incentives)
+      )
+    }
   }
   const onReset = () => setHouseHoldingInformation(undefined)
 
