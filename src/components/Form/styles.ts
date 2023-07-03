@@ -41,7 +41,7 @@ export const FormHeader = styled.div`
   }
   
   @media (min-width: 1366px) {
-    padding-right: 50px;
+    padding-right: 55px;
   }
 `
 
