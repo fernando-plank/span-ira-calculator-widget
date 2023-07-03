@@ -73,16 +73,16 @@ const PersonalizedIncentives = ({
         <S.IncentivesFooter>
           <S.IncentivesFooterContent>
             <p>
-              These values are estimates. Tax credits can only be used to offset
-              your federal taxes owed (our estimate may be inaccurate).
+              These values are estimates and may be inaccurate.
+              Tax credits can only be used to offset your federal taxes owed.
             </p>
             <p style={{ marginTop: '15px' }}>
-              Powered by the{' '}
+              Powered by {' '}
               <S.ContentLink
                 href="https://www.rewiringamerica.org"
                 target="_blank"
               >
-                Rewiring America API
+                Rewiring America
               </S.ContentLink>{' '}
               and subject to the API{' '}
               <S.ContentLink
@@ -93,13 +93,13 @@ const PersonalizedIncentives = ({
               </S.ContentLink>
             </p>
           </S.IncentivesFooterContent>
-          <S.IncentivesFooterContent className="second-section">
-            Your income is above the threshold for upfront discounts and/or EV
-            tax credits, but your tax liability will likely qualify you for
-            equipment tax credits. You do qualify for a performance-based
-            efficiency rebate worth $4,000. However, we do not consider this an
-            upfront discount. Check out this relevant case study!
-          </S.IncentivesFooterContent>
+          {/*<S.IncentivesFooterContent className="second-section">*/}
+          {/*  Your income is above the threshold for upfront discounts and/or EV*/}
+          {/*  tax credits, but your tax liability will likely qualify you for*/}
+          {/*  equipment tax credits. You do qualify for a performance-based*/}
+          {/*  efficiency rebate worth $4,000. However, we do not consider this an*/}
+          {/*  upfront discount. Check out this relevant case study!*/}
+          {/*</S.IncentivesFooterContent>*/}
         </S.IncentivesFooter>
       </S.Content>
     </S.Background>
