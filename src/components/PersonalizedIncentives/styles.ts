@@ -54,15 +54,15 @@ export const Content = styled.div`
 export const Title = styled.h1`
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 48px;
+  line-height: 56px;
   text-align: left;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.colors.white};
   width: 280px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    width: 380px;
+    width: 450px;
   }
 `
 
@@ -174,7 +174,7 @@ export const Price = styled.h6`
 export const IncentivesFooter = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-top: 72px;
+  margin-top: 56px;
 
   > :last-child {
     margin-right: 31px;
@@ -182,7 +182,7 @@ export const IncentivesFooter = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 48px;
   }
 `
 
