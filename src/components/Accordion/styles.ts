@@ -67,6 +67,10 @@ export const Title = styled.h2`
   font-size: 32px;
   line-height: 40px;
   width: 100%;
+  
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileL}}) {  
+    font-size: 28px;
+  }  
 `
 
 export const Separator = styled.div`

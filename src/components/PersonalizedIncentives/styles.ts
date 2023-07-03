@@ -23,19 +23,11 @@ export const Background = styled.div`
   background-color: ${({ theme }) => theme.colors.primary};
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
-    padding: 64px 24px;
-  }
-
-  @media (min-width: ${({ theme }) => theme.breakpoints.mobileXL}) {
-    padding: 50px 32px;
-  }
-
-  @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
-    padding: 50px 40px;
+    padding: 48px 24px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    padding: 64px 41px 40px 32px;
+    padding: 56px 40px;
   }
 `
 
