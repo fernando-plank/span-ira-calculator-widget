@@ -37,11 +37,11 @@ export const FormHeader = styled.div`
   }
   
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
-    padding-right: 25px;
+    //padding-right: 25px;
   }
   
   @media (min-width: 1366px) {
-    padding-right: 55px;
+    //padding-right: 55px;
   }
 `
 
@@ -53,6 +53,7 @@ export const Form = styled.form`
   align-items: center;
   gap: 40px;
   margin-top: 66px;
+  justify-content: space-between;
 `
 
 export const FormTitle = styled.h2`
@@ -134,7 +135,7 @@ export const FormButtonGroup = styled.div`
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     flex: 0 0 30%;
-    margin-top: 55px;
+    //margin-top: 55px;
     align-items: end;
   }
 `
