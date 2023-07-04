@@ -121,6 +121,8 @@ export const TotalText = styled.h1`
   font-size: 48px;
   line-height: 56px;
   font-weight: 700;
+  margin-bottom: 25px;
+
 `
 
 export const TotalPrice = styled.h1`
@@ -129,7 +131,7 @@ export const TotalPrice = styled.h1`
   font-weight: 700;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    font-size: 136px;
+    font-size: 156px;
     font-weight: 600;
     line-height: 136px;
   }
