@@ -49,11 +49,11 @@ export const Title = styled.h1`
   text-align: left;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.colors.white};
-  width: 280px;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
     font-size: 32px;
     line-height: 40px;
+    width: 300px;
   }
   
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
