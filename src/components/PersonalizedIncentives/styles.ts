@@ -46,15 +46,20 @@ export const Content = styled.div`
 export const Title = styled.h1`
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
   text-align: left;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.colors.white};
   width: 280px;
 
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobileS}) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     width: 450px;
+    font-size: 48px;
+    line-height: 56px;
   }
 `
 
@@ -79,7 +84,7 @@ export const IncentivesBodyIcon = styled.div`
   align-items: end;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    margin-top: 15px;
+    margin-top: 21px;
   }
 `
 

@@ -29,7 +29,7 @@ const PersonalizedIncentives = ({
             <S.DescriptionBox>
               <S.DescriptionContainer>
                 <S.Subtitle>Available</S.Subtitle>
-                <S.Subtitle>
+                <S.Subtitle style={{ marginBottom: '8px'}}>
                   tax credits
                   <Info
                     text={
@@ -43,7 +43,7 @@ const PersonalizedIncentives = ({
               </S.DescriptionContainer>
               <S.DescriptionContainer>
                 <S.Subtitle>Estimated energy</S.Subtitle>
-                <S.Subtitle>
+                <S.Subtitle style={{ marginBottom: '8px'}}>
                   savings per year
                   <Info
                     text={`This estimate is based on energy costs in your state. 

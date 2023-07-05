@@ -14,15 +14,19 @@ export const Wrapper = styled.div`
 `
 
 export const Title = styled.h1`
-  font-size: 32px;
   font-weight: 700;
   line-height: 40px;
   width: 100%;
   padding: 24px 0 0px;
   text-align: left;
 
+  @media (min-width: ${(props) => props.theme.breakpoints.mobileS}) {
+    font-size: 28px;
+  }
+  
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
     width: 510px;
+    font-size: 32px;
   }
 `
 
@@ -51,9 +55,16 @@ export const Form = styled.form`
   flex: 0 0 100%;
   flex-wrap: wrap;
   align-items: center;
-  gap: 40px;
   margin-top: 66px;
   justify-content: space-between;
+
+  @media (min-width: ${(props) => props.theme.breakpoints.mobileS}) {
+    gap: 20px;
+  }
+
+  @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
+    gap: 40px;
+  }
 `
 
 export const FormTitle = styled.h2`
