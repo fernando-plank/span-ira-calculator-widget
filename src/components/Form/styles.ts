@@ -41,7 +41,7 @@ export const FormHeader = styled.div`
   }
   
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
-    //padding-right: 25px;
+    flex-direction: row;
   }
   
   @media (min-width: 1366px) {
