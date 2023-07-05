@@ -25,7 +25,7 @@ export const Title = styled.h1`
   }
   
   @media (min-width: ${(props) => props.theme.breakpoints.laptop}) {
-    width: 510px;
+    width: 530px;
     font-size: 32px;
   }
 `
